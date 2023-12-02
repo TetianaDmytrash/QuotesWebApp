@@ -6,9 +6,15 @@ auth = Blueprint('auth', __name__) # coincidence with the file name is not neces
 
 # Flask-маршрут для отображения данных
 @auth.route('/')
-def index():
-    #logger.warning("print on index.html")
-    authors = session.query(Author).all()
-    topics = session.query(Topic).all()
-    quotes = session.query(Quote).all()
-    return render_template('index.html', authors=authors, topics=topics, quotes=quotes)
+@auth.route('/home')
+def startPage():
+	authors = session.query(Author).all()
+	topics = session.query(Topic).all()
+	quotes = session.query(Quote).all()
+	return render_template('index.html', authors=authors, topics=topics, quotes=quotes)
+
+#GET
+@auth.route('/quotes')
+def quotes():
+	quotes = session.query(Quote).all()
+	return render_template('quoteTopic.html', quotes=quotes)

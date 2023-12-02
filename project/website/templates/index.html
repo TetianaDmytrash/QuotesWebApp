@@ -1,12 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quotes Database</title>
-</head>
-<body>
-    <h1>Authors</h1>
+{% extends "base.html" %} 
+
+{% block content%}
+<!--<img src="{{ url_for('static', filename='img/sea.jpg') }}" class="card-img-top p-2" alt="sea image">-->
+<h1>Authors</h1>
     <ul>
         {% for author in authors %}
             <li>{{ author.name }}</li>
@@ -26,5 +22,5 @@
             <li>{{ quote.text }} (Author: {{ quote.author.name }}, Topic: {{ quote.topic.name }})</li>
         {% endfor %}
     </ul>
-</body>
-</html>
+{% endblock %}
+

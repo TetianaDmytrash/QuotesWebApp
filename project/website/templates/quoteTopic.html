@@ -1,0 +1,57 @@
+{% extends "base.html" %} 
+
+{% block content%}
+<h1 class="mt-2 text-center"> Quotes Topics </h1>
+<table style="height: 100px;">
+  <tbody>
+    {% for i in range(0,3,3) %}
+    <tr>
+      <td class="align-baseline">
+        <span class="border-start-0 m-2">
+          <div class="card" style="width: 18rem;">
+            <img src="{{ url_for('static', filename='img/life.jpeg') }}" class="card-img-top p-2" alt="life image">
+            <div class="card-body">
+              <h5 class="card-title">{{quotes[i].name}}</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              
+                <a class="btn btn-light text-dark mt-2" style="background-color: #A76BFD;" href="/addQuate" id="addQuate" >look more</a>
+              
+            </div>
+          </div>
+        </span>
+      </td>
+      <td class="align-text-top">
+        <span class="border-start-0 m-2 align-text-bottom">
+          <div class="card" style="width: 38rem;">
+            <img src="{{ url_for('static', filename='img/timeToTravel.jpg') }}" class="card-img-top p-2" alt="travel image">
+            <div class="card-body">
+              <h5 class="card-title">{{quotes[i+1].name}}</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              
+                <a href="/travelPage" class="btn btn-light text-dark mt-2" style="background-color: #A76BFD;">look more</a>
+              
+            </div>
+          </div>
+        </span>        
+      </td>
+      <td class="align-text-bottom">
+        <span class="border-start-0 m-2 align-text-bottom">
+          <div class="card" style="width: 18rem;">
+            <img src="{{ url_for('static', filename='img/race.jpg') }}" class="card-img-top p-2" alt="race image">
+            <div class="card-body">
+              <h5 class="card-title">{{quotes[i+2].name}}</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              
+                <a href="#" class="btn btn-light text-dark mt-2" style="background-color: #A76BFD;">look more</a>
+              
+            </div>
+          </div>
+        </span>
+      </td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+
+
+{% endblock %}

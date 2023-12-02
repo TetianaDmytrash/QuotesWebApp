@@ -1,1585 +1,218 @@
-2023-12-02 01:55:50,632 - WARNING - WARNING
-2023-12-02 01:55:50,632 - ERROR - ERROR
-2023-12-02 01:55:50,632 - CRITICAL - CRITICAL
-2023-12-02 01:56:12,402 - WARNING - WARNING
-2023-12-02 01:56:12,402 - ERROR - ERROR
-2023-12-02 01:56:12,402 - CRITICAL - CRITICAL
-2023-12-02 01:56:12,639 - WARNING - create flask
-2023-12-02 01:56:23,907 - WARNING - WARNING
-2023-12-02 01:56:23,907 - ERROR - ERROR
-2023-12-02 01:56:23,907 - CRITICAL - CRITICAL
-2023-12-02 01:56:24,159 - WARNING - create flask
-2023-12-02 01:56:24,437 - WARNING - create database NAME: sqlite:///dataBase.db
-2023-12-02 01:56:24,442 - WARNING - create engine
-2023-12-02 01:56:24,442 - WARNING - create session
-2023-12-02 01:56:24,442 - WARNING - Database does not exist.
-2023-12-02 01:56:24,458 - WARNING - clear database
-2023-12-02 01:56:24,458 - WARNING - create tables in database
-2023-12-02 01:56:51,403 - WARNING - WARNING
-2023-12-02 01:56:51,403 - ERROR - ERROR
-2023-12-02 01:56:51,403 - CRITICAL - CRITICAL
-2023-12-02 01:56:51,638 - WARNING - create flask
-2023-12-02 01:56:51,889 - WARNING - create database NAME: sqlite:///dataBase.db
-2023-12-02 01:56:51,905 - WARNING - create engine
-2023-12-02 01:56:51,905 - WARNING - create session
-2023-12-02 01:56:51,905 - WARNING - Database does not exist.
-2023-12-02 01:56:51,921 - WARNING - clear database
-2023-12-02 01:56:51,941 - WARNING - create tables in database
-2023-12-02 01:56:51,968 - WARNING - fill database
-2023-12-02 01:56:51,968 - WARNING - qoute: Travel, 'I have not been everywhere, but it is on my list.' | Susan Sontag
-2023-12-02 01:56:51,968 - WARNING - author: None
-2023-12-02 01:56:51,968 - WARNING - find author in list
-2023-12-02 01:56:51,982 - WARNING - add new author: <website.database.models.Author object at 0x0000020E2F3FA6A0>
-2023-12-02 01:56:51,984 - WARNING - topic: None
-2023-12-02 01:56:51,984 - WARNING - find topic in list
-2023-12-02 01:56:51,984 - WARNING - add new topic: <website.database.models.Topic object at 0x0000020E2F427EB0>
-2023-12-02 01:56:51,984 - WARNING - create row in quate: 'I have not been everywhere, but it is on my list.'
-2023-12-02 01:56:51,984 - WARNING - qoute: Travel, 'Work, Travel, Save, Repeat.' | Unknown
-2023-12-02 01:56:51,984 - WARNING - author: None
-2023-12-02 01:56:51,984 - WARNING - find author in list
-2023-12-02 01:56:52,000 - WARNING - add new author: <website.database.models.Author object at 0x0000020E2F410DC0>
-2023-12-02 01:56:52,000 - WARNING - topic: <website.database.models.Topic object at 0x0000020E2F427EB0>
-2023-12-02 01:56:52,000 - WARNING - find topic in list
-2023-12-02 01:56:52,000 - WARNING - create row in quate: 'Work, Travel, Save, Repeat.'
-2023-12-02 01:56:52,000 - WARNING - qoute: Travel, 'When preparing to travel, lay out all your clothes and all your money. Then take half the clothes and twice the money.' | Susan Heller
-2023-12-02 01:56:52,000 - WARNING - author: None
-2023-12-02 01:56:52,000 - WARNING - find author in list
-2023-12-02 01:56:52,016 - WARNING - add new author: <website.database.models.Author object at 0x0000020E2F410DC0>
-2023-12-02 01:56:52,016 - WARNING - topic: <website.database.models.Topic object at 0x0000020E2F427EB0>
-2023-12-02 01:56:52,016 - WARNING - find topic in list
-2023-12-02 01:56:52,016 - WARNING - create row in quate: 'When preparing to travel, lay out all your clothes and all your money. Then take half the clothes and twice the money.'
-2023-12-02 01:56:52,016 - WARNING - qoute: Travel, 'Can we just skip to the part of my life where I travel the world?' | Unknown
-2023-12-02 01:56:52,016 - WARNING - author: <website.database.models.Author object at 0x0000020E2F427340>
-2023-12-02 01:56:52,016 - WARNING - find author in list
-2023-12-02 01:56:52,031 - WARNING - topic: <website.database.models.Topic object at 0x0000020E2F427EB0>
-2023-12-02 01:56:52,031 - WARNING - find topic in list
-2023-12-02 01:56:52,032 - WARNING - create row in quate: 'Can we just skip to the part of my life where I travel the world?'
-2023-12-02 01:56:52,032 - WARNING - qoute: Travel, 'Vacation calories do not count. Right?' | Unknown
-2023-12-02 01:56:52,032 - WARNING - author: <website.database.models.Author object at 0x0000020E2F427340>
-2023-12-02 01:56:52,032 - WARNING - find author in list
-2023-12-02 01:56:52,032 - WARNING - topic: <website.database.models.Topic object at 0x0000020E2F427EB0>
-2023-12-02 01:56:52,032 - WARNING - find topic in list
-2023-12-02 01:56:52,032 - WARNING - create row in quate: 'Vacation calories do not count. Right?'
-2023-12-02 01:56:52,032 - WARNING - qoute: Travel, 'I want someone to look at me the way I look at a travel magazine.' | Unknown
-2023-12-02 01:56:52,032 - WARNING - author: <website.database.models.Author object at 0x0000020E2F427340>
-2023-12-02 01:56:52,032 - WARNING - find author in list
-2023-12-02 01:56:52,032 - WARNING - topic: <website.database.models.Topic object at 0x0000020E2F427EB0>
-2023-12-02 01:56:52,032 - WARNING - find topic in list
-2023-12-02 01:56:52,032 - WARNING - create row in quate: 'I want someone to look at me the way I look at a travel magazine.'
-2023-12-02 01:56:52,032 - WARNING - qoute: Travel, 'I need six months of vacation, twice a year.' | Unknown
-2023-12-02 01:56:52,032 - WARNING - author: <website.database.models.Author object at 0x0000020E2F427340>
-2023-12-02 01:56:52,032 - WARNING - find author in list
-2023-12-02 01:56:52,032 - WARNING - topic: <website.database.models.Topic object at 0x0000020E2F427EB0>
-2023-12-02 01:56:52,032 - WARNING - find topic in list
-2023-12-02 01:56:52,032 - WARNING - create row in quate: 'I need six months of vacation, twice a year.'
-2023-12-02 01:56:52,032 - WARNING - qoute: Travel, 'The worst thing about being a tourist is having other tourists recognize you as a tourist.' | Russell Baker
-2023-12-02 01:56:52,032 - WARNING - author: None
-2023-12-02 01:56:52,032 - WARNING - find author in list
-2023-12-02 01:56:52,048 - WARNING - add new author: <website.database.models.Author object at 0x0000020E2F427340>
-2023-12-02 01:56:52,048 - WARNING - topic: <website.database.models.Topic object at 0x0000020E2F427EB0>
-2023-12-02 01:56:52,048 - WARNING - find topic in list
-2023-12-02 01:56:52,048 - WARNING - create row in quate: 'The worst thing about being a tourist is having other tourists recognize you as a tourist.'
-2023-12-02 01:56:52,048 - WARNING - qoute: Travel, 'I have been to almost as many places as my luggage.' | Bob Hope
-2023-12-02 01:56:52,048 - WARNING - author: None
-2023-12-02 01:56:52,048 - WARNING - find author in list
-2023-12-02 01:56:52,048 - WARNING - add new author: <website.database.models.Author object at 0x0000020E2F3FA6A0>
-2023-12-02 01:56:52,048 - WARNING - topic: <website.database.models.Topic object at 0x0000020E2F427EB0>
-2023-12-02 01:56:52,048 - WARNING - find topic in list
-2023-12-02 01:56:52,063 - WARNING - create row in quate: 'I have been to almost as many places as my luggage.'
-2023-12-02 01:56:52,063 - WARNING - qoute: Travel, 'Travel becomes a strategy for accumulating photographs.' | Susan Sontag
-2023-12-02 01:56:52,063 - WARNING - author: <website.database.models.Author object at 0x0000020E2F427BE0>
-2023-12-02 01:56:52,063 - WARNING - find author in list
-2023-12-02 01:56:52,063 - WARNING - topic: <website.database.models.Topic object at 0x0000020E2F427EB0>
-2023-12-02 01:56:52,063 - WARNING - find topic in list
-2023-12-02 01:56:52,063 - WARNING - create row in quate: 'Travel becomes a strategy for accumulating photographs.'
-2023-12-02 01:56:52,063 - WARNING - qoute: Travel, 'Man cannot discover new oceans unless he has the courage to lose sight of the shore.' | Andre Gide
-2023-12-02 01:56:52,063 - WARNING - author: None
-2023-12-02 01:56:52,063 - WARNING - find author in list
-2023-12-02 01:56:52,063 - WARNING - add new author: <website.database.models.Author object at 0x0000020E2F427BE0>
-2023-12-02 01:56:52,063 - WARNING - topic: <website.database.models.Topic object at 0x0000020E2F427EB0>
-2023-12-02 01:56:52,079 - WARNING - find topic in list
-2023-12-02 01:56:52,079 - WARNING - create row in quate: 'Man cannot discover new oceans unless he has the courage to lose sight of the shore.'
-2023-12-02 01:56:52,079 - WARNING - qoute: Travel, 'Remember that happiness is a way of travel, not a destination.' | Roy M. Goodman
-2023-12-02 01:56:52,082 - WARNING - author: None
-2023-12-02 01:56:52,082 - WARNING - find author in list
-2023-12-02 01:56:52,082 - WARNING - add new author: <website.database.models.Author object at 0x0000020E2F469070>
-2023-12-02 01:56:52,082 - WARNING - topic: <website.database.models.Topic object at 0x0000020E2F427EB0>
-2023-12-02 01:56:52,082 - WARNING - find topic in list
-2023-12-02 01:56:52,082 - WARNING - create row in quate: 'Remember that happiness is a way of travel, not a destination.'
-2023-12-02 01:56:52,082 - WARNING - qoute: Travel, The most beautiful in the world is, of course, the world itself.' | Wallace Stevens
-2023-12-02 01:56:52,082 - WARNING - author: None
-2023-12-02 01:56:52,082 - WARNING - find author in list
-2023-12-02 01:56:52,095 - WARNING - add new author: <website.database.models.Author object at 0x0000020E2F3D7700>
-2023-12-02 01:56:52,095 - WARNING - topic: <website.database.models.Topic object at 0x0000020E2F427EB0>
-2023-12-02 01:56:52,095 - WARNING - find topic in list
-2023-12-02 01:56:52,095 - WARNING - create row in quate: The most beautiful in the world is, of course, the world itself.'
-2023-12-02 01:56:52,095 - WARNING - qoute: Travel, 'Traveling, it leaves you speechless, then turns you into a storyteller.' | Ibn Battuta
-2023-12-02 01:56:52,095 - WARNING - author: None
-2023-12-02 01:56:52,095 - WARNING - find author in list
-2023-12-02 01:56:52,095 - WARNING - add new author: <website.database.models.Author object at 0x0000020E2F3D7700>
-2023-12-02 01:56:52,110 - WARNING - topic: <website.database.models.Topic object at 0x0000020E2F427EB0>
-2023-12-02 01:56:52,110 - WARNING - find topic in list
-2023-12-02 01:56:52,110 - WARNING - create row in quate: 'Traveling, it leaves you speechless, then turns you into a storyteller.'
-2023-12-02 01:56:52,110 - WARNING - qoute: Travel, 'We live in a wonderful world that is full of beauty, charm and adventure. There is no end to the adventures we can have if only we seek them with our eyes open.' | Jawaharial Nehru
-2023-12-02 01:56:52,110 - WARNING - author: None
-2023-12-02 01:56:52,110 - WARNING - find author in list
-2023-12-02 01:56:52,110 - WARNING - add new author: <website.database.models.Author object at 0x0000020E2F3D7700>
-2023-12-02 01:56:52,110 - WARNING - topic: <website.database.models.Topic object at 0x0000020E2F427EB0>
-2023-12-02 01:56:52,110 - WARNING - find topic in list
-2023-12-02 01:56:52,110 - WARNING - create row in quate: 'We live in a wonderful world that is full of beauty, charm and adventure. There is no end to the adventures we can have if only we seek them with our eyes open.'
-2023-12-02 01:56:52,110 - WARNING - qoute: Travel, 'Perhaps travel cannot prevent bigotry, but by demonstrating that all peoples cry, laugh, eat, worry, and die, it can introduce the idea that if we try and understand each other, we may even become friends.' | Maya Angelou
-2023-12-02 01:56:52,110 - WARNING - author: None
-2023-12-02 01:56:52,110 - WARNING - find author in list
-2023-12-02 01:56:52,126 - WARNING - add new author: <website.database.models.Author object at 0x0000020E2F3D7700>
-2023-12-02 01:56:52,126 - WARNING - topic: <website.database.models.Topic object at 0x0000020E2F427EB0>
-2023-12-02 01:56:52,126 - WARNING - find topic in list
-2023-12-02 01:56:52,126 - WARNING - create row in quate: 'Perhaps travel cannot prevent bigotry, but by demonstrating that all peoples cry, laugh, eat, worry, and die, it can introduce the idea that if we try and understand each other, we may even become friends.'
-2023-12-02 01:56:52,126 - WARNING - qoute: Travel, 'A person susceptible to wanderlust is not so much addicted to movement as committed to transformation.'  | Pico Iyer
-2023-12-02 01:56:52,126 - WARNING - author: None
-2023-12-02 01:56:52,126 - WARNING - find author in list
-2023-12-02 01:56:52,126 - WARNING - add new author: <website.database.models.Author object at 0x0000020E2F3D7700>
-2023-12-02 01:56:52,142 - WARNING - topic: <website.database.models.Topic object at 0x0000020E2F427EB0>
-2023-12-02 01:56:52,142 - WARNING - find topic in list
-2023-12-02 01:56:52,142 - WARNING - create row in quate: 'A person susceptible to wanderlust is not so much addicted to movement as committed to transformation.' 
-2023-12-02 01:56:52,142 - WARNING - qoute: Travel, 'We travel, some of us forever, to seek other states, other lives, other souls.' | Anais Nin
-2023-12-02 01:56:52,142 - WARNING - author: None
-2023-12-02 01:56:52,142 - WARNING - find author in list
-2023-12-02 01:56:52,157 - WARNING - add new author: <website.database.models.Author object at 0x0000020E2F3D7700>
-2023-12-02 01:56:52,157 - WARNING - topic: <website.database.models.Topic object at 0x0000020E2F427EB0>
-2023-12-02 01:56:52,157 - WARNING - find topic in list
-2023-12-02 01:56:52,157 - WARNING - create row in quate: 'We travel, some of us forever, to seek other states, other lives, other souls.'
-2023-12-02 01:56:52,157 - WARNING - qoute: Travel, 'I travel not to go anywhere, but to go. I travel for travels sake. The great affair is to move.' | Robert Louis Stevenson
-2023-12-02 01:56:52,157 - WARNING - author: None
-2023-12-02 01:56:52,157 - WARNING - find author in list
-2023-12-02 01:56:52,173 - WARNING - add new author: <website.database.models.Author object at 0x0000020E2F3D7700>
-2023-12-02 01:56:52,173 - WARNING - topic: <website.database.models.Topic object at 0x0000020E2F427EB0>
-2023-12-02 01:56:52,173 - WARNING - find topic in list
-2023-12-02 01:56:52,173 - WARNING - create row in quate: 'I travel not to go anywhere, but to go. I travel for travels sake. The great affair is to move.'
-2023-12-02 01:58:08,129 - WARNING - WARNING
-2023-12-02 01:58:08,129 - ERROR - ERROR
-2023-12-02 01:58:08,129 - CRITICAL - CRITICAL
-2023-12-02 01:58:08,364 - WARNING - create flask
-2023-12-02 01:58:28,128 - WARNING - WARNING
-2023-12-02 01:58:28,128 - ERROR - ERROR
-2023-12-02 01:58:28,128 - CRITICAL - CRITICAL
-2023-12-02 01:58:28,379 - WARNING - create flask
-2023-12-02 01:58:28,619 - WARNING - create database NAME: sqlite:///dataBase.db
-2023-12-02 01:58:28,630 - WARNING - create engine
-2023-12-02 01:58:28,630 - WARNING - create session
-2023-12-02 01:58:28,630 - WARNING - Database does not exist.
-2023-12-02 01:58:38,233 - WARNING - WARNING
-2023-12-02 01:58:38,233 - ERROR - ERROR
-2023-12-02 01:58:38,249 - CRITICAL - CRITICAL
-2023-12-02 01:58:38,485 - WARNING - create flask
-2023-12-02 01:58:38,722 - WARNING - create database NAME: sqlite:///dataBase.db
-2023-12-02 01:58:38,737 - WARNING - create engine
-2023-12-02 01:58:38,737 - WARNING - create session
-2023-12-02 01:58:38,737 - WARNING - Database does not exist.
-2023-12-02 01:58:38,737 - WARNING - clear database
-2023-12-02 01:58:38,768 - WARNING - create tables in database
-2023-12-02 01:58:47,619 - WARNING - WARNING
-2023-12-02 01:58:47,619 - ERROR - ERROR
-2023-12-02 01:58:47,619 - CRITICAL - CRITICAL
-2023-12-02 01:58:47,875 - WARNING - create flask
-2023-12-02 01:58:48,106 - WARNING - create database NAME: sqlite:///dataBase.db
-2023-12-02 01:58:48,121 - WARNING - create engine
-2023-12-02 01:58:48,121 - WARNING - create session
-2023-12-02 01:58:48,121 - WARNING - Database does not exist.
-2023-12-02 01:58:48,121 - WARNING - clear database
-2023-12-02 01:58:48,153 - WARNING - create tables in database
-2023-12-02 01:58:48,175 - WARNING - fill database
-2023-12-02 01:58:48,175 - WARNING - qoute: Travel, 'I have not been everywhere, but it is on my list.' | Susan Sontag
-2023-12-02 01:58:48,175 - WARNING - author: None
-2023-12-02 01:58:48,175 - WARNING - find author in list
-2023-12-02 01:58:48,184 - WARNING - add new author: <website.database.models.Author object at 0x000002BDEB6F1490>
-2023-12-02 01:58:48,184 - WARNING - topic: None
-2023-12-02 01:58:48,184 - WARNING - find topic in list
-2023-12-02 01:58:48,184 - WARNING - add new topic: <website.database.models.Topic object at 0x000002BDEB6F1AC0>
-2023-12-02 01:58:48,184 - WARNING - create row in quate: 'I have not been everywhere, but it is on my list.'
-2023-12-02 01:58:48,184 - WARNING - qoute: Travel, 'Work, Travel, Save, Repeat.' | Unknown
-2023-12-02 01:58:48,200 - WARNING - author: None
-2023-12-02 01:58:48,200 - WARNING - find author in list
-2023-12-02 01:58:48,200 - WARNING - add new author: <website.database.models.Author object at 0x000002BDEB6F1490>
-2023-12-02 01:58:48,200 - WARNING - topic: <website.database.models.Topic object at 0x000002BDEB6F1AC0>
-2023-12-02 01:58:48,200 - WARNING - find topic in list
-2023-12-02 01:58:48,200 - WARNING - create row in quate: 'Work, Travel, Save, Repeat.'
-2023-12-02 01:58:48,200 - WARNING - qoute: Travel, 'When preparing to travel, lay out all your clothes and all your money. Then take half the clothes and twice the money.' | Susan Heller
-2023-12-02 01:58:48,200 - WARNING - author: None
-2023-12-02 01:58:48,216 - WARNING - find author in list
-2023-12-02 01:58:48,216 - WARNING - add new author: <website.database.models.Author object at 0x000002BDEB6F1490>
-2023-12-02 01:58:48,216 - WARNING - topic: <website.database.models.Topic object at 0x000002BDEB6F1AC0>
-2023-12-02 01:58:48,216 - WARNING - find topic in list
-2023-12-02 01:58:48,216 - WARNING - create row in quate: 'When preparing to travel, lay out all your clothes and all your money. Then take half the clothes and twice the money.'
-2023-12-02 01:58:48,216 - WARNING - qoute: Travel, 'Can we just skip to the part of my life where I travel the world?' | Unknown
-2023-12-02 01:58:48,216 - WARNING - author: <website.database.models.Author object at 0x000002BDEB6F1F70>
-2023-12-02 01:58:48,216 - WARNING - find author in list
-2023-12-02 01:58:48,216 - WARNING - topic: <website.database.models.Topic object at 0x000002BDEB6F1AC0>
-2023-12-02 01:58:48,216 - WARNING - find topic in list
-2023-12-02 01:58:48,216 - WARNING - create row in quate: 'Can we just skip to the part of my life where I travel the world?'
-2023-12-02 01:58:48,216 - WARNING - qoute: Travel, 'Vacation calories do not count. Right?' | Unknown
-2023-12-02 01:58:48,231 - WARNING - author: <website.database.models.Author object at 0x000002BDEB6F1F70>
-2023-12-02 01:58:48,231 - WARNING - find author in list
-2023-12-02 01:58:48,231 - WARNING - topic: <website.database.models.Topic object at 0x000002BDEB6F1AC0>
-2023-12-02 01:58:48,231 - WARNING - find topic in list
-2023-12-02 01:58:48,231 - WARNING - create row in quate: 'Vacation calories do not count. Right?'
-2023-12-02 01:58:48,231 - WARNING - qoute: Travel, 'I want someone to look at me the way I look at a travel magazine.' | Unknown
-2023-12-02 01:58:48,231 - WARNING - author: <website.database.models.Author object at 0x000002BDEB6F1F70>
-2023-12-02 01:58:48,231 - WARNING - find author in list
-2023-12-02 01:58:48,231 - WARNING - topic: <website.database.models.Topic object at 0x000002BDEB6F1AC0>
-2023-12-02 01:58:48,231 - WARNING - find topic in list
-2023-12-02 01:58:48,231 - WARNING - create row in quate: 'I want someone to look at me the way I look at a travel magazine.'
-2023-12-02 01:58:48,231 - WARNING - qoute: Travel, 'I need six months of vacation, twice a year.' | Unknown
-2023-12-02 01:58:48,231 - WARNING - author: <website.database.models.Author object at 0x000002BDEB6F1F70>
-2023-12-02 01:58:48,231 - WARNING - find author in list
-2023-12-02 01:58:48,231 - WARNING - topic: <website.database.models.Topic object at 0x000002BDEB6F1AC0>
-2023-12-02 01:58:48,231 - WARNING - find topic in list
-2023-12-02 01:58:48,231 - WARNING - create row in quate: 'I need six months of vacation, twice a year.'
-2023-12-02 01:58:48,231 - WARNING - qoute: Travel, 'The worst thing about being a tourist is having other tourists recognize you as a tourist.' | Russell Baker
-2023-12-02 01:58:48,231 - WARNING - author: None
-2023-12-02 01:58:48,231 - WARNING - find author in list
-2023-12-02 01:58:48,247 - WARNING - add new author: <website.database.models.Author object at 0x000002BDEB6F1F70>
-2023-12-02 01:58:48,247 - WARNING - topic: <website.database.models.Topic object at 0x000002BDEB6F1AC0>
-2023-12-02 01:58:48,247 - WARNING - find topic in list
-2023-12-02 01:58:48,247 - WARNING - create row in quate: 'The worst thing about being a tourist is having other tourists recognize you as a tourist.'
-2023-12-02 01:58:48,247 - WARNING - qoute: Travel, 'I have been to almost as many places as my luggage.' | Bob Hope
-2023-12-02 01:58:48,247 - WARNING - author: None
-2023-12-02 01:58:48,247 - WARNING - find author in list
-2023-12-02 01:58:48,247 - WARNING - add new author: <website.database.models.Author object at 0x000002BDEB6F1F70>
-2023-12-02 01:58:48,263 - WARNING - topic: <website.database.models.Topic object at 0x000002BDEB6F1AC0>
-2023-12-02 01:58:48,263 - WARNING - find topic in list
-2023-12-02 01:58:48,263 - WARNING - create row in quate: 'I have been to almost as many places as my luggage.'
-2023-12-02 01:58:48,263 - WARNING - qoute: Travel, 'Travel becomes a strategy for accumulating photographs.' | Susan Sontag
-2023-12-02 01:58:48,263 - WARNING - author: <website.database.models.Author object at 0x000002BDEB708160>
-2023-12-02 01:58:48,263 - WARNING - find author in list
-2023-12-02 01:58:48,263 - WARNING - topic: <website.database.models.Topic object at 0x000002BDEB6F1AC0>
-2023-12-02 01:58:48,263 - WARNING - find topic in list
-2023-12-02 01:58:48,263 - WARNING - create row in quate: 'Travel becomes a strategy for accumulating photographs.'
-2023-12-02 01:58:48,263 - WARNING - qoute: Travel, 'Man cannot discover new oceans unless he has the courage to lose sight of the shore.' | Andre Gide
-2023-12-02 01:58:48,263 - WARNING - author: None
-2023-12-02 01:58:48,263 - WARNING - find author in list
-2023-12-02 01:58:48,276 - WARNING - add new author: <website.database.models.Author object at 0x000002BDEB7480A0>
-2023-12-02 01:58:48,279 - WARNING - topic: <website.database.models.Topic object at 0x000002BDEB6F1AC0>
-2023-12-02 01:58:48,279 - WARNING - find topic in list
-2023-12-02 01:58:48,279 - WARNING - create row in quate: 'Man cannot discover new oceans unless he has the courage to lose sight of the shore.'
-2023-12-02 01:58:48,279 - WARNING - qoute: Travel, 'Remember that happiness is a way of travel, not a destination.' | Roy M. Goodman
-2023-12-02 01:58:48,279 - WARNING - author: None
-2023-12-02 01:58:48,279 - WARNING - find author in list
-2023-12-02 01:58:48,279 - WARNING - add new author: <website.database.models.Author object at 0x000002BDEB7480A0>
-2023-12-02 01:58:48,279 - WARNING - topic: <website.database.models.Topic object at 0x000002BDEB6F1AC0>
-2023-12-02 01:58:48,279 - WARNING - find topic in list
-2023-12-02 01:58:48,279 - WARNING - create row in quate: 'Remember that happiness is a way of travel, not a destination.'
-2023-12-02 01:58:48,279 - WARNING - qoute: Travel, The most beautiful in the world is, of course, the world itself.' | Wallace Stevens
-2023-12-02 01:58:48,294 - WARNING - author: None
-2023-12-02 01:58:48,295 - WARNING - find author in list
-2023-12-02 01:58:48,295 - WARNING - add new author: <website.database.models.Author object at 0x000002BDEB6F1490>
-2023-12-02 01:58:48,295 - WARNING - topic: <website.database.models.Topic object at 0x000002BDEB6F1AC0>
-2023-12-02 01:58:48,295 - WARNING - find topic in list
-2023-12-02 01:58:48,295 - WARNING - create row in quate: The most beautiful in the world is, of course, the world itself.'
-2023-12-02 01:58:48,295 - WARNING - qoute: Travel, 'Traveling, it leaves you speechless, then turns you into a storyteller.' | Ibn Battuta
-2023-12-02 01:58:48,295 - WARNING - author: None
-2023-12-02 01:58:48,295 - WARNING - find author in list
-2023-12-02 01:58:48,295 - WARNING - add new author: <website.database.models.Author object at 0x000002BDEB633400>
-2023-12-02 01:58:48,310 - WARNING - topic: <website.database.models.Topic object at 0x000002BDEB6F1AC0>
-2023-12-02 01:58:48,310 - WARNING - find topic in list
-2023-12-02 01:58:48,310 - WARNING - create row in quate: 'Traveling, it leaves you speechless, then turns you into a storyteller.'
-2023-12-02 01:58:48,310 - WARNING - qoute: Travel, 'We live in a wonderful world that is full of beauty, charm and adventure. There is no end to the adventures we can have if only we seek them with our eyes open.' | Jawaharial Nehru
-2023-12-02 01:58:48,310 - WARNING - author: None
-2023-12-02 01:58:48,310 - WARNING - find author in list
-2023-12-02 01:58:48,310 - WARNING - add new author: <website.database.models.Author object at 0x000002BDEB633400>
-2023-12-02 01:58:48,310 - WARNING - topic: <website.database.models.Topic object at 0x000002BDEB6F1AC0>
-2023-12-02 01:58:48,310 - WARNING - find topic in list
-2023-12-02 01:58:48,310 - WARNING - create row in quate: 'We live in a wonderful world that is full of beauty, charm and adventure. There is no end to the adventures we can have if only we seek them with our eyes open.'
-2023-12-02 01:58:48,310 - WARNING - qoute: Travel, 'Perhaps travel cannot prevent bigotry, but by demonstrating that all peoples cry, laugh, eat, worry, and die, it can introduce the idea that if we try and understand each other, we may even become friends.' | Maya Angelou
-2023-12-02 01:58:48,326 - WARNING - author: None
-2023-12-02 01:58:48,326 - WARNING - find author in list
-2023-12-02 01:58:48,326 - WARNING - add new author: <website.database.models.Author object at 0x000002BDEB633400>
-2023-12-02 01:58:48,326 - WARNING - topic: <website.database.models.Topic object at 0x000002BDEB6F1AC0>
-2023-12-02 01:58:48,326 - WARNING - find topic in list
-2023-12-02 01:58:48,326 - WARNING - create row in quate: 'Perhaps travel cannot prevent bigotry, but by demonstrating that all peoples cry, laugh, eat, worry, and die, it can introduce the idea that if we try and understand each other, we may even become friends.'
-2023-12-02 01:58:48,326 - WARNING - qoute: Travel, 'A person susceptible to wanderlust is not so much addicted to movement as committed to transformation.'  | Pico Iyer
-2023-12-02 01:58:48,342 - WARNING - author: None
-2023-12-02 01:58:48,342 - WARNING - find author in list
-2023-12-02 01:58:48,342 - WARNING - add new author: <website.database.models.Author object at 0x000002BDEB633400>
-2023-12-02 01:58:48,342 - WARNING - topic: <website.database.models.Topic object at 0x000002BDEB6F1AC0>
-2023-12-02 01:58:48,342 - WARNING - find topic in list
-2023-12-02 01:58:48,342 - WARNING - create row in quate: 'A person susceptible to wanderlust is not so much addicted to movement as committed to transformation.' 
-2023-12-02 01:58:48,342 - WARNING - qoute: Travel, 'We travel, some of us forever, to seek other states, other lives, other souls.' | Anais Nin
-2023-12-02 01:58:48,358 - WARNING - author: None
-2023-12-02 01:58:48,358 - WARNING - find author in list
-2023-12-02 01:58:48,358 - WARNING - add new author: <website.database.models.Author object at 0x000002BDEB633400>
-2023-12-02 01:58:48,358 - WARNING - topic: <website.database.models.Topic object at 0x000002BDEB6F1AC0>
-2023-12-02 01:58:48,358 - WARNING - find topic in list
-2023-12-02 01:58:48,358 - WARNING - create row in quate: 'We travel, some of us forever, to seek other states, other lives, other souls.'
-2023-12-02 01:58:48,358 - WARNING - qoute: Travel, 'I travel not to go anywhere, but to go. I travel for travels sake. The great affair is to move.' | Robert Louis Stevenson
-2023-12-02 01:58:48,358 - WARNING - author: None
-2023-12-02 01:58:48,358 - WARNING - find author in list
-2023-12-02 01:58:48,376 - WARNING - add new author: <website.database.models.Author object at 0x000002BDEB633400>
-2023-12-02 01:58:48,376 - WARNING - topic: <website.database.models.Topic object at 0x000002BDEB6F1AC0>
-2023-12-02 01:58:48,376 - WARNING - find topic in list
-2023-12-02 01:58:48,376 - WARNING - create row in quate: 'I travel not to go anywhere, but to go. I travel for travels sake. The great affair is to move.'
-2023-12-02 01:59:12,928 - WARNING - WARNING
-2023-12-02 01:59:12,928 - ERROR - ERROR
-2023-12-02 01:59:12,928 - CRITICAL - CRITICAL
-2023-12-02 01:59:13,147 - WARNING - create flask
-2023-12-02 01:59:13,400 - WARNING - create database NAME: sqlite:///dataBase.db
-2023-12-02 01:59:13,419 - WARNING - create engine
-2023-12-02 01:59:13,419 - WARNING - create session
-2023-12-02 01:59:13,419 - WARNING - Database does not exist.
-2023-12-02 01:59:13,419 - WARNING - clear database
-2023-12-02 01:59:13,447 - WARNING - create tables in database
-2023-12-02 01:59:13,463 - WARNING - fill database
-2023-12-02 01:59:13,463 - WARNING - qoute: Travel, 'I have not been everywhere, but it is on my list.' | Susan Sontag
-2023-12-02 01:59:13,479 - WARNING - author: None
-2023-12-02 01:59:13,479 - WARNING - find author in list
-2023-12-02 01:59:13,494 - WARNING - add new author: <website.database.models.Author object at 0x000002110F811490>
-2023-12-02 01:59:13,494 - WARNING - topic: None
-2023-12-02 01:59:13,494 - WARNING - find topic in list
-2023-12-02 01:59:13,494 - WARNING - add new topic: <website.database.models.Topic object at 0x000002110F811AC0>
-2023-12-02 01:59:13,510 - WARNING - create row in quate: 'I have not been everywhere, but it is on my list.'
-2023-12-02 01:59:13,510 - WARNING - qoute: Travel, 'Work, Travel, Save, Repeat.' | Unknown
-2023-12-02 01:59:13,519 - WARNING - author: None
-2023-12-02 01:59:13,519 - WARNING - find author in list
-2023-12-02 01:59:13,519 - WARNING - add new author: <website.database.models.Author object at 0x000002110F811490>
-2023-12-02 01:59:13,526 - WARNING - topic: <website.database.models.Topic object at 0x000002110F811AC0>
-2023-12-02 01:59:13,526 - WARNING - find topic in list
-2023-12-02 01:59:13,526 - WARNING - create row in quate: 'Work, Travel, Save, Repeat.'
-2023-12-02 01:59:13,526 - WARNING - qoute: Travel, 'When preparing to travel, lay out all your clothes and all your money. Then take half the clothes and twice the money.' | Susan Heller
-2023-12-02 01:59:13,526 - WARNING - author: None
-2023-12-02 01:59:13,526 - WARNING - find author in list
-2023-12-02 01:59:13,526 - WARNING - add new author: <website.database.models.Author object at 0x000002110F811490>
-2023-12-02 01:59:13,526 - WARNING - topic: <website.database.models.Topic object at 0x000002110F811AC0>
-2023-12-02 01:59:13,541 - WARNING - find topic in list
-2023-12-02 01:59:13,541 - WARNING - create row in quate: 'When preparing to travel, lay out all your clothes and all your money. Then take half the clothes and twice the money.'
-2023-12-02 01:59:13,541 - WARNING - qoute: Travel, 'Can we just skip to the part of my life where I travel the world?' | Unknown
-2023-12-02 01:59:13,541 - WARNING - author: <website.database.models.Author object at 0x000002110F811F70>
-2023-12-02 01:59:13,541 - WARNING - find author in list
-2023-12-02 01:59:13,541 - WARNING - topic: <website.database.models.Topic object at 0x000002110F811AC0>
-2023-12-02 01:59:13,541 - WARNING - find topic in list
-2023-12-02 01:59:13,541 - WARNING - create row in quate: 'Can we just skip to the part of my life where I travel the world?'
-2023-12-02 01:59:13,541 - WARNING - qoute: Travel, 'Vacation calories do not count. Right?' | Unknown
-2023-12-02 01:59:13,541 - WARNING - author: <website.database.models.Author object at 0x000002110F811F70>
-2023-12-02 01:59:13,541 - WARNING - find author in list
-2023-12-02 01:59:13,541 - WARNING - topic: <website.database.models.Topic object at 0x000002110F811AC0>
-2023-12-02 01:59:13,541 - WARNING - find topic in list
-2023-12-02 01:59:13,541 - WARNING - create row in quate: 'Vacation calories do not count. Right?'
-2023-12-02 01:59:13,541 - WARNING - qoute: Travel, 'I want someone to look at me the way I look at a travel magazine.' | Unknown
-2023-12-02 01:59:13,541 - WARNING - author: <website.database.models.Author object at 0x000002110F811F70>
-2023-12-02 01:59:13,541 - WARNING - find author in list
-2023-12-02 01:59:13,557 - WARNING - topic: <website.database.models.Topic object at 0x000002110F811AC0>
-2023-12-02 01:59:13,557 - WARNING - find topic in list
-2023-12-02 01:59:13,557 - WARNING - create row in quate: 'I want someone to look at me the way I look at a travel magazine.'
-2023-12-02 01:59:13,558 - WARNING - qoute: Travel, 'I need six months of vacation, twice a year.' | Unknown
-2023-12-02 01:59:13,558 - WARNING - author: <website.database.models.Author object at 0x000002110F811F70>
-2023-12-02 01:59:13,558 - WARNING - find author in list
-2023-12-02 01:59:13,558 - WARNING - topic: <website.database.models.Topic object at 0x000002110F811AC0>
-2023-12-02 01:59:13,558 - WARNING - find topic in list
-2023-12-02 01:59:13,558 - WARNING - create row in quate: 'I need six months of vacation, twice a year.'
-2023-12-02 01:59:13,558 - WARNING - qoute: Travel, 'The worst thing about being a tourist is having other tourists recognize you as a tourist.' | Russell Baker
-2023-12-02 01:59:13,558 - WARNING - author: None
-2023-12-02 01:59:13,558 - WARNING - find author in list
-2023-12-02 01:59:13,558 - WARNING - add new author: <website.database.models.Author object at 0x000002110F811F70>
-2023-12-02 01:59:13,558 - WARNING - topic: <website.database.models.Topic object at 0x000002110F811AC0>
-2023-12-02 01:59:13,558 - WARNING - find topic in list
-2023-12-02 01:59:13,558 - WARNING - create row in quate: 'The worst thing about being a tourist is having other tourists recognize you as a tourist.'
-2023-12-02 01:59:13,558 - WARNING - qoute: Travel, 'I have been to almost as many places as my luggage.' | Bob Hope
-2023-12-02 01:59:13,573 - WARNING - author: None
-2023-12-02 01:59:13,573 - WARNING - find author in list
-2023-12-02 01:59:13,573 - WARNING - add new author: <website.database.models.Author object at 0x000002110F811F70>
-2023-12-02 01:59:13,573 - WARNING - topic: <website.database.models.Topic object at 0x000002110F811AC0>
-2023-12-02 01:59:13,573 - WARNING - find topic in list
-2023-12-02 01:59:13,573 - WARNING - create row in quate: 'I have been to almost as many places as my luggage.'
-2023-12-02 01:59:13,573 - WARNING - qoute: Travel, 'Travel becomes a strategy for accumulating photographs.' | Susan Sontag
-2023-12-02 01:59:13,573 - WARNING - author: <website.database.models.Author object at 0x000002110F828160>
-2023-12-02 01:59:13,573 - WARNING - find author in list
-2023-12-02 01:59:13,573 - WARNING - topic: <website.database.models.Topic object at 0x000002110F811AC0>
-2023-12-02 01:59:13,573 - WARNING - find topic in list
-2023-12-02 01:59:13,573 - WARNING - create row in quate: 'Travel becomes a strategy for accumulating photographs.'
-2023-12-02 01:59:13,573 - WARNING - qoute: Travel, 'Man cannot discover new oceans unless he has the courage to lose sight of the shore.' | Andre Gide
-2023-12-02 01:59:13,573 - WARNING - author: None
-2023-12-02 01:59:13,573 - WARNING - find author in list
-2023-12-02 01:59:13,589 - WARNING - add new author: <website.database.models.Author object at 0x000002110F8690A0>
-2023-12-02 01:59:13,589 - WARNING - topic: <website.database.models.Topic object at 0x000002110F811AC0>
-2023-12-02 01:59:13,589 - WARNING - find topic in list
-2023-12-02 01:59:13,589 - WARNING - create row in quate: 'Man cannot discover new oceans unless he has the courage to lose sight of the shore.'
-2023-12-02 01:59:13,589 - WARNING - qoute: Travel, 'Remember that happiness is a way of travel, not a destination.' | Roy M. Goodman
-2023-12-02 01:59:13,589 - WARNING - author: None
-2023-12-02 01:59:13,589 - WARNING - find author in list
-2023-12-02 01:59:13,589 - WARNING - add new author: <website.database.models.Author object at 0x000002110F8690A0>
-2023-12-02 01:59:13,589 - WARNING - topic: <website.database.models.Topic object at 0x000002110F811AC0>
-2023-12-02 01:59:13,589 - WARNING - find topic in list
-2023-12-02 01:59:13,589 - WARNING - create row in quate: 'Remember that happiness is a way of travel, not a destination.'
-2023-12-02 01:59:13,589 - WARNING - qoute: Travel, The most beautiful in the world is, of course, the world itself.' | Wallace Stevens
-2023-12-02 01:59:13,605 - WARNING - author: None
-2023-12-02 01:59:13,605 - WARNING - find author in list
-2023-12-02 01:59:13,605 - WARNING - add new author: <website.database.models.Author object at 0x000002110F811490>
-2023-12-02 01:59:13,605 - WARNING - topic: <website.database.models.Topic object at 0x000002110F811AC0>
-2023-12-02 01:59:13,605 - WARNING - find topic in list
-2023-12-02 01:59:13,605 - WARNING - create row in quate: The most beautiful in the world is, of course, the world itself.'
-2023-12-02 01:59:13,605 - WARNING - qoute: Travel, 'Traveling, it leaves you speechless, then turns you into a storyteller.' | Ibn Battuta
-2023-12-02 01:59:13,605 - WARNING - author: None
-2023-12-02 01:59:13,605 - WARNING - find author in list
-2023-12-02 01:59:13,620 - WARNING - add new author: <website.database.models.Author object at 0x000002110F753400>
-2023-12-02 01:59:13,621 - WARNING - topic: <website.database.models.Topic object at 0x000002110F811AC0>
-2023-12-02 01:59:13,621 - WARNING - find topic in list
-2023-12-02 01:59:13,621 - WARNING - create row in quate: 'Traveling, it leaves you speechless, then turns you into a storyteller.'
-2023-12-02 01:59:13,621 - WARNING - qoute: Travel, 'We live in a wonderful world that is full of beauty, charm and adventure. There is no end to the adventures we can have if only we seek them with our eyes open.' | Jawaharial Nehru
-2023-12-02 01:59:13,621 - WARNING - author: None
-2023-12-02 01:59:13,621 - WARNING - find author in list
-2023-12-02 01:59:13,621 - WARNING - add new author: <website.database.models.Author object at 0x000002110F753400>
-2023-12-02 01:59:13,621 - WARNING - topic: <website.database.models.Topic object at 0x000002110F811AC0>
-2023-12-02 01:59:13,621 - WARNING - find topic in list
-2023-12-02 01:59:13,621 - WARNING - create row in quate: 'We live in a wonderful world that is full of beauty, charm and adventure. There is no end to the adventures we can have if only we seek them with our eyes open.'
-2023-12-02 01:59:13,621 - WARNING - qoute: Travel, 'Perhaps travel cannot prevent bigotry, but by demonstrating that all peoples cry, laugh, eat, worry, and die, it can introduce the idea that if we try and understand each other, we may even become friends.' | Maya Angelou
-2023-12-02 01:59:13,621 - WARNING - author: None
-2023-12-02 01:59:13,621 - WARNING - find author in list
-2023-12-02 01:59:13,637 - WARNING - add new author: <website.database.models.Author object at 0x000002110F753400>
-2023-12-02 01:59:13,637 - WARNING - topic: <website.database.models.Topic object at 0x000002110F811AC0>
-2023-12-02 01:59:13,637 - WARNING - find topic in list
-2023-12-02 01:59:13,637 - WARNING - create row in quate: 'Perhaps travel cannot prevent bigotry, but by demonstrating that all peoples cry, laugh, eat, worry, and die, it can introduce the idea that if we try and understand each other, we may even become friends.'
-2023-12-02 01:59:13,637 - WARNING - qoute: Travel, 'A person susceptible to wanderlust is not so much addicted to movement as committed to transformation.'  | Pico Iyer
-2023-12-02 01:59:13,637 - WARNING - author: None
-2023-12-02 01:59:13,637 - WARNING - find author in list
-2023-12-02 01:59:13,637 - WARNING - add new author: <website.database.models.Author object at 0x000002110F753400>
-2023-12-02 01:59:13,637 - WARNING - topic: <website.database.models.Topic object at 0x000002110F811AC0>
-2023-12-02 01:59:13,637 - WARNING - find topic in list
-2023-12-02 01:59:13,653 - WARNING - create row in quate: 'A person susceptible to wanderlust is not so much addicted to movement as committed to transformation.' 
-2023-12-02 01:59:13,653 - WARNING - qoute: Travel, 'We travel, some of us forever, to seek other states, other lives, other souls.' | Anais Nin
-2023-12-02 01:59:13,653 - WARNING - author: None
-2023-12-02 01:59:13,653 - WARNING - find author in list
-2023-12-02 01:59:13,653 - WARNING - add new author: <website.database.models.Author object at 0x000002110F753400>
-2023-12-02 01:59:13,653 - WARNING - topic: <website.database.models.Topic object at 0x000002110F811AC0>
-2023-12-02 01:59:13,653 - WARNING - find topic in list
-2023-12-02 01:59:13,653 - WARNING - create row in quate: 'We travel, some of us forever, to seek other states, other lives, other souls.'
-2023-12-02 01:59:13,653 - WARNING - qoute: Travel, 'I travel not to go anywhere, but to go. I travel for travels sake. The great affair is to move.' | Robert Louis Stevenson
-2023-12-02 01:59:13,669 - WARNING - author: None
-2023-12-02 01:59:13,669 - WARNING - find author in list
-2023-12-02 01:59:13,669 - WARNING - add new author: <website.database.models.Author object at 0x000002110F753400>
-2023-12-02 01:59:13,669 - WARNING - topic: <website.database.models.Topic object at 0x000002110F811AC0>
-2023-12-02 01:59:13,669 - WARNING - find topic in list
-2023-12-02 01:59:13,669 - WARNING - create row in quate: 'I travel not to go anywhere, but to go. I travel for travels sake. The great affair is to move.'
-2023-12-02 02:01:22,262 - WARNING - WARNING
-2023-12-02 02:01:22,262 - ERROR - ERROR
-2023-12-02 02:01:22,262 - CRITICAL - CRITICAL
-2023-12-02 02:01:22,513 - WARNING - create flask
-2023-12-02 02:01:22,775 - WARNING - create database NAME: sqlite:///dataBase.db
-2023-12-02 02:01:22,779 - WARNING - create engine
-2023-12-02 02:01:22,779 - WARNING - create session
-2023-12-02 02:01:22,779 - WARNING - Database does not exist.
-2023-12-02 02:01:22,779 - WARNING - clear database
-2023-12-02 02:01:22,811 - WARNING - create tables in database
-2023-12-02 02:01:22,827 - WARNING - fill database
-2023-12-02 02:01:22,827 - WARNING - qoute: Travel, 'I have not been everywhere, but it is on my list.' | Susan Sontag
-2023-12-02 02:01:22,843 - WARNING - author: None
-2023-12-02 02:01:22,843 - WARNING - find author in list
-2023-12-02 02:01:22,852 - WARNING - add new author: <website.database.models.Author object at 0x000001C224D21490>
-2023-12-02 02:01:22,861 - WARNING - topic: None
-2023-12-02 02:01:22,861 - WARNING - find topic in list
-2023-12-02 02:01:22,869 - WARNING - add new topic: <website.database.models.Topic object at 0x000001C224D21AC0>
-2023-12-02 02:01:22,874 - WARNING - create row in quate: 'I have not been everywhere, but it is on my list.'
-2023-12-02 02:01:22,874 - WARNING - qoute: Travel, 'Work, Travel, Save, Repeat.' | Unknown
-2023-12-02 02:01:22,880 - WARNING - author: None
-2023-12-02 02:01:22,880 - WARNING - find author in list
-2023-12-02 02:01:22,880 - WARNING - add new author: <website.database.models.Author object at 0x000001C224D21490>
-2023-12-02 02:01:22,880 - WARNING - topic: <website.database.models.Topic object at 0x000001C224D21AC0>
-2023-12-02 02:01:22,880 - WARNING - find topic in list
-2023-12-02 02:01:22,890 - WARNING - create row in quate: 'Work, Travel, Save, Repeat.'
-2023-12-02 02:01:22,890 - WARNING - qoute: Travel, 'When preparing to travel, lay out all your clothes and all your money. Then take half the clothes and twice the money.' | Susan Heller
-2023-12-02 02:01:22,890 - WARNING - author: None
-2023-12-02 02:01:22,890 - WARNING - find author in list
-2023-12-02 02:01:22,890 - WARNING - add new author: <website.database.models.Author object at 0x000001C224D21490>
-2023-12-02 02:01:22,890 - WARNING - topic: <website.database.models.Topic object at 0x000001C224D21AC0>
-2023-12-02 02:01:22,890 - WARNING - find topic in list
-2023-12-02 02:01:22,890 - WARNING - create row in quate: 'When preparing to travel, lay out all your clothes and all your money. Then take half the clothes and twice the money.'
-2023-12-02 02:01:22,890 - WARNING - qoute: Travel, 'Can we just skip to the part of my life where I travel the world?' | Unknown
-2023-12-02 02:01:22,890 - WARNING - author: <website.database.models.Author object at 0x000001C224D21F70>
-2023-12-02 02:01:22,890 - WARNING - find author in list
-2023-12-02 02:01:22,890 - WARNING - topic: <website.database.models.Topic object at 0x000001C224D21AC0>
-2023-12-02 02:01:22,890 - WARNING - find topic in list
-2023-12-02 02:01:22,890 - WARNING - create row in quate: 'Can we just skip to the part of my life where I travel the world?'
-2023-12-02 02:01:22,890 - WARNING - qoute: Travel, 'Vacation calories do not count. Right?' | Unknown
-2023-12-02 02:01:22,890 - WARNING - author: <website.database.models.Author object at 0x000001C224D21F70>
-2023-12-02 02:01:22,890 - WARNING - find author in list
-2023-12-02 02:01:22,906 - WARNING - topic: <website.database.models.Topic object at 0x000001C224D21AC0>
-2023-12-02 02:01:22,906 - WARNING - find topic in list
-2023-12-02 02:01:22,906 - WARNING - create row in quate: 'Vacation calories do not count. Right?'
-2023-12-02 02:01:22,906 - WARNING - qoute: Travel, 'I want someone to look at me the way I look at a travel magazine.' | Unknown
-2023-12-02 02:01:22,906 - WARNING - author: <website.database.models.Author object at 0x000001C224D21F70>
-2023-12-02 02:01:22,906 - WARNING - find author in list
-2023-12-02 02:01:22,906 - WARNING - topic: <website.database.models.Topic object at 0x000001C224D21AC0>
-2023-12-02 02:01:22,906 - WARNING - find topic in list
-2023-12-02 02:01:22,906 - WARNING - create row in quate: 'I want someone to look at me the way I look at a travel magazine.'
-2023-12-02 02:01:22,906 - WARNING - qoute: Travel, 'I need six months of vacation, twice a year.' | Unknown
-2023-12-02 02:01:22,906 - WARNING - author: <website.database.models.Author object at 0x000001C224D21F70>
-2023-12-02 02:01:22,906 - WARNING - find author in list
-2023-12-02 02:01:22,906 - WARNING - topic: <website.database.models.Topic object at 0x000001C224D21AC0>
-2023-12-02 02:01:22,906 - WARNING - find topic in list
-2023-12-02 02:01:22,906 - WARNING - create row in quate: 'I need six months of vacation, twice a year.'
-2023-12-02 02:01:22,906 - WARNING - qoute: Travel, 'The worst thing about being a tourist is having other tourists recognize you as a tourist.' | Russell Baker
-2023-12-02 02:01:22,906 - WARNING - author: None
-2023-12-02 02:01:22,906 - WARNING - find author in list
-2023-12-02 02:01:22,906 - WARNING - add new author: <website.database.models.Author object at 0x000001C224D21F70>
-2023-12-02 02:01:22,906 - WARNING - topic: <website.database.models.Topic object at 0x000001C224D21AC0>
-2023-12-02 02:01:22,906 - WARNING - find topic in list
-2023-12-02 02:01:22,906 - WARNING - create row in quate: 'The worst thing about being a tourist is having other tourists recognize you as a tourist.'
-2023-12-02 02:01:22,906 - WARNING - qoute: Travel, 'I have been to almost as many places as my luggage.' | Bob Hope
-2023-12-02 02:01:22,921 - WARNING - author: None
-2023-12-02 02:01:22,921 - WARNING - find author in list
-2023-12-02 02:01:22,921 - WARNING - add new author: <website.database.models.Author object at 0x000001C224D21F70>
-2023-12-02 02:01:22,921 - WARNING - topic: <website.database.models.Topic object at 0x000001C224D21AC0>
-2023-12-02 02:01:22,921 - WARNING - find topic in list
-2023-12-02 02:01:22,921 - WARNING - create row in quate: 'I have been to almost as many places as my luggage.'
-2023-12-02 02:01:22,921 - WARNING - qoute: Travel, 'Travel becomes a strategy for accumulating photographs.' | Susan Sontag
-2023-12-02 02:01:22,921 - WARNING - author: <website.database.models.Author object at 0x000001C224D38160>
-2023-12-02 02:01:22,921 - WARNING - find author in list
-2023-12-02 02:01:22,921 - WARNING - topic: <website.database.models.Topic object at 0x000001C224D21AC0>
-2023-12-02 02:01:22,921 - WARNING - find topic in list
-2023-12-02 02:01:22,921 - WARNING - create row in quate: 'Travel becomes a strategy for accumulating photographs.'
-2023-12-02 02:01:22,921 - WARNING - qoute: Travel, 'Man cannot discover new oceans unless he has the courage to lose sight of the shore.' | Andre Gide
-2023-12-02 02:01:22,937 - WARNING - author: None
-2023-12-02 02:01:22,937 - WARNING - find author in list
-2023-12-02 02:01:22,937 - WARNING - add new author: <website.database.models.Author object at 0x000001C224D790A0>
-2023-12-02 02:01:22,947 - WARNING - topic: <website.database.models.Topic object at 0x000001C224D21AC0>
-2023-12-02 02:01:22,947 - WARNING - find topic in list
-2023-12-02 02:01:22,947 - WARNING - create row in quate: 'Man cannot discover new oceans unless he has the courage to lose sight of the shore.'
-2023-12-02 02:01:22,947 - WARNING - qoute: Travel, 'Remember that happiness is a way of travel, not a destination.' | Roy M. Goodman
-2023-12-02 02:01:22,953 - WARNING - author: None
-2023-12-02 02:01:22,953 - WARNING - find author in list
-2023-12-02 02:01:22,953 - WARNING - add new author: <website.database.models.Author object at 0x000001C224D790A0>
-2023-12-02 02:01:22,953 - WARNING - topic: <website.database.models.Topic object at 0x000001C224D21AC0>
-2023-12-02 02:01:22,953 - WARNING - find topic in list
-2023-12-02 02:01:22,953 - WARNING - create row in quate: 'Remember that happiness is a way of travel, not a destination.'
-2023-12-02 02:01:22,953 - WARNING - qoute: Travel, The most beautiful in the world is, of course, the world itself.' | Wallace Stevens
-2023-12-02 02:01:22,953 - WARNING - author: None
-2023-12-02 02:01:22,953 - WARNING - find author in list
-2023-12-02 02:01:22,969 - WARNING - add new author: <website.database.models.Author object at 0x000001C224D21490>
-2023-12-02 02:01:22,969 - WARNING - topic: <website.database.models.Topic object at 0x000001C224D21AC0>
-2023-12-02 02:01:22,969 - WARNING - find topic in list
-2023-12-02 02:01:22,969 - WARNING - create row in quate: The most beautiful in the world is, of course, the world itself.'
-2023-12-02 02:01:22,969 - WARNING - qoute: Travel, 'Traveling, it leaves you speechless, then turns you into a storyteller.' | Ibn Battuta
-2023-12-02 02:01:22,969 - WARNING - author: None
-2023-12-02 02:01:22,969 - WARNING - find author in list
-2023-12-02 02:01:22,984 - WARNING - add new author: <website.database.models.Author object at 0x000001C224C63400>
-2023-12-02 02:01:22,984 - WARNING - topic: <website.database.models.Topic object at 0x000001C224D21AC0>
-2023-12-02 02:01:22,984 - WARNING - find topic in list
-2023-12-02 02:01:22,984 - WARNING - create row in quate: 'Traveling, it leaves you speechless, then turns you into a storyteller.'
-2023-12-02 02:01:22,984 - WARNING - qoute: Travel, 'We live in a wonderful world that is full of beauty, charm and adventure. There is no end to the adventures we can have if only we seek them with our eyes open.' | Jawaharial Nehru
-2023-12-02 02:01:22,984 - WARNING - author: None
-2023-12-02 02:01:22,984 - WARNING - find author in list
-2023-12-02 02:01:22,994 - WARNING - add new author: <website.database.models.Author object at 0x000001C224C63400>
-2023-12-02 02:01:22,994 - WARNING - topic: <website.database.models.Topic object at 0x000001C224D21AC0>
-2023-12-02 02:01:22,994 - WARNING - find topic in list
-2023-12-02 02:01:22,994 - WARNING - create row in quate: 'We live in a wonderful world that is full of beauty, charm and adventure. There is no end to the adventures we can have if only we seek them with our eyes open.'
-2023-12-02 02:01:22,994 - WARNING - qoute: Travel, 'Perhaps travel cannot prevent bigotry, but by demonstrating that all peoples cry, laugh, eat, worry, and die, it can introduce the idea that if we try and understand each other, we may even become friends.' | Maya Angelou
-2023-12-02 02:01:23,000 - WARNING - author: None
-2023-12-02 02:01:23,000 - WARNING - find author in list
-2023-12-02 02:01:23,000 - WARNING - add new author: <website.database.models.Author object at 0x000001C224C63400>
-2023-12-02 02:01:23,000 - WARNING - topic: <website.database.models.Topic object at 0x000001C224D21AC0>
-2023-12-02 02:01:23,000 - WARNING - find topic in list
-2023-12-02 02:01:23,000 - WARNING - create row in quate: 'Perhaps travel cannot prevent bigotry, but by demonstrating that all peoples cry, laugh, eat, worry, and die, it can introduce the idea that if we try and understand each other, we may even become friends.'
-2023-12-02 02:01:23,000 - WARNING - qoute: Travel, 'A person susceptible to wanderlust is not so much addicted to movement as committed to transformation.'  | Pico Iyer
-2023-12-02 02:01:23,000 - WARNING - author: None
-2023-12-02 02:01:23,000 - WARNING - find author in list
-2023-12-02 02:01:23,016 - WARNING - add new author: <website.database.models.Author object at 0x000001C224C63400>
-2023-12-02 02:01:23,016 - WARNING - topic: <website.database.models.Topic object at 0x000001C224D21AC0>
-2023-12-02 02:01:23,016 - WARNING - find topic in list
-2023-12-02 02:01:23,016 - WARNING - create row in quate: 'A person susceptible to wanderlust is not so much addicted to movement as committed to transformation.' 
-2023-12-02 02:01:23,016 - WARNING - qoute: Travel, 'We travel, some of us forever, to seek other states, other lives, other souls.' | Anais Nin
-2023-12-02 02:01:23,016 - WARNING - author: None
-2023-12-02 02:01:23,016 - WARNING - find author in list
-2023-12-02 02:01:23,016 - WARNING - add new author: <website.database.models.Author object at 0x000001C224C63400>
-2023-12-02 02:01:23,016 - WARNING - topic: <website.database.models.Topic object at 0x000001C224D21AC0>
-2023-12-02 02:01:23,031 - WARNING - find topic in list
-2023-12-02 02:01:23,031 - WARNING - create row in quate: 'We travel, some of us forever, to seek other states, other lives, other souls.'
-2023-12-02 02:01:23,031 - WARNING - qoute: Travel, 'I travel not to go anywhere, but to go. I travel for travels sake. The great affair is to move.' | Robert Louis Stevenson
-2023-12-02 02:01:23,031 - WARNING - author: None
-2023-12-02 02:01:23,031 - WARNING - find author in list
-2023-12-02 02:01:23,031 - WARNING - add new author: <website.database.models.Author object at 0x000001C224C63400>
-2023-12-02 02:01:23,031 - WARNING - topic: <website.database.models.Topic object at 0x000001C224D21AC0>
-2023-12-02 02:01:23,031 - WARNING - find topic in list
-2023-12-02 02:01:23,031 - WARNING - create row in quate: 'I travel not to go anywhere, but to go. I travel for travels sake. The great affair is to move.'
-2023-12-02 02:01:23,047 - WARNING - add bluepoint auth
-2023-12-02 02:01:23,157 - WARNING - WARNING
-2023-12-02 02:01:23,157 - ERROR - ERROR
-2023-12-02 02:01:23,157 - CRITICAL - CRITICAL
-2023-12-02 02:01:23,424 - WARNING - create flask
-2023-12-02 02:01:23,685 - WARNING - create database NAME: sqlite:///dataBase.db
-2023-12-02 02:01:23,691 - WARNING - create engine
-2023-12-02 02:01:23,691 - WARNING - create session
-2023-12-02 02:01:23,691 - WARNING - Database does not exist.
-2023-12-02 02:01:23,691 - WARNING - clear database
-2023-12-02 02:01:23,723 - WARNING - create tables in database
-2023-12-02 02:01:23,739 - WARNING - fill database
-2023-12-02 02:01:23,739 - WARNING - qoute: Travel, 'I have not been everywhere, but it is on my list.' | Susan Sontag
-2023-12-02 02:01:23,739 - WARNING - author: None
-2023-12-02 02:01:23,739 - WARNING - find author in list
-2023-12-02 02:01:23,755 - WARNING - add new author: <website.database.models.Author object at 0x000002519132A880>
-2023-12-02 02:01:23,755 - WARNING - topic: None
-2023-12-02 02:01:23,755 - WARNING - find topic in list
-2023-12-02 02:01:23,755 - WARNING - add new topic: <website.database.models.Topic object at 0x0000025191377970>
-2023-12-02 02:01:23,755 - WARNING - create row in quate: 'I have not been everywhere, but it is on my list.'
-2023-12-02 02:01:23,755 - WARNING - qoute: Travel, 'Work, Travel, Save, Repeat.' | Unknown
-2023-12-02 02:01:23,755 - WARNING - author: None
-2023-12-02 02:01:23,755 - WARNING - find author in list
-2023-12-02 02:01:23,770 - WARNING - add new author: <website.database.models.Author object at 0x0000025191360E50>
-2023-12-02 02:01:23,770 - WARNING - topic: <website.database.models.Topic object at 0x0000025191377970>
-2023-12-02 02:01:23,770 - WARNING - find topic in list
-2023-12-02 02:01:23,770 - WARNING - create row in quate: 'Work, Travel, Save, Repeat.'
-2023-12-02 02:01:23,770 - WARNING - qoute: Travel, 'When preparing to travel, lay out all your clothes and all your money. Then take half the clothes and twice the money.' | Susan Heller
-2023-12-02 02:01:23,770 - WARNING - author: None
-2023-12-02 02:01:23,770 - WARNING - find author in list
-2023-12-02 02:01:23,770 - WARNING - add new author: <website.database.models.Author object at 0x0000025191360E50>
-2023-12-02 02:01:23,770 - WARNING - topic: <website.database.models.Topic object at 0x0000025191377970>
-2023-12-02 02:01:23,770 - WARNING - find topic in list
-2023-12-02 02:01:23,786 - WARNING - create row in quate: 'When preparing to travel, lay out all your clothes and all your money. Then take half the clothes and twice the money.'
-2023-12-02 02:01:23,786 - WARNING - qoute: Travel, 'Can we just skip to the part of my life where I travel the world?' | Unknown
-2023-12-02 02:01:23,786 - WARNING - author: <website.database.models.Author object at 0x0000025191377B50>
-2023-12-02 02:01:23,786 - WARNING - find author in list
-2023-12-02 02:01:23,786 - WARNING - topic: <website.database.models.Topic object at 0x0000025191377970>
-2023-12-02 02:01:23,786 - WARNING - find topic in list
-2023-12-02 02:01:23,786 - WARNING - create row in quate: 'Can we just skip to the part of my life where I travel the world?'
-2023-12-02 02:01:23,786 - WARNING - qoute: Travel, 'Vacation calories do not count. Right?' | Unknown
-2023-12-02 02:01:23,786 - WARNING - author: <website.database.models.Author object at 0x0000025191377B50>
-2023-12-02 02:01:23,786 - WARNING - find author in list
-2023-12-02 02:01:23,786 - WARNING - topic: <website.database.models.Topic object at 0x0000025191377970>
-2023-12-02 02:01:23,786 - WARNING - find topic in list
-2023-12-02 02:01:23,786 - WARNING - create row in quate: 'Vacation calories do not count. Right?'
-2023-12-02 02:01:23,786 - WARNING - qoute: Travel, 'I want someone to look at me the way I look at a travel magazine.' | Unknown
-2023-12-02 02:01:23,786 - WARNING - author: <website.database.models.Author object at 0x0000025191377B50>
-2023-12-02 02:01:23,786 - WARNING - find author in list
-2023-12-02 02:01:23,786 - WARNING - topic: <website.database.models.Topic object at 0x0000025191377970>
-2023-12-02 02:01:23,786 - WARNING - find topic in list
-2023-12-02 02:01:23,786 - WARNING - create row in quate: 'I want someone to look at me the way I look at a travel magazine.'
-2023-12-02 02:01:23,786 - WARNING - qoute: Travel, 'I need six months of vacation, twice a year.' | Unknown
-2023-12-02 02:01:23,786 - WARNING - author: <website.database.models.Author object at 0x0000025191377B50>
-2023-12-02 02:01:23,786 - WARNING - find author in list
-2023-12-02 02:01:23,786 - WARNING - topic: <website.database.models.Topic object at 0x0000025191377970>
-2023-12-02 02:01:23,786 - WARNING - find topic in list
-2023-12-02 02:01:23,786 - WARNING - create row in quate: 'I need six months of vacation, twice a year.'
-2023-12-02 02:01:23,786 - WARNING - qoute: Travel, 'The worst thing about being a tourist is having other tourists recognize you as a tourist.' | Russell Baker
-2023-12-02 02:01:23,786 - WARNING - author: None
-2023-12-02 02:01:23,786 - WARNING - find author in list
-2023-12-02 02:01:23,802 - WARNING - add new author: <website.database.models.Author object at 0x0000025191377B50>
-2023-12-02 02:01:23,802 - WARNING - topic: <website.database.models.Topic object at 0x0000025191377970>
-2023-12-02 02:01:23,802 - WARNING - find topic in list
-2023-12-02 02:01:23,802 - WARNING - create row in quate: 'The worst thing about being a tourist is having other tourists recognize you as a tourist.'
-2023-12-02 02:01:23,802 - WARNING - qoute: Travel, 'I have been to almost as many places as my luggage.' | Bob Hope
-2023-12-02 02:01:23,802 - WARNING - author: None
-2023-12-02 02:01:23,802 - WARNING - find author in list
-2023-12-02 02:01:23,802 - WARNING - add new author: <website.database.models.Author object at 0x000002519132A880>
-2023-12-02 02:01:23,802 - WARNING - topic: <website.database.models.Topic object at 0x0000025191377970>
-2023-12-02 02:01:23,802 - WARNING - find topic in list
-2023-12-02 02:01:23,802 - WARNING - create row in quate: 'I have been to almost as many places as my luggage.'
-2023-12-02 02:01:23,802 - WARNING - qoute: Travel, 'Travel becomes a strategy for accumulating photographs.' | Susan Sontag
-2023-12-02 02:01:23,817 - WARNING - author: <website.database.models.Author object at 0x0000025191377A30>
-2023-12-02 02:01:23,817 - WARNING - find author in list
-2023-12-02 02:01:23,817 - WARNING - topic: <website.database.models.Topic object at 0x0000025191377970>
-2023-12-02 02:01:23,817 - WARNING - find topic in list
-2023-12-02 02:01:23,817 - WARNING - create row in quate: 'Travel becomes a strategy for accumulating photographs.'
-2023-12-02 02:01:23,817 - WARNING - qoute: Travel, 'Man cannot discover new oceans unless he has the courage to lose sight of the shore.' | Andre Gide
-2023-12-02 02:01:23,817 - WARNING - author: None
-2023-12-02 02:01:23,817 - WARNING - find author in list
-2023-12-02 02:01:23,817 - WARNING - add new author: <website.database.models.Author object at 0x0000025191377A30>
-2023-12-02 02:01:23,817 - WARNING - topic: <website.database.models.Topic object at 0x0000025191377970>
-2023-12-02 02:01:23,817 - WARNING - find topic in list
-2023-12-02 02:01:23,817 - WARNING - create row in quate: 'Man cannot discover new oceans unless he has the courage to lose sight of the shore.'
-2023-12-02 02:01:23,817 - WARNING - qoute: Travel, 'Remember that happiness is a way of travel, not a destination.' | Roy M. Goodman
-2023-12-02 02:01:23,833 - WARNING - author: None
-2023-12-02 02:01:23,833 - WARNING - find author in list
-2023-12-02 02:01:23,833 - WARNING - add new author: <website.database.models.Author object at 0x00000251913B8BE0>
-2023-12-02 02:01:23,833 - WARNING - topic: <website.database.models.Topic object at 0x0000025191377970>
-2023-12-02 02:01:23,833 - WARNING - find topic in list
-2023-12-02 02:01:23,848 - WARNING - create row in quate: 'Remember that happiness is a way of travel, not a destination.'
-2023-12-02 02:01:23,848 - WARNING - qoute: Travel, The most beautiful in the world is, of course, the world itself.' | Wallace Stevens
-2023-12-02 02:01:23,853 - WARNING - author: None
-2023-12-02 02:01:23,853 - WARNING - find author in list
-2023-12-02 02:01:23,853 - WARNING - add new author: <website.database.models.Author object at 0x00000251912A1550>
-2023-12-02 02:01:23,864 - WARNING - topic: <website.database.models.Topic object at 0x0000025191377970>
-2023-12-02 02:01:23,864 - WARNING - find topic in list
-2023-12-02 02:01:23,864 - WARNING - create row in quate: The most beautiful in the world is, of course, the world itself.'
-2023-12-02 02:01:23,864 - WARNING - qoute: Travel, 'Traveling, it leaves you speechless, then turns you into a storyteller.' | Ibn Battuta
-2023-12-02 02:01:23,864 - WARNING - author: None
-2023-12-02 02:01:23,864 - WARNING - find author in list
-2023-12-02 02:01:23,864 - WARNING - add new author: <website.database.models.Author object at 0x00000251912A1550>
-2023-12-02 02:01:23,864 - WARNING - topic: <website.database.models.Topic object at 0x0000025191377970>
-2023-12-02 02:01:23,864 - WARNING - find topic in list
-2023-12-02 02:01:23,864 - WARNING - create row in quate: 'Traveling, it leaves you speechless, then turns you into a storyteller.'
-2023-12-02 02:01:23,864 - WARNING - qoute: Travel, 'We live in a wonderful world that is full of beauty, charm and adventure. There is no end to the adventures we can have if only we seek them with our eyes open.' | Jawaharial Nehru
-2023-12-02 02:01:23,880 - WARNING - author: None
-2023-12-02 02:01:23,880 - WARNING - find author in list
-2023-12-02 02:01:23,880 - WARNING - add new author: <website.database.models.Author object at 0x00000251912A1550>
-2023-12-02 02:01:23,880 - WARNING - topic: <website.database.models.Topic object at 0x0000025191377970>
-2023-12-02 02:01:23,880 - WARNING - find topic in list
-2023-12-02 02:01:23,880 - WARNING - create row in quate: 'We live in a wonderful world that is full of beauty, charm and adventure. There is no end to the adventures we can have if only we seek them with our eyes open.'
-2023-12-02 02:01:23,880 - WARNING - qoute: Travel, 'Perhaps travel cannot prevent bigotry, but by demonstrating that all peoples cry, laugh, eat, worry, and die, it can introduce the idea that if we try and understand each other, we may even become friends.' | Maya Angelou
-2023-12-02 02:01:23,880 - WARNING - author: None
-2023-12-02 02:01:23,880 - WARNING - find author in list
-2023-12-02 02:01:23,880 - WARNING - add new author: <website.database.models.Author object at 0x00000251912A1550>
-2023-12-02 02:01:23,880 - WARNING - topic: <website.database.models.Topic object at 0x0000025191377970>
-2023-12-02 02:01:23,880 - WARNING - find topic in list
-2023-12-02 02:01:23,880 - WARNING - create row in quate: 'Perhaps travel cannot prevent bigotry, but by demonstrating that all peoples cry, laugh, eat, worry, and die, it can introduce the idea that if we try and understand each other, we may even become friends.'
-2023-12-02 02:01:23,880 - WARNING - qoute: Travel, 'A person susceptible to wanderlust is not so much addicted to movement as committed to transformation.'  | Pico Iyer
-2023-12-02 02:01:23,898 - WARNING - author: None
-2023-12-02 02:01:23,898 - WARNING - find author in list
-2023-12-02 02:01:23,902 - WARNING - add new author: <website.database.models.Author object at 0x00000251912A1550>
-2023-12-02 02:01:23,903 - WARNING - topic: <website.database.models.Topic object at 0x0000025191377970>
-2023-12-02 02:01:23,903 - WARNING - find topic in list
-2023-12-02 02:01:23,904 - WARNING - create row in quate: 'A person susceptible to wanderlust is not so much addicted to movement as committed to transformation.' 
-2023-12-02 02:01:23,904 - WARNING - qoute: Travel, 'We travel, some of us forever, to seek other states, other lives, other souls.' | Anais Nin
-2023-12-02 02:01:23,907 - WARNING - author: None
-2023-12-02 02:01:23,908 - WARNING - find author in list
-2023-12-02 02:01:23,911 - WARNING - add new author: <website.database.models.Author object at 0x00000251912A1550>
-2023-12-02 02:01:23,911 - WARNING - topic: <website.database.models.Topic object at 0x0000025191377970>
-2023-12-02 02:01:23,911 - WARNING - find topic in list
-2023-12-02 02:01:23,911 - WARNING - create row in quate: 'We travel, some of us forever, to seek other states, other lives, other souls.'
-2023-12-02 02:01:23,911 - WARNING - qoute: Travel, 'I travel not to go anywhere, but to go. I travel for travels sake. The great affair is to move.' | Robert Louis Stevenson
-2023-12-02 02:01:23,911 - WARNING - author: None
-2023-12-02 02:01:23,911 - WARNING - find author in list
-2023-12-02 02:01:23,911 - WARNING - add new author: <website.database.models.Author object at 0x00000251912A1550>
-2023-12-02 02:01:23,911 - WARNING - topic: <website.database.models.Topic object at 0x0000025191377970>
-2023-12-02 02:01:23,911 - WARNING - find topic in list
-2023-12-02 02:01:23,927 - WARNING - create row in quate: 'I travel not to go anywhere, but to go. I travel for travels sake. The great affair is to move.'
-2023-12-02 02:01:23,927 - WARNING - add bluepoint auth
-2023-12-02 02:01:23,943 - WARNING -  * Debugger is active!
-2023-12-02 02:02:56,129 - WARNING - WARNING
-2023-12-02 02:02:56,129 - ERROR - ERROR
-2023-12-02 02:02:56,129 - CRITICAL - CRITICAL
-2023-12-02 02:02:56,385 - WARNING - create flask
-2023-12-02 02:02:56,646 - WARNING - create database NAME: sqlite:///dataBase.db
-2023-12-02 02:02:56,662 - WARNING - create engine
-2023-12-02 02:02:56,662 - WARNING - create session
-2023-12-02 02:02:56,662 - WARNING - Database does not exist.
-2023-12-02 02:02:56,662 - WARNING - clear database
-2023-12-02 02:02:56,694 - WARNING - create tables in database
-2023-12-02 02:02:56,709 - WARNING - fill database
-2023-12-02 02:02:56,709 - WARNING - qoute: Travel, 'I have not been everywhere, but it is on my list.' | Susan Sontag
-2023-12-02 02:02:56,725 - WARNING - author: None
-2023-12-02 02:02:56,725 - WARNING - find author in list
-2023-12-02 02:02:56,741 - WARNING - add new author: <website.database.models.Author object at 0x000001A77251A880>
-2023-12-02 02:02:56,741 - WARNING - topic: None
-2023-12-02 02:02:56,741 - WARNING - find topic in list
-2023-12-02 02:02:56,741 - WARNING - add new topic: <website.database.models.Topic object at 0x000001A772567970>
-2023-12-02 02:02:56,756 - WARNING - create row in quate: 'I have not been everywhere, but it is on my list.'
-2023-12-02 02:02:56,756 - WARNING - qoute: Travel, 'Work, Travel, Save, Repeat.' | Unknown
-2023-12-02 02:02:56,756 - WARNING - author: None
-2023-12-02 02:02:56,756 - WARNING - find author in list
-2023-12-02 02:02:56,756 - WARNING - add new author: <website.database.models.Author object at 0x000001A772550E50>
-2023-12-02 02:02:56,756 - WARNING - topic: <website.database.models.Topic object at 0x000001A772567970>
-2023-12-02 02:02:56,756 - WARNING - find topic in list
-2023-12-02 02:02:56,756 - WARNING - create row in quate: 'Work, Travel, Save, Repeat.'
-2023-12-02 02:02:56,756 - WARNING - qoute: Travel, 'When preparing to travel, lay out all your clothes and all your money. Then take half the clothes and twice the money.' | Susan Heller
-2023-12-02 02:02:56,772 - WARNING - author: None
-2023-12-02 02:02:56,772 - WARNING - find author in list
-2023-12-02 02:02:56,772 - WARNING - add new author: <website.database.models.Author object at 0x000001A772550E50>
-2023-12-02 02:02:56,772 - WARNING - topic: <website.database.models.Topic object at 0x000001A772567970>
-2023-12-02 02:02:56,772 - WARNING - find topic in list
-2023-12-02 02:02:56,772 - WARNING - create row in quate: 'When preparing to travel, lay out all your clothes and all your money. Then take half the clothes and twice the money.'
-2023-12-02 02:02:56,772 - WARNING - qoute: Travel, 'Can we just skip to the part of my life where I travel the world?' | Unknown
-2023-12-02 02:02:56,772 - WARNING - author: <website.database.models.Author object at 0x000001A772567B50>
-2023-12-02 02:02:56,772 - WARNING - find author in list
-2023-12-02 02:02:56,788 - WARNING - topic: <website.database.models.Topic object at 0x000001A772567970>
-2023-12-02 02:02:56,788 - WARNING - find topic in list
-2023-12-02 02:02:56,788 - WARNING - create row in quate: 'Can we just skip to the part of my life where I travel the world?'
-2023-12-02 02:02:56,788 - WARNING - qoute: Travel, 'Vacation calories do not count. Right?' | Unknown
-2023-12-02 02:02:56,788 - WARNING - author: <website.database.models.Author object at 0x000001A772567B50>
-2023-12-02 02:02:56,788 - WARNING - find author in list
-2023-12-02 02:02:56,788 - WARNING - topic: <website.database.models.Topic object at 0x000001A772567970>
-2023-12-02 02:02:56,788 - WARNING - find topic in list
-2023-12-02 02:02:56,788 - WARNING - create row in quate: 'Vacation calories do not count. Right?'
-2023-12-02 02:02:56,788 - WARNING - qoute: Travel, 'I want someone to look at me the way I look at a travel magazine.' | Unknown
-2023-12-02 02:02:56,788 - WARNING - author: <website.database.models.Author object at 0x000001A772567B50>
-2023-12-02 02:02:56,788 - WARNING - find author in list
-2023-12-02 02:02:56,788 - WARNING - topic: <website.database.models.Topic object at 0x000001A772567970>
-2023-12-02 02:02:56,788 - WARNING - find topic in list
-2023-12-02 02:02:56,788 - WARNING - create row in quate: 'I want someone to look at me the way I look at a travel magazine.'
-2023-12-02 02:02:56,788 - WARNING - qoute: Travel, 'I need six months of vacation, twice a year.' | Unknown
-2023-12-02 02:02:56,788 - WARNING - author: <website.database.models.Author object at 0x000001A772567B50>
-2023-12-02 02:02:56,788 - WARNING - find author in list
-2023-12-02 02:02:56,788 - WARNING - topic: <website.database.models.Topic object at 0x000001A772567970>
-2023-12-02 02:02:56,788 - WARNING - find topic in list
-2023-12-02 02:02:56,788 - WARNING - create row in quate: 'I need six months of vacation, twice a year.'
-2023-12-02 02:02:56,788 - WARNING - qoute: Travel, 'The worst thing about being a tourist is having other tourists recognize you as a tourist.' | Russell Baker
-2023-12-02 02:02:56,788 - WARNING - author: None
-2023-12-02 02:02:56,788 - WARNING - find author in list
-2023-12-02 02:02:56,803 - WARNING - add new author: <website.database.models.Author object at 0x000001A772567B50>
-2023-12-02 02:02:56,803 - WARNING - topic: <website.database.models.Topic object at 0x000001A772567970>
-2023-12-02 02:02:56,803 - WARNING - find topic in list
-2023-12-02 02:02:56,803 - WARNING - create row in quate: 'The worst thing about being a tourist is having other tourists recognize you as a tourist.'
-2023-12-02 02:02:56,803 - WARNING - qoute: Travel, 'I have been to almost as many places as my luggage.' | Bob Hope
-2023-12-02 02:02:56,803 - WARNING - author: None
-2023-12-02 02:02:56,803 - WARNING - find author in list
-2023-12-02 02:02:56,803 - WARNING - add new author: <website.database.models.Author object at 0x000001A77251A880>
-2023-12-02 02:02:56,819 - WARNING - topic: <website.database.models.Topic object at 0x000001A772567970>
-2023-12-02 02:02:56,819 - WARNING - find topic in list
-2023-12-02 02:02:56,819 - WARNING - create row in quate: 'I have been to almost as many places as my luggage.'
-2023-12-02 02:02:56,819 - WARNING - qoute: Travel, 'Travel becomes a strategy for accumulating photographs.' | Susan Sontag
-2023-12-02 02:02:56,822 - WARNING - author: <website.database.models.Author object at 0x000001A772567A30>
-2023-12-02 02:02:56,822 - WARNING - find author in list
-2023-12-02 02:02:56,822 - WARNING - topic: <website.database.models.Topic object at 0x000001A772567970>
-2023-12-02 02:02:56,822 - WARNING - find topic in list
-2023-12-02 02:02:56,822 - WARNING - create row in quate: 'Travel becomes a strategy for accumulating photographs.'
-2023-12-02 02:02:56,822 - WARNING - qoute: Travel, 'Man cannot discover new oceans unless he has the courage to lose sight of the shore.' | Andre Gide
-2023-12-02 02:02:56,822 - WARNING - author: None
-2023-12-02 02:02:56,822 - WARNING - find author in list
-2023-12-02 02:02:56,822 - WARNING - add new author: <website.database.models.Author object at 0x000001A772567A30>
-2023-12-02 02:02:56,822 - WARNING - topic: <website.database.models.Topic object at 0x000001A772567970>
-2023-12-02 02:02:56,822 - WARNING - find topic in list
-2023-12-02 02:02:56,822 - WARNING - create row in quate: 'Man cannot discover new oceans unless he has the courage to lose sight of the shore.'
-2023-12-02 02:02:56,822 - WARNING - qoute: Travel, 'Remember that happiness is a way of travel, not a destination.' | Roy M. Goodman
-2023-12-02 02:02:56,835 - WARNING - author: None
-2023-12-02 02:02:56,835 - WARNING - find author in list
-2023-12-02 02:02:56,835 - WARNING - add new author: <website.database.models.Author object at 0x000001A7725A9BE0>
-2023-12-02 02:02:56,835 - WARNING - topic: <website.database.models.Topic object at 0x000001A772567970>
-2023-12-02 02:02:56,835 - WARNING - find topic in list
-2023-12-02 02:02:56,835 - WARNING - create row in quate: 'Remember that happiness is a way of travel, not a destination.'
-2023-12-02 02:02:56,835 - WARNING - qoute: Travel, The most beautiful in the world is, of course, the world itself.' | Wallace Stevens
-2023-12-02 02:02:56,835 - WARNING - author: None
-2023-12-02 02:02:56,835 - WARNING - find author in list
-2023-12-02 02:02:56,851 - WARNING - add new author: <website.database.models.Author object at 0x000001A772491550>
-2023-12-02 02:02:56,851 - WARNING - topic: <website.database.models.Topic object at 0x000001A772567970>
-2023-12-02 02:02:56,851 - WARNING - find topic in list
-2023-12-02 02:02:56,851 - WARNING - create row in quate: The most beautiful in the world is, of course, the world itself.'
-2023-12-02 02:02:56,851 - WARNING - qoute: Travel, 'Traveling, it leaves you speechless, then turns you into a storyteller.' | Ibn Battuta
-2023-12-02 02:02:56,851 - WARNING - author: None
-2023-12-02 02:02:56,851 - WARNING - find author in list
-2023-12-02 02:02:56,851 - WARNING - add new author: <website.database.models.Author object at 0x000001A772491550>
-2023-12-02 02:02:56,851 - WARNING - topic: <website.database.models.Topic object at 0x000001A772567970>
-2023-12-02 02:02:56,851 - WARNING - find topic in list
-2023-12-02 02:02:56,851 - WARNING - create row in quate: 'Traveling, it leaves you speechless, then turns you into a storyteller.'
-2023-12-02 02:02:56,851 - WARNING - qoute: Travel, 'We live in a wonderful world that is full of beauty, charm and adventure. There is no end to the adventures we can have if only we seek them with our eyes open.' | Jawaharial Nehru
-2023-12-02 02:02:56,851 - WARNING - author: None
-2023-12-02 02:02:56,851 - WARNING - find author in list
-2023-12-02 02:02:56,866 - WARNING - add new author: <website.database.models.Author object at 0x000001A772491550>
-2023-12-02 02:02:56,866 - WARNING - topic: <website.database.models.Topic object at 0x000001A772567970>
-2023-12-02 02:02:56,866 - WARNING - find topic in list
-2023-12-02 02:02:56,866 - WARNING - create row in quate: 'We live in a wonderful world that is full of beauty, charm and adventure. There is no end to the adventures we can have if only we seek them with our eyes open.'
-2023-12-02 02:02:56,866 - WARNING - qoute: Travel, 'Perhaps travel cannot prevent bigotry, but by demonstrating that all peoples cry, laugh, eat, worry, and die, it can introduce the idea that if we try and understand each other, we may even become friends.' | Maya Angelou
-2023-12-02 02:02:56,866 - WARNING - author: None
-2023-12-02 02:02:56,866 - WARNING - find author in list
-2023-12-02 02:02:56,866 - WARNING - add new author: <website.database.models.Author object at 0x000001A772491550>
-2023-12-02 02:02:56,882 - WARNING - topic: <website.database.models.Topic object at 0x000001A772567970>
-2023-12-02 02:02:56,882 - WARNING - find topic in list
-2023-12-02 02:02:56,882 - WARNING - create row in quate: 'Perhaps travel cannot prevent bigotry, but by demonstrating that all peoples cry, laugh, eat, worry, and die, it can introduce the idea that if we try and understand each other, we may even become friends.'
-2023-12-02 02:02:56,882 - WARNING - qoute: Travel, 'A person susceptible to wanderlust is not so much addicted to movement as committed to transformation.'  | Pico Iyer
-2023-12-02 02:02:56,882 - WARNING - author: None
-2023-12-02 02:02:56,882 - WARNING - find author in list
-2023-12-02 02:02:56,882 - WARNING - add new author: <website.database.models.Author object at 0x000001A772491550>
-2023-12-02 02:02:56,892 - WARNING - topic: <website.database.models.Topic object at 0x000001A772567970>
-2023-12-02 02:02:56,892 - WARNING - find topic in list
-2023-12-02 02:02:56,892 - WARNING - create row in quate: 'A person susceptible to wanderlust is not so much addicted to movement as committed to transformation.' 
-2023-12-02 02:02:56,892 - WARNING - qoute: Travel, 'We travel, some of us forever, to seek other states, other lives, other souls.' | Anais Nin
-2023-12-02 02:02:56,892 - WARNING - author: None
-2023-12-02 02:02:56,892 - WARNING - find author in list
-2023-12-02 02:02:56,898 - WARNING - add new author: <website.database.models.Author object at 0x000001A772491550>
-2023-12-02 02:02:56,898 - WARNING - topic: <website.database.models.Topic object at 0x000001A772567970>
-2023-12-02 02:02:56,898 - WARNING - find topic in list
-2023-12-02 02:02:56,898 - WARNING - create row in quate: 'We travel, some of us forever, to seek other states, other lives, other souls.'
-2023-12-02 02:02:56,898 - WARNING - qoute: Travel, 'I travel not to go anywhere, but to go. I travel for travels sake. The great affair is to move.' | Robert Louis Stevenson
-2023-12-02 02:02:56,898 - WARNING - author: None
-2023-12-02 02:02:56,898 - WARNING - find author in list
-2023-12-02 02:02:56,898 - WARNING - add new author: <website.database.models.Author object at 0x000001A772491550>
-2023-12-02 02:02:56,898 - WARNING - topic: <website.database.models.Topic object at 0x000001A772567970>
-2023-12-02 02:02:56,898 - WARNING - find topic in list
-2023-12-02 02:02:56,913 - WARNING - create row in quate: 'I travel not to go anywhere, but to go. I travel for travels sake. The great affair is to move.'
-2023-12-02 02:02:56,913 - WARNING - add bluepoint auth
-2023-12-02 02:02:57,007 - WARNING - WARNING
-2023-12-02 02:02:57,007 - ERROR - ERROR
-2023-12-02 02:02:57,007 - CRITICAL - CRITICAL
-2023-12-02 02:02:57,244 - WARNING - create flask
-2023-12-02 02:02:57,511 - WARNING - create database NAME: sqlite:///dataBase.db
-2023-12-02 02:02:57,527 - WARNING - create engine
-2023-12-02 02:02:57,527 - WARNING - create session
-2023-12-02 02:02:57,527 - WARNING - Database does not exist.
-2023-12-02 02:02:57,527 - WARNING - clear database
-2023-12-02 02:02:57,559 - WARNING - create tables in database
-2023-12-02 02:02:57,590 - WARNING - fill database
-2023-12-02 02:02:57,590 - WARNING - qoute: Travel, 'I have not been everywhere, but it is on my list.' | Susan Sontag
-2023-12-02 02:02:57,606 - WARNING - author: None
-2023-12-02 02:02:57,606 - WARNING - find author in list
-2023-12-02 02:02:57,606 - WARNING - add new author: <website.database.models.Author object at 0x000002AD5689A880>
-2023-12-02 02:02:57,606 - WARNING - topic: None
-2023-12-02 02:02:57,606 - WARNING - find topic in list
-2023-12-02 02:02:57,623 - WARNING - add new topic: <website.database.models.Topic object at 0x000002AD568E7970>
-2023-12-02 02:02:57,623 - WARNING - create row in quate: 'I have not been everywhere, but it is on my list.'
-2023-12-02 02:02:57,623 - WARNING - qoute: Travel, 'Work, Travel, Save, Repeat.' | Unknown
-2023-12-02 02:02:57,623 - WARNING - author: None
-2023-12-02 02:02:57,623 - WARNING - find author in list
-2023-12-02 02:02:57,638 - WARNING - add new author: <website.database.models.Author object at 0x000002AD568D0E50>
-2023-12-02 02:02:57,638 - WARNING - topic: <website.database.models.Topic object at 0x000002AD568E7970>
-2023-12-02 02:02:57,638 - WARNING - find topic in list
-2023-12-02 02:02:57,638 - WARNING - create row in quate: 'Work, Travel, Save, Repeat.'
-2023-12-02 02:02:57,638 - WARNING - qoute: Travel, 'When preparing to travel, lay out all your clothes and all your money. Then take half the clothes and twice the money.' | Susan Heller
-2023-12-02 02:02:57,638 - WARNING - author: None
-2023-12-02 02:02:57,638 - WARNING - find author in list
-2023-12-02 02:02:57,638 - WARNING - add new author: <website.database.models.Author object at 0x000002AD568D0E50>
-2023-12-02 02:02:57,653 - WARNING - topic: <website.database.models.Topic object at 0x000002AD568E7970>
-2023-12-02 02:02:57,653 - WARNING - find topic in list
-2023-12-02 02:02:57,653 - WARNING - create row in quate: 'When preparing to travel, lay out all your clothes and all your money. Then take half the clothes and twice the money.'
-2023-12-02 02:02:57,653 - WARNING - qoute: Travel, 'Can we just skip to the part of my life where I travel the world?' | Unknown
-2023-12-02 02:02:57,653 - WARNING - author: <website.database.models.Author object at 0x000002AD568E7B50>
-2023-12-02 02:02:57,653 - WARNING - find author in list
-2023-12-02 02:02:57,653 - WARNING - topic: <website.database.models.Topic object at 0x000002AD568E7970>
-2023-12-02 02:02:57,653 - WARNING - find topic in list
-2023-12-02 02:02:57,653 - WARNING - create row in quate: 'Can we just skip to the part of my life where I travel the world?'
-2023-12-02 02:02:57,653 - WARNING - qoute: Travel, 'Vacation calories do not count. Right?' | Unknown
-2023-12-02 02:02:57,653 - WARNING - author: <website.database.models.Author object at 0x000002AD568E7B50>
-2023-12-02 02:02:57,653 - WARNING - find author in list
-2023-12-02 02:02:57,653 - WARNING - topic: <website.database.models.Topic object at 0x000002AD568E7970>
-2023-12-02 02:02:57,653 - WARNING - find topic in list
-2023-12-02 02:02:57,653 - WARNING - create row in quate: 'Vacation calories do not count. Right?'
-2023-12-02 02:02:57,653 - WARNING - qoute: Travel, 'I want someone to look at me the way I look at a travel magazine.' | Unknown
-2023-12-02 02:02:57,653 - WARNING - author: <website.database.models.Author object at 0x000002AD568E7B50>
-2023-12-02 02:02:57,653 - WARNING - find author in list
-2023-12-02 02:02:57,653 - WARNING - topic: <website.database.models.Topic object at 0x000002AD568E7970>
-2023-12-02 02:02:57,653 - WARNING - find topic in list
-2023-12-02 02:02:57,653 - WARNING - create row in quate: 'I want someone to look at me the way I look at a travel magazine.'
-2023-12-02 02:02:57,668 - WARNING - qoute: Travel, 'I need six months of vacation, twice a year.' | Unknown
-2023-12-02 02:02:57,668 - WARNING - author: <website.database.models.Author object at 0x000002AD568E7B50>
-2023-12-02 02:02:57,668 - WARNING - find author in list
-2023-12-02 02:02:57,668 - WARNING - topic: <website.database.models.Topic object at 0x000002AD568E7970>
-2023-12-02 02:02:57,668 - WARNING - find topic in list
-2023-12-02 02:02:57,668 - WARNING - create row in quate: 'I need six months of vacation, twice a year.'
-2023-12-02 02:02:57,668 - WARNING - qoute: Travel, 'The worst thing about being a tourist is having other tourists recognize you as a tourist.' | Russell Baker
-2023-12-02 02:02:57,668 - WARNING - author: None
-2023-12-02 02:02:57,668 - WARNING - find author in list
-2023-12-02 02:02:57,668 - WARNING - add new author: <website.database.models.Author object at 0x000002AD568E7B50>
-2023-12-02 02:02:57,668 - WARNING - topic: <website.database.models.Topic object at 0x000002AD568E7970>
-2023-12-02 02:02:57,668 - WARNING - find topic in list
-2023-12-02 02:02:57,668 - WARNING - create row in quate: 'The worst thing about being a tourist is having other tourists recognize you as a tourist.'
-2023-12-02 02:02:57,668 - WARNING - qoute: Travel, 'I have been to almost as many places as my luggage.' | Bob Hope
-2023-12-02 02:02:57,684 - WARNING - author: None
-2023-12-02 02:02:57,684 - WARNING - find author in list
-2023-12-02 02:02:57,684 - WARNING - add new author: <website.database.models.Author object at 0x000002AD5689A880>
-2023-12-02 02:02:57,684 - WARNING - topic: <website.database.models.Topic object at 0x000002AD568E7970>
-2023-12-02 02:02:57,684 - WARNING - find topic in list
-2023-12-02 02:02:57,684 - WARNING - create row in quate: 'I have been to almost as many places as my luggage.'
-2023-12-02 02:02:57,684 - WARNING - qoute: Travel, 'Travel becomes a strategy for accumulating photographs.' | Susan Sontag
-2023-12-02 02:02:57,684 - WARNING - author: <website.database.models.Author object at 0x000002AD568E7A30>
-2023-12-02 02:02:57,684 - WARNING - find author in list
-2023-12-02 02:02:57,684 - WARNING - topic: <website.database.models.Topic object at 0x000002AD568E7970>
-2023-12-02 02:02:57,684 - WARNING - find topic in list
-2023-12-02 02:02:57,684 - WARNING - create row in quate: 'Travel becomes a strategy for accumulating photographs.'
-2023-12-02 02:02:57,699 - WARNING - qoute: Travel, 'Man cannot discover new oceans unless he has the courage to lose sight of the shore.' | Andre Gide
-2023-12-02 02:02:57,699 - WARNING - author: None
-2023-12-02 02:02:57,699 - WARNING - find author in list
-2023-12-02 02:02:57,699 - WARNING - add new author: <website.database.models.Author object at 0x000002AD568E7A30>
-2023-12-02 02:02:57,699 - WARNING - topic: <website.database.models.Topic object at 0x000002AD568E7970>
-2023-12-02 02:02:57,699 - WARNING - find topic in list
-2023-12-02 02:02:57,699 - WARNING - create row in quate: 'Man cannot discover new oceans unless he has the courage to lose sight of the shore.'
-2023-12-02 02:02:57,699 - WARNING - qoute: Travel, 'Remember that happiness is a way of travel, not a destination.' | Roy M. Goodman
-2023-12-02 02:02:57,715 - WARNING - author: None
-2023-12-02 02:02:57,715 - WARNING - find author in list
-2023-12-02 02:02:57,724 - WARNING - add new author: <website.database.models.Author object at 0x000002AD56929040>
-2023-12-02 02:02:57,724 - WARNING - topic: <website.database.models.Topic object at 0x000002AD568E7970>
-2023-12-02 02:02:57,724 - WARNING - find topic in list
-2023-12-02 02:02:57,731 - WARNING - create row in quate: 'Remember that happiness is a way of travel, not a destination.'
-2023-12-02 02:02:57,731 - WARNING - qoute: Travel, The most beautiful in the world is, of course, the world itself.' | Wallace Stevens
-2023-12-02 02:02:57,731 - WARNING - author: None
-2023-12-02 02:02:57,731 - WARNING - find author in list
-2023-12-02 02:02:57,731 - WARNING - add new author: <website.database.models.Author object at 0x000002AD56811550>
-2023-12-02 02:02:57,731 - WARNING - topic: <website.database.models.Topic object at 0x000002AD568E7970>
-2023-12-02 02:02:57,731 - WARNING - find topic in list
-2023-12-02 02:02:57,747 - WARNING - create row in quate: The most beautiful in the world is, of course, the world itself.'
-2023-12-02 02:02:57,747 - WARNING - qoute: Travel, 'Traveling, it leaves you speechless, then turns you into a storyteller.' | Ibn Battuta
-2023-12-02 02:02:57,747 - WARNING - author: None
-2023-12-02 02:02:57,747 - WARNING - find author in list
-2023-12-02 02:02:57,747 - WARNING - add new author: <website.database.models.Author object at 0x000002AD56811550>
-2023-12-02 02:02:57,747 - WARNING - topic: <website.database.models.Topic object at 0x000002AD568E7970>
-2023-12-02 02:02:57,747 - WARNING - find topic in list
-2023-12-02 02:02:57,747 - WARNING - create row in quate: 'Traveling, it leaves you speechless, then turns you into a storyteller.'
-2023-12-02 02:02:57,747 - WARNING - qoute: Travel, 'We live in a wonderful world that is full of beauty, charm and adventure. There is no end to the adventures we can have if only we seek them with our eyes open.' | Jawaharial Nehru
-2023-12-02 02:02:57,762 - WARNING - author: None
-2023-12-02 02:02:57,762 - WARNING - find author in list
-2023-12-02 02:02:57,762 - WARNING - add new author: <website.database.models.Author object at 0x000002AD56811550>
-2023-12-02 02:02:57,762 - WARNING - topic: <website.database.models.Topic object at 0x000002AD568E7970>
-2023-12-02 02:02:57,762 - WARNING - find topic in list
-2023-12-02 02:02:57,762 - WARNING - create row in quate: 'We live in a wonderful world that is full of beauty, charm and adventure. There is no end to the adventures we can have if only we seek them with our eyes open.'
-2023-12-02 02:02:57,762 - WARNING - qoute: Travel, 'Perhaps travel cannot prevent bigotry, but by demonstrating that all peoples cry, laugh, eat, worry, and die, it can introduce the idea that if we try and understand each other, we may even become friends.' | Maya Angelou
-2023-12-02 02:02:57,779 - WARNING - author: None
-2023-12-02 02:02:57,779 - WARNING - find author in list
-2023-12-02 02:02:57,779 - WARNING - add new author: <website.database.models.Author object at 0x000002AD56811550>
-2023-12-02 02:02:57,779 - WARNING - topic: <website.database.models.Topic object at 0x000002AD568E7970>
-2023-12-02 02:02:57,779 - WARNING - find topic in list
-2023-12-02 02:02:57,779 - WARNING - create row in quate: 'Perhaps travel cannot prevent bigotry, but by demonstrating that all peoples cry, laugh, eat, worry, and die, it can introduce the idea that if we try and understand each other, we may even become friends.'
-2023-12-02 02:02:57,779 - WARNING - qoute: Travel, 'A person susceptible to wanderlust is not so much addicted to movement as committed to transformation.'  | Pico Iyer
-2023-12-02 02:02:57,779 - WARNING - author: None
-2023-12-02 02:02:57,779 - WARNING - find author in list
-2023-12-02 02:02:57,794 - WARNING - add new author: <website.database.models.Author object at 0x000002AD56811550>
-2023-12-02 02:02:57,794 - WARNING - topic: <website.database.models.Topic object at 0x000002AD568E7970>
-2023-12-02 02:02:57,794 - WARNING - find topic in list
-2023-12-02 02:02:57,794 - WARNING - create row in quate: 'A person susceptible to wanderlust is not so much addicted to movement as committed to transformation.' 
-2023-12-02 02:02:57,794 - WARNING - qoute: Travel, 'We travel, some of us forever, to seek other states, other lives, other souls.' | Anais Nin
-2023-12-02 02:02:57,794 - WARNING - author: None
-2023-12-02 02:02:57,794 - WARNING - find author in list
-2023-12-02 02:02:57,794 - WARNING - add new author: <website.database.models.Author object at 0x000002AD56811550>
-2023-12-02 02:02:57,809 - WARNING - topic: <website.database.models.Topic object at 0x000002AD568E7970>
-2023-12-02 02:02:57,809 - WARNING - find topic in list
-2023-12-02 02:02:57,809 - WARNING - create row in quate: 'We travel, some of us forever, to seek other states, other lives, other souls.'
-2023-12-02 02:02:57,809 - WARNING - qoute: Travel, 'I travel not to go anywhere, but to go. I travel for travels sake. The great affair is to move.' | Robert Louis Stevenson
-2023-12-02 02:02:57,809 - WARNING - author: None
-2023-12-02 02:02:57,809 - WARNING - find author in list
-2023-12-02 02:02:57,809 - WARNING - add new author: <website.database.models.Author object at 0x000002AD56811550>
-2023-12-02 02:02:57,809 - WARNING - topic: <website.database.models.Topic object at 0x000002AD568E7970>
-2023-12-02 02:02:57,809 - WARNING - find topic in list
-2023-12-02 02:02:57,809 - WARNING - create row in quate: 'I travel not to go anywhere, but to go. I travel for travels sake. The great affair is to move.'
-2023-12-02 02:02:57,825 - WARNING - add bluepoint auth
-2023-12-02 02:02:57,825 - WARNING -  * Debugger is active!
-2023-12-02 02:03:08,194 - WARNING - WARNING
-2023-12-02 02:03:08,194 - ERROR - ERROR
-2023-12-02 02:03:08,194 - CRITICAL - CRITICAL
-2023-12-02 02:03:08,446 - WARNING - create flask
-2023-12-02 02:03:08,682 - WARNING - create database NAME: sqlite:///dataBase.db
-2023-12-02 02:03:08,697 - WARNING - create engine
-2023-12-02 02:03:08,697 - WARNING - create session
-2023-12-02 02:03:08,697 - WARNING - Database does not exist.
-2023-12-02 02:03:08,697 - WARNING - clear database
-2023-12-02 02:03:08,734 - WARNING - create tables in database
-2023-12-02 02:03:08,744 - WARNING - fill database
-2023-12-02 02:03:08,744 - WARNING - qoute: Travel, 'I have not been everywhere, but it is on my list.' | Susan Sontag
-2023-12-02 02:03:08,744 - WARNING - author: None
-2023-12-02 02:03:08,744 - WARNING - find author in list
-2023-12-02 02:03:08,760 - WARNING - add new author: <website.database.models.Author object at 0x0000016E6970A880>
-2023-12-02 02:03:08,760 - WARNING - topic: None
-2023-12-02 02:03:08,760 - WARNING - find topic in list
-2023-12-02 02:03:08,760 - WARNING - add new topic: <website.database.models.Topic object at 0x0000016E69757970>
-2023-12-02 02:03:08,775 - WARNING - create row in quate: 'I have not been everywhere, but it is on my list.'
-2023-12-02 02:03:08,775 - WARNING - qoute: Travel, 'Work, Travel, Save, Repeat.' | Unknown
-2023-12-02 02:03:08,775 - WARNING - author: None
-2023-12-02 02:03:08,775 - WARNING - find author in list
-2023-12-02 02:03:08,775 - WARNING - add new author: <website.database.models.Author object at 0x0000016E69740E50>
-2023-12-02 02:03:08,775 - WARNING - topic: <website.database.models.Topic object at 0x0000016E69757970>
-2023-12-02 02:03:08,775 - WARNING - find topic in list
-2023-12-02 02:03:08,775 - WARNING - create row in quate: 'Work, Travel, Save, Repeat.'
-2023-12-02 02:03:08,775 - WARNING - qoute: Travel, 'When preparing to travel, lay out all your clothes and all your money. Then take half the clothes and twice the money.' | Susan Heller
-2023-12-02 02:03:08,775 - WARNING - author: None
-2023-12-02 02:03:08,775 - WARNING - find author in list
-2023-12-02 02:03:08,791 - WARNING - add new author: <website.database.models.Author object at 0x0000016E69740E50>
-2023-12-02 02:03:08,791 - WARNING - topic: <website.database.models.Topic object at 0x0000016E69757970>
-2023-12-02 02:03:08,791 - WARNING - find topic in list
-2023-12-02 02:03:08,791 - WARNING - create row in quate: 'When preparing to travel, lay out all your clothes and all your money. Then take half the clothes and twice the money.'
-2023-12-02 02:03:08,791 - WARNING - qoute: Travel, 'Can we just skip to the part of my life where I travel the world?' | Unknown
-2023-12-02 02:03:08,791 - WARNING - author: <website.database.models.Author object at 0x0000016E69757B50>
-2023-12-02 02:03:08,791 - WARNING - find author in list
-2023-12-02 02:03:08,791 - WARNING - topic: <website.database.models.Topic object at 0x0000016E69757970>
-2023-12-02 02:03:08,791 - WARNING - find topic in list
-2023-12-02 02:03:08,791 - WARNING - create row in quate: 'Can we just skip to the part of my life where I travel the world?'
-2023-12-02 02:03:08,791 - WARNING - qoute: Travel, 'Vacation calories do not count. Right?' | Unknown
-2023-12-02 02:03:08,791 - WARNING - author: <website.database.models.Author object at 0x0000016E69757B50>
-2023-12-02 02:03:08,791 - WARNING - find author in list
-2023-12-02 02:03:08,791 - WARNING - topic: <website.database.models.Topic object at 0x0000016E69757970>
-2023-12-02 02:03:08,791 - WARNING - find topic in list
-2023-12-02 02:03:08,791 - WARNING - create row in quate: 'Vacation calories do not count. Right?'
-2023-12-02 02:03:08,791 - WARNING - qoute: Travel, 'I want someone to look at me the way I look at a travel magazine.' | Unknown
-2023-12-02 02:03:08,807 - WARNING - author: <website.database.models.Author object at 0x0000016E69757B50>
-2023-12-02 02:03:08,807 - WARNING - find author in list
-2023-12-02 02:03:08,807 - WARNING - topic: <website.database.models.Topic object at 0x0000016E69757970>
-2023-12-02 02:03:08,807 - WARNING - find topic in list
-2023-12-02 02:03:08,807 - WARNING - create row in quate: 'I want someone to look at me the way I look at a travel magazine.'
-2023-12-02 02:03:08,807 - WARNING - qoute: Travel, 'I need six months of vacation, twice a year.' | Unknown
-2023-12-02 02:03:08,807 - WARNING - author: <website.database.models.Author object at 0x0000016E69757B50>
-2023-12-02 02:03:08,807 - WARNING - find author in list
-2023-12-02 02:03:08,807 - WARNING - topic: <website.database.models.Topic object at 0x0000016E69757970>
-2023-12-02 02:03:08,807 - WARNING - find topic in list
-2023-12-02 02:03:08,807 - WARNING - create row in quate: 'I need six months of vacation, twice a year.'
-2023-12-02 02:03:08,807 - WARNING - qoute: Travel, 'The worst thing about being a tourist is having other tourists recognize you as a tourist.' | Russell Baker
-2023-12-02 02:03:08,807 - WARNING - author: None
-2023-12-02 02:03:08,807 - WARNING - find author in list
-2023-12-02 02:03:08,822 - WARNING - add new author: <website.database.models.Author object at 0x0000016E69757B50>
-2023-12-02 02:03:08,822 - WARNING - topic: <website.database.models.Topic object at 0x0000016E69757970>
-2023-12-02 02:03:08,822 - WARNING - find topic in list
-2023-12-02 02:03:08,822 - WARNING - create row in quate: 'The worst thing about being a tourist is having other tourists recognize you as a tourist.'
-2023-12-02 02:03:08,822 - WARNING - qoute: Travel, 'I have been to almost as many places as my luggage.' | Bob Hope
-2023-12-02 02:03:08,822 - WARNING - author: None
-2023-12-02 02:03:08,822 - WARNING - find author in list
-2023-12-02 02:03:08,838 - WARNING - add new author: <website.database.models.Author object at 0x0000016E6970A880>
-2023-12-02 02:03:08,838 - WARNING - topic: <website.database.models.Topic object at 0x0000016E69757970>
-2023-12-02 02:03:08,838 - WARNING - find topic in list
-2023-12-02 02:03:08,838 - WARNING - create row in quate: 'I have been to almost as many places as my luggage.'
-2023-12-02 02:03:08,838 - WARNING - qoute: Travel, 'Travel becomes a strategy for accumulating photographs.' | Susan Sontag
-2023-12-02 02:03:08,844 - WARNING - author: <website.database.models.Author object at 0x0000016E69757A30>
-2023-12-02 02:03:08,844 - WARNING - find author in list
-2023-12-02 02:03:08,844 - WARNING - topic: <website.database.models.Topic object at 0x0000016E69757970>
-2023-12-02 02:03:08,844 - WARNING - find topic in list
-2023-12-02 02:03:08,844 - WARNING - create row in quate: 'Travel becomes a strategy for accumulating photographs.'
-2023-12-02 02:03:08,844 - WARNING - qoute: Travel, 'Man cannot discover new oceans unless he has the courage to lose sight of the shore.' | Andre Gide
-2023-12-02 02:03:08,844 - WARNING - author: None
-2023-12-02 02:03:08,844 - WARNING - find author in list
-2023-12-02 02:03:08,854 - WARNING - add new author: <website.database.models.Author object at 0x0000016E69757A30>
-2023-12-02 02:03:08,854 - WARNING - topic: <website.database.models.Topic object at 0x0000016E69757970>
-2023-12-02 02:03:08,854 - WARNING - find topic in list
-2023-12-02 02:03:08,854 - WARNING - create row in quate: 'Man cannot discover new oceans unless he has the courage to lose sight of the shore.'
-2023-12-02 02:03:08,854 - WARNING - qoute: Travel, 'Remember that happiness is a way of travel, not a destination.' | Roy M. Goodman
-2023-12-02 02:03:08,854 - WARNING - author: None
-2023-12-02 02:03:08,854 - WARNING - find author in list
-2023-12-02 02:03:08,854 - WARNING - add new author: <website.database.models.Author object at 0x0000016E69799040>
-2023-12-02 02:03:08,854 - WARNING - topic: <website.database.models.Topic object at 0x0000016E69757970>
-2023-12-02 02:03:08,854 - WARNING - find topic in list
-2023-12-02 02:03:08,854 - WARNING - create row in quate: 'Remember that happiness is a way of travel, not a destination.'
-2023-12-02 02:03:08,854 - WARNING - qoute: Travel, The most beautiful in the world is, of course, the world itself.' | Wallace Stevens
-2023-12-02 02:03:08,870 - WARNING - author: None
-2023-12-02 02:03:08,870 - WARNING - find author in list
-2023-12-02 02:03:08,870 - WARNING - add new author: <website.database.models.Author object at 0x0000016E69681550>
-2023-12-02 02:03:08,870 - WARNING - topic: <website.database.models.Topic object at 0x0000016E69757970>
-2023-12-02 02:03:08,870 - WARNING - find topic in list
-2023-12-02 02:03:08,870 - WARNING - create row in quate: The most beautiful in the world is, of course, the world itself.'
-2023-12-02 02:03:08,870 - WARNING - qoute: Travel, 'Traveling, it leaves you speechless, then turns you into a storyteller.' | Ibn Battuta
-2023-12-02 02:03:08,870 - WARNING - author: None
-2023-12-02 02:03:08,870 - WARNING - find author in list
-2023-12-02 02:03:08,885 - WARNING - add new author: <website.database.models.Author object at 0x0000016E69681550>
-2023-12-02 02:03:08,885 - WARNING - topic: <website.database.models.Topic object at 0x0000016E69757970>
-2023-12-02 02:03:08,885 - WARNING - find topic in list
-2023-12-02 02:03:08,885 - WARNING - create row in quate: 'Traveling, it leaves you speechless, then turns you into a storyteller.'
-2023-12-02 02:03:08,885 - WARNING - qoute: Travel, 'We live in a wonderful world that is full of beauty, charm and adventure. There is no end to the adventures we can have if only we seek them with our eyes open.' | Jawaharial Nehru
-2023-12-02 02:03:08,885 - WARNING - author: None
-2023-12-02 02:03:08,885 - WARNING - find author in list
-2023-12-02 02:03:08,885 - WARNING - add new author: <website.database.models.Author object at 0x0000016E69681550>
-2023-12-02 02:03:08,885 - WARNING - topic: <website.database.models.Topic object at 0x0000016E69757970>
-2023-12-02 02:03:08,885 - WARNING - find topic in list
-2023-12-02 02:03:08,885 - WARNING - create row in quate: 'We live in a wonderful world that is full of beauty, charm and adventure. There is no end to the adventures we can have if only we seek them with our eyes open.'
-2023-12-02 02:03:08,901 - WARNING - qoute: Travel, 'Perhaps travel cannot prevent bigotry, but by demonstrating that all peoples cry, laugh, eat, worry, and die, it can introduce the idea that if we try and understand each other, we may even become friends.' | Maya Angelou
-2023-12-02 02:03:08,901 - WARNING - author: None
-2023-12-02 02:03:08,901 - WARNING - find author in list
-2023-12-02 02:03:08,901 - WARNING - add new author: <website.database.models.Author object at 0x0000016E69681550>
-2023-12-02 02:03:08,901 - WARNING - topic: <website.database.models.Topic object at 0x0000016E69757970>
-2023-12-02 02:03:08,901 - WARNING - find topic in list
-2023-12-02 02:03:08,901 - WARNING - create row in quate: 'Perhaps travel cannot prevent bigotry, but by demonstrating that all peoples cry, laugh, eat, worry, and die, it can introduce the idea that if we try and understand each other, we may even become friends.'
-2023-12-02 02:03:08,916 - WARNING - qoute: Travel, 'A person susceptible to wanderlust is not so much addicted to movement as committed to transformation.'  | Pico Iyer
-2023-12-02 02:03:08,916 - WARNING - author: None
-2023-12-02 02:03:08,916 - WARNING - find author in list
-2023-12-02 02:03:08,916 - WARNING - add new author: <website.database.models.Author object at 0x0000016E69681550>
-2023-12-02 02:03:08,916 - WARNING - topic: <website.database.models.Topic object at 0x0000016E69757970>
-2023-12-02 02:03:08,916 - WARNING - find topic in list
-2023-12-02 02:03:08,916 - WARNING - create row in quate: 'A person susceptible to wanderlust is not so much addicted to movement as committed to transformation.' 
-2023-12-02 02:03:08,916 - WARNING - qoute: Travel, 'We travel, some of us forever, to seek other states, other lives, other souls.' | Anais Nin
-2023-12-02 02:03:08,916 - WARNING - author: None
-2023-12-02 02:03:08,932 - WARNING - find author in list
-2023-12-02 02:03:08,932 - WARNING - add new author: <website.database.models.Author object at 0x0000016E69681550>
-2023-12-02 02:03:08,932 - WARNING - topic: <website.database.models.Topic object at 0x0000016E69757970>
-2023-12-02 02:03:08,932 - WARNING - find topic in list
-2023-12-02 02:03:08,932 - WARNING - create row in quate: 'We travel, some of us forever, to seek other states, other lives, other souls.'
-2023-12-02 02:03:08,932 - WARNING - qoute: Travel, 'I travel not to go anywhere, but to go. I travel for travels sake. The great affair is to move.' | Robert Louis Stevenson
-2023-12-02 02:03:08,942 - WARNING - author: None
-2023-12-02 02:03:08,942 - WARNING - find author in list
-2023-12-02 02:03:08,945 - WARNING - add new author: <website.database.models.Author object at 0x0000016E69681550>
-2023-12-02 02:03:08,948 - WARNING - topic: <website.database.models.Topic object at 0x0000016E69757970>
-2023-12-02 02:03:08,948 - WARNING - find topic in list
-2023-12-02 02:03:08,948 - WARNING - create row in quate: 'I travel not to go anywhere, but to go. I travel for travels sake. The great affair is to move.'
-2023-12-02 02:03:08,948 - WARNING - add bluepoint auth
-2023-12-02 02:03:09,057 - WARNING - WARNING
-2023-12-02 02:03:09,057 - ERROR - ERROR
-2023-12-02 02:03:09,057 - CRITICAL - CRITICAL
-2023-12-02 02:03:09,309 - WARNING - create flask
-2023-12-02 02:03:09,576 - WARNING - create database NAME: sqlite:///dataBase.db
-2023-12-02 02:03:09,592 - WARNING - create engine
-2023-12-02 02:03:09,592 - WARNING - create session
-2023-12-02 02:03:09,592 - WARNING - Database does not exist.
-2023-12-02 02:03:09,592 - WARNING - clear database
-2023-12-02 02:03:09,623 - WARNING - create tables in database
-2023-12-02 02:03:09,646 - WARNING - fill database
-2023-12-02 02:03:09,646 - WARNING - qoute: Travel, 'I have not been everywhere, but it is on my list.' | Susan Sontag
-2023-12-02 02:03:09,654 - WARNING - author: None
-2023-12-02 02:03:09,654 - WARNING - find author in list
-2023-12-02 02:03:09,654 - WARNING - add new author: <website.database.models.Author object at 0x0000028D0FFBA880>
-2023-12-02 02:03:09,654 - WARNING - topic: None
-2023-12-02 02:03:09,654 - WARNING - find topic in list
-2023-12-02 02:03:09,670 - WARNING - add new topic: <website.database.models.Topic object at 0x0000028D10007970>
-2023-12-02 02:03:09,670 - WARNING - create row in quate: 'I have not been everywhere, but it is on my list.'
-2023-12-02 02:03:09,670 - WARNING - qoute: Travel, 'Work, Travel, Save, Repeat.' | Unknown
-2023-12-02 02:03:09,670 - WARNING - author: None
-2023-12-02 02:03:09,670 - WARNING - find author in list
-2023-12-02 02:03:09,670 - WARNING - add new author: <website.database.models.Author object at 0x0000028D0FFF0E50>
-2023-12-02 02:03:09,686 - WARNING - topic: <website.database.models.Topic object at 0x0000028D10007970>
-2023-12-02 02:03:09,686 - WARNING - find topic in list
-2023-12-02 02:03:09,686 - WARNING - create row in quate: 'Work, Travel, Save, Repeat.'
-2023-12-02 02:03:09,686 - WARNING - qoute: Travel, 'When preparing to travel, lay out all your clothes and all your money. Then take half the clothes and twice the money.' | Susan Heller
-2023-12-02 02:03:09,686 - WARNING - author: None
-2023-12-02 02:03:09,686 - WARNING - find author in list
-2023-12-02 02:03:09,686 - WARNING - add new author: <website.database.models.Author object at 0x0000028D0FFF0E50>
-2023-12-02 02:03:09,686 - WARNING - topic: <website.database.models.Topic object at 0x0000028D10007970>
-2023-12-02 02:03:09,686 - WARNING - find topic in list
-2023-12-02 02:03:09,686 - WARNING - create row in quate: 'When preparing to travel, lay out all your clothes and all your money. Then take half the clothes and twice the money.'
-2023-12-02 02:03:09,686 - WARNING - qoute: Travel, 'Can we just skip to the part of my life where I travel the world?' | Unknown
-2023-12-02 02:03:09,686 - WARNING - author: <website.database.models.Author object at 0x0000028D10007B50>
-2023-12-02 02:03:09,686 - WARNING - find author in list
-2023-12-02 02:03:09,701 - WARNING - topic: <website.database.models.Topic object at 0x0000028D10007970>
-2023-12-02 02:03:09,701 - WARNING - find topic in list
-2023-12-02 02:03:09,701 - WARNING - create row in quate: 'Can we just skip to the part of my life where I travel the world?'
-2023-12-02 02:03:09,701 - WARNING - qoute: Travel, 'Vacation calories do not count. Right?' | Unknown
-2023-12-02 02:03:09,701 - WARNING - author: <website.database.models.Author object at 0x0000028D10007B50>
-2023-12-02 02:03:09,701 - WARNING - find author in list
-2023-12-02 02:03:09,701 - WARNING - topic: <website.database.models.Topic object at 0x0000028D10007970>
-2023-12-02 02:03:09,701 - WARNING - find topic in list
-2023-12-02 02:03:09,701 - WARNING - create row in quate: 'Vacation calories do not count. Right?'
-2023-12-02 02:03:09,701 - WARNING - qoute: Travel, 'I want someone to look at me the way I look at a travel magazine.' | Unknown
-2023-12-02 02:03:09,701 - WARNING - author: <website.database.models.Author object at 0x0000028D10007B50>
-2023-12-02 02:03:09,701 - WARNING - find author in list
-2023-12-02 02:03:09,701 - WARNING - topic: <website.database.models.Topic object at 0x0000028D10007970>
-2023-12-02 02:03:09,701 - WARNING - find topic in list
-2023-12-02 02:03:09,701 - WARNING - create row in quate: 'I want someone to look at me the way I look at a travel magazine.'
-2023-12-02 02:03:09,701 - WARNING - qoute: Travel, 'I need six months of vacation, twice a year.' | Unknown
-2023-12-02 02:03:09,701 - WARNING - author: <website.database.models.Author object at 0x0000028D10007B50>
-2023-12-02 02:03:09,701 - WARNING - find author in list
-2023-12-02 02:03:09,701 - WARNING - topic: <website.database.models.Topic object at 0x0000028D10007970>
-2023-12-02 02:03:09,701 - WARNING - find topic in list
-2023-12-02 02:03:09,701 - WARNING - create row in quate: 'I need six months of vacation, twice a year.'
-2023-12-02 02:03:09,701 - WARNING - qoute: Travel, 'The worst thing about being a tourist is having other tourists recognize you as a tourist.' | Russell Baker
-2023-12-02 02:03:09,701 - WARNING - author: None
-2023-12-02 02:03:09,701 - WARNING - find author in list
-2023-12-02 02:03:09,717 - WARNING - add new author: <website.database.models.Author object at 0x0000028D10007B50>
-2023-12-02 02:03:09,717 - WARNING - topic: <website.database.models.Topic object at 0x0000028D10007970>
-2023-12-02 02:03:09,717 - WARNING - find topic in list
-2023-12-02 02:03:09,717 - WARNING - create row in quate: 'The worst thing about being a tourist is having other tourists recognize you as a tourist.'
-2023-12-02 02:03:09,717 - WARNING - qoute: Travel, 'I have been to almost as many places as my luggage.' | Bob Hope
-2023-12-02 02:03:09,717 - WARNING - author: None
-2023-12-02 02:03:09,717 - WARNING - find author in list
-2023-12-02 02:03:09,717 - WARNING - add new author: <website.database.models.Author object at 0x0000028D0FFBA880>
-2023-12-02 02:03:09,717 - WARNING - topic: <website.database.models.Topic object at 0x0000028D10007970>
-2023-12-02 02:03:09,717 - WARNING - find topic in list
-2023-12-02 02:03:09,717 - WARNING - create row in quate: 'I have been to almost as many places as my luggage.'
-2023-12-02 02:03:09,717 - WARNING - qoute: Travel, 'Travel becomes a strategy for accumulating photographs.' | Susan Sontag
-2023-12-02 02:03:09,733 - WARNING - author: <website.database.models.Author object at 0x0000028D10007A30>
-2023-12-02 02:03:09,733 - WARNING - find author in list
-2023-12-02 02:03:09,733 - WARNING - topic: <website.database.models.Topic object at 0x0000028D10007970>
-2023-12-02 02:03:09,733 - WARNING - find topic in list
-2023-12-02 02:03:09,733 - WARNING - create row in quate: 'Travel becomes a strategy for accumulating photographs.'
-2023-12-02 02:03:09,733 - WARNING - qoute: Travel, 'Man cannot discover new oceans unless he has the courage to lose sight of the shore.' | Andre Gide
-2023-12-02 02:03:09,733 - WARNING - author: None
-2023-12-02 02:03:09,733 - WARNING - find author in list
-2023-12-02 02:03:09,733 - WARNING - add new author: <website.database.models.Author object at 0x0000028D10007A30>
-2023-12-02 02:03:09,733 - WARNING - topic: <website.database.models.Topic object at 0x0000028D10007970>
-2023-12-02 02:03:09,733 - WARNING - find topic in list
-2023-12-02 02:03:09,733 - WARNING - create row in quate: 'Man cannot discover new oceans unless he has the courage to lose sight of the shore.'
-2023-12-02 02:03:09,733 - WARNING - qoute: Travel, 'Remember that happiness is a way of travel, not a destination.' | Roy M. Goodman
-2023-12-02 02:03:09,733 - WARNING - author: None
-2023-12-02 02:03:09,746 - WARNING - find author in list
-2023-12-02 02:03:09,748 - WARNING - add new author: <website.database.models.Author object at 0x0000028D10049040>
-2023-12-02 02:03:09,748 - WARNING - topic: <website.database.models.Topic object at 0x0000028D10007970>
-2023-12-02 02:03:09,748 - WARNING - find topic in list
-2023-12-02 02:03:09,748 - WARNING - create row in quate: 'Remember that happiness is a way of travel, not a destination.'
-2023-12-02 02:03:09,748 - WARNING - qoute: Travel, The most beautiful in the world is, of course, the world itself.' | Wallace Stevens
-2023-12-02 02:03:09,748 - WARNING - author: None
-2023-12-02 02:03:09,748 - WARNING - find author in list
-2023-12-02 02:03:09,748 - WARNING - add new author: <website.database.models.Author object at 0x0000028D0FF31550>
-2023-12-02 02:03:09,764 - WARNING - topic: <website.database.models.Topic object at 0x0000028D10007970>
-2023-12-02 02:03:09,764 - WARNING - find topic in list
-2023-12-02 02:03:09,764 - WARNING - create row in quate: The most beautiful in the world is, of course, the world itself.'
-2023-12-02 02:03:09,764 - WARNING - qoute: Travel, 'Traveling, it leaves you speechless, then turns you into a storyteller.' | Ibn Battuta
-2023-12-02 02:03:09,764 - WARNING - author: None
-2023-12-02 02:03:09,764 - WARNING - find author in list
-2023-12-02 02:03:09,780 - WARNING - add new author: <website.database.models.Author object at 0x0000028D0FF31550>
-2023-12-02 02:03:09,780 - WARNING - topic: <website.database.models.Topic object at 0x0000028D10007970>
-2023-12-02 02:03:09,780 - WARNING - find topic in list
-2023-12-02 02:03:09,780 - WARNING - create row in quate: 'Traveling, it leaves you speechless, then turns you into a storyteller.'
-2023-12-02 02:03:09,780 - WARNING - qoute: Travel, 'We live in a wonderful world that is full of beauty, charm and adventure. There is no end to the adventures we can have if only we seek them with our eyes open.' | Jawaharial Nehru
-2023-12-02 02:03:09,795 - WARNING - author: None
-2023-12-02 02:03:09,795 - WARNING - find author in list
-2023-12-02 02:03:09,795 - WARNING - add new author: <website.database.models.Author object at 0x0000028D0FF31550>
-2023-12-02 02:03:09,795 - WARNING - topic: <website.database.models.Topic object at 0x0000028D10007970>
-2023-12-02 02:03:09,795 - WARNING - find topic in list
-2023-12-02 02:03:09,795 - WARNING - create row in quate: 'We live in a wonderful world that is full of beauty, charm and adventure. There is no end to the adventures we can have if only we seek them with our eyes open.'
-2023-12-02 02:03:09,795 - WARNING - qoute: Travel, 'Perhaps travel cannot prevent bigotry, but by demonstrating that all peoples cry, laugh, eat, worry, and die, it can introduce the idea that if we try and understand each other, we may even become friends.' | Maya Angelou
-2023-12-02 02:03:09,811 - WARNING - author: None
-2023-12-02 02:03:09,811 - WARNING - find author in list
-2023-12-02 02:03:09,811 - WARNING - add new author: <website.database.models.Author object at 0x0000028D0FF31550>
-2023-12-02 02:03:09,811 - WARNING - topic: <website.database.models.Topic object at 0x0000028D10007970>
-2023-12-02 02:03:09,811 - WARNING - find topic in list
-2023-12-02 02:03:09,811 - WARNING - create row in quate: 'Perhaps travel cannot prevent bigotry, but by demonstrating that all peoples cry, laugh, eat, worry, and die, it can introduce the idea that if we try and understand each other, we may even become friends.'
-2023-12-02 02:03:09,811 - WARNING - qoute: Travel, 'A person susceptible to wanderlust is not so much addicted to movement as committed to transformation.'  | Pico Iyer
-2023-12-02 02:03:09,811 - WARNING - author: None
-2023-12-02 02:03:09,811 - WARNING - find author in list
-2023-12-02 02:03:09,827 - WARNING - add new author: <website.database.models.Author object at 0x0000028D0FF31550>
-2023-12-02 02:03:09,827 - WARNING - topic: <website.database.models.Topic object at 0x0000028D10007970>
-2023-12-02 02:03:09,827 - WARNING - find topic in list
-2023-12-02 02:03:09,827 - WARNING - create row in quate: 'A person susceptible to wanderlust is not so much addicted to movement as committed to transformation.' 
-2023-12-02 02:03:09,827 - WARNING - qoute: Travel, 'We travel, some of us forever, to seek other states, other lives, other souls.' | Anais Nin
-2023-12-02 02:03:09,827 - WARNING - author: None
-2023-12-02 02:03:09,827 - WARNING - find author in list
-2023-12-02 02:03:09,827 - WARNING - add new author: <website.database.models.Author object at 0x0000028D0FF31550>
-2023-12-02 02:03:09,842 - WARNING - topic: <website.database.models.Topic object at 0x0000028D10007970>
-2023-12-02 02:03:09,842 - WARNING - find topic in list
-2023-12-02 02:03:09,842 - WARNING - create row in quate: 'We travel, some of us forever, to seek other states, other lives, other souls.'
-2023-12-02 02:03:09,842 - WARNING - qoute: Travel, 'I travel not to go anywhere, but to go. I travel for travels sake. The great affair is to move.' | Robert Louis Stevenson
-2023-12-02 02:03:09,847 - WARNING - author: None
-2023-12-02 02:03:09,847 - WARNING - find author in list
-2023-12-02 02:03:09,847 - WARNING - add new author: <website.database.models.Author object at 0x0000028D0FF31550>
-2023-12-02 02:03:09,847 - WARNING - topic: <website.database.models.Topic object at 0x0000028D10007970>
-2023-12-02 02:03:09,847 - WARNING - find topic in list
-2023-12-02 02:03:09,847 - WARNING - create row in quate: 'I travel not to go anywhere, but to go. I travel for travels sake. The great affair is to move.'
-2023-12-02 02:03:09,858 - WARNING - add bluepoint auth
-2023-12-02 02:03:09,858 - WARNING -  * Debugger is active!
-2023-12-02 02:04:03,258 - WARNING - create flask
-2023-12-02 02:04:03,525 - WARNING - create database NAME: sqlite:///dataBase.db
-2023-12-02 02:04:03,541 - WARNING - create engine
-2023-12-02 02:04:03,541 - WARNING - create session
-2023-12-02 02:04:03,541 - WARNING - Database does not exist.
-2023-12-02 02:04:03,541 - WARNING - clear database
-2023-12-02 02:04:03,572 - WARNING - create tables in database
-2023-12-02 02:04:03,588 - WARNING - fill database
-2023-12-02 02:04:03,588 - WARNING - qoute: Travel, 'I have not been everywhere, but it is on my list.' | Susan Sontag
-2023-12-02 02:04:03,603 - WARNING - author: None
-2023-12-02 02:04:03,603 - WARNING - find author in list
-2023-12-02 02:04:03,619 - WARNING - add new author: <website.database.models.Author object at 0x000001AF77DC0100>
-2023-12-02 02:04:03,619 - WARNING - topic: None
-2023-12-02 02:04:03,619 - WARNING - find topic in list
-2023-12-02 02:04:03,635 - WARNING - add new topic: <website.database.models.Topic object at 0x000001AF77DC0BB0>
-2023-12-02 02:04:03,641 - WARNING - create row in quate: 'I have not been everywhere, but it is on my list.'
-2023-12-02 02:04:03,641 - WARNING - qoute: Travel, 'Work, Travel, Save, Repeat.' | Unknown
-2023-12-02 02:04:03,641 - WARNING - author: None
-2023-12-02 02:04:03,641 - WARNING - find author in list
-2023-12-02 02:04:03,651 - WARNING - add new author: <website.database.models.Author object at 0x000001AF77DC0100>
-2023-12-02 02:04:03,651 - WARNING - topic: <website.database.models.Topic object at 0x000001AF77DC0BB0>
-2023-12-02 02:04:03,651 - WARNING - find topic in list
-2023-12-02 02:04:03,651 - WARNING - create row in quate: 'Work, Travel, Save, Repeat.'
-2023-12-02 02:04:03,651 - WARNING - qoute: Travel, 'When preparing to travel, lay out all your clothes and all your money. Then take half the clothes and twice the money.' | Susan Heller
-2023-12-02 02:04:03,651 - WARNING - author: None
-2023-12-02 02:04:03,651 - WARNING - find author in list
-2023-12-02 02:04:03,666 - WARNING - add new author: <website.database.models.Author object at 0x000001AF77DC0100>
-2023-12-02 02:04:03,666 - WARNING - topic: <website.database.models.Topic object at 0x000001AF77DC0BB0>
-2023-12-02 02:04:03,666 - WARNING - find topic in list
-2023-12-02 02:04:03,666 - WARNING - create row in quate: 'When preparing to travel, lay out all your clothes and all your money. Then take half the clothes and twice the money.'
-2023-12-02 02:04:03,666 - WARNING - qoute: Travel, 'Can we just skip to the part of my life where I travel the world?' | Unknown
-2023-12-02 02:04:03,666 - WARNING - author: <website.database.models.Author object at 0x000001AF77E1ACA0>
-2023-12-02 02:04:03,666 - WARNING - find author in list
-2023-12-02 02:04:03,666 - WARNING - topic: <website.database.models.Topic object at 0x000001AF77DC0BB0>
-2023-12-02 02:04:03,666 - WARNING - find topic in list
-2023-12-02 02:04:03,682 - WARNING - create row in quate: 'Can we just skip to the part of my life where I travel the world?'
-2023-12-02 02:04:03,682 - WARNING - qoute: Travel, 'Vacation calories do not count. Right?' | Unknown
-2023-12-02 02:04:03,682 - WARNING - author: <website.database.models.Author object at 0x000001AF77E1ACA0>
-2023-12-02 02:04:03,682 - WARNING - find author in list
-2023-12-02 02:04:03,682 - WARNING - topic: <website.database.models.Topic object at 0x000001AF77DC0BB0>
-2023-12-02 02:04:03,682 - WARNING - find topic in list
-2023-12-02 02:04:03,682 - WARNING - create row in quate: 'Vacation calories do not count. Right?'
-2023-12-02 02:04:03,682 - WARNING - qoute: Travel, 'I want someone to look at me the way I look at a travel magazine.' | Unknown
-2023-12-02 02:04:03,682 - WARNING - author: <website.database.models.Author object at 0x000001AF77E1ACA0>
-2023-12-02 02:04:03,682 - WARNING - find author in list
-2023-12-02 02:04:03,682 - WARNING - topic: <website.database.models.Topic object at 0x000001AF77DC0BB0>
-2023-12-02 02:04:03,682 - WARNING - find topic in list
-2023-12-02 02:04:03,682 - WARNING - create row in quate: 'I want someone to look at me the way I look at a travel magazine.'
-2023-12-02 02:04:03,682 - WARNING - qoute: Travel, 'I need six months of vacation, twice a year.' | Unknown
-2023-12-02 02:04:03,682 - WARNING - author: <website.database.models.Author object at 0x000001AF77E1ACA0>
-2023-12-02 02:04:03,682 - WARNING - find author in list
-2023-12-02 02:04:03,682 - WARNING - topic: <website.database.models.Topic object at 0x000001AF77DC0BB0>
-2023-12-02 02:04:03,682 - WARNING - find topic in list
-2023-12-02 02:04:03,682 - WARNING - create row in quate: 'I need six months of vacation, twice a year.'
-2023-12-02 02:04:03,682 - WARNING - qoute: Travel, 'The worst thing about being a tourist is having other tourists recognize you as a tourist.' | Russell Baker
-2023-12-02 02:04:03,682 - WARNING - author: None
-2023-12-02 02:04:03,682 - WARNING - find author in list
-2023-12-02 02:04:03,697 - WARNING - add new author: <website.database.models.Author object at 0x000001AF77DDA5B0>
-2023-12-02 02:04:03,697 - WARNING - topic: <website.database.models.Topic object at 0x000001AF77DC0BB0>
-2023-12-02 02:04:03,697 - WARNING - find topic in list
-2023-12-02 02:04:03,697 - WARNING - create row in quate: 'The worst thing about being a tourist is having other tourists recognize you as a tourist.'
-2023-12-02 02:04:03,697 - WARNING - qoute: Travel, 'I have been to almost as many places as my luggage.' | Bob Hope
-2023-12-02 02:04:03,697 - WARNING - author: None
-2023-12-02 02:04:03,697 - WARNING - find author in list
-2023-12-02 02:04:03,713 - WARNING - add new author: <website.database.models.Author object at 0x000001AF77DDA5B0>
-2023-12-02 02:04:03,713 - WARNING - topic: <website.database.models.Topic object at 0x000001AF77DC0BB0>
-2023-12-02 02:04:03,713 - WARNING - find topic in list
-2023-12-02 02:04:03,713 - WARNING - create row in quate: 'I have been to almost as many places as my luggage.'
-2023-12-02 02:04:03,713 - WARNING - qoute: Travel, 'Travel becomes a strategy for accumulating photographs.' | Susan Sontag
-2023-12-02 02:04:03,713 - WARNING - author: <website.database.models.Author object at 0x000001AF77E24670>
-2023-12-02 02:04:03,713 - WARNING - find author in list
-2023-12-02 02:04:03,713 - WARNING - topic: <website.database.models.Topic object at 0x000001AF77DC0BB0>
-2023-12-02 02:04:03,713 - WARNING - find topic in list
-2023-12-02 02:04:03,713 - WARNING - create row in quate: 'Travel becomes a strategy for accumulating photographs.'
-2023-12-02 02:04:03,713 - WARNING - qoute: Travel, 'Man cannot discover new oceans unless he has the courage to lose sight of the shore.' | Andre Gide
-2023-12-02 02:04:03,713 - WARNING - author: None
-2023-12-02 02:04:03,713 - WARNING - find author in list
-2023-12-02 02:04:03,729 - WARNING - add new author: <website.database.models.Author object at 0x000001AF77E1A6D0>
-2023-12-02 02:04:03,729 - WARNING - topic: <website.database.models.Topic object at 0x000001AF77DC0BB0>
-2023-12-02 02:04:03,729 - WARNING - find topic in list
-2023-12-02 02:04:03,729 - WARNING - create row in quate: 'Man cannot discover new oceans unless he has the courage to lose sight of the shore.'
-2023-12-02 02:04:03,729 - WARNING - qoute: Travel, 'Remember that happiness is a way of travel, not a destination.' | Roy M. Goodman
-2023-12-02 02:04:03,741 - WARNING - author: None
-2023-12-02 02:04:03,741 - WARNING - find author in list
-2023-12-02 02:04:03,744 - WARNING - add new author: <website.database.models.Author object at 0x000001AF77E1A6D0>
-2023-12-02 02:04:03,744 - WARNING - topic: <website.database.models.Topic object at 0x000001AF77DC0BB0>
-2023-12-02 02:04:03,744 - WARNING - find topic in list
-2023-12-02 02:04:03,744 - WARNING - create row in quate: 'Remember that happiness is a way of travel, not a destination.'
-2023-12-02 02:04:03,744 - WARNING - qoute: Travel, The most beautiful in the world is, of course, the world itself.' | Wallace Stevens
-2023-12-02 02:04:03,744 - WARNING - author: None
-2023-12-02 02:04:03,744 - WARNING - find author in list
-2023-12-02 02:04:03,760 - WARNING - add new author: <website.database.models.Author object at 0x000001AF77DDAD60>
-2023-12-02 02:04:03,760 - WARNING - topic: <website.database.models.Topic object at 0x000001AF77DC0BB0>
-2023-12-02 02:04:03,760 - WARNING - find topic in list
-2023-12-02 02:04:03,760 - WARNING - create row in quate: The most beautiful in the world is, of course, the world itself.'
-2023-12-02 02:04:03,760 - WARNING - qoute: Travel, 'Traveling, it leaves you speechless, then turns you into a storyteller.' | Ibn Battuta
-2023-12-02 02:04:03,760 - WARNING - author: None
-2023-12-02 02:04:03,760 - WARNING - find author in list
-2023-12-02 02:04:03,760 - WARNING - add new author: <website.database.models.Author object at 0x000001AF77DDAD60>
-2023-12-02 02:04:03,760 - WARNING - topic: <website.database.models.Topic object at 0x000001AF77DC0BB0>
-2023-12-02 02:04:03,760 - WARNING - find topic in list
-2023-12-02 02:04:03,776 - WARNING - create row in quate: 'Traveling, it leaves you speechless, then turns you into a storyteller.'
-2023-12-02 02:04:03,776 - WARNING - qoute: Travel, 'We live in a wonderful world that is full of beauty, charm and adventure. There is no end to the adventures we can have if only we seek them with our eyes open.' | Jawaharial Nehru
-2023-12-02 02:04:03,776 - WARNING - author: None
-2023-12-02 02:04:03,776 - WARNING - find author in list
-2023-12-02 02:04:03,776 - WARNING - add new author: <website.database.models.Author object at 0x000001AF77DDAD60>
-2023-12-02 02:04:03,776 - WARNING - topic: <website.database.models.Topic object at 0x000001AF77DC0BB0>
-2023-12-02 02:04:03,776 - WARNING - find topic in list
-2023-12-02 02:04:03,776 - WARNING - create row in quate: 'We live in a wonderful world that is full of beauty, charm and adventure. There is no end to the adventures we can have if only we seek them with our eyes open.'
-2023-12-02 02:04:03,776 - WARNING - qoute: Travel, 'Perhaps travel cannot prevent bigotry, but by demonstrating that all peoples cry, laugh, eat, worry, and die, it can introduce the idea that if we try and understand each other, we may even become friends.' | Maya Angelou
-2023-12-02 02:04:03,791 - WARNING - author: None
-2023-12-02 02:04:03,791 - WARNING - find author in list
-2023-12-02 02:04:03,791 - WARNING - add new author: <website.database.models.Author object at 0x000001AF77DDAD60>
-2023-12-02 02:04:03,791 - WARNING - topic: <website.database.models.Topic object at 0x000001AF77DC0BB0>
-2023-12-02 02:04:03,791 - WARNING - find topic in list
-2023-12-02 02:04:03,807 - WARNING - create row in quate: 'Perhaps travel cannot prevent bigotry, but by demonstrating that all peoples cry, laugh, eat, worry, and die, it can introduce the idea that if we try and understand each other, we may even become friends.'
-2023-12-02 02:04:03,807 - WARNING - qoute: Travel, 'A person susceptible to wanderlust is not so much addicted to movement as committed to transformation.'  | Pico Iyer
-2023-12-02 02:04:03,807 - WARNING - author: None
-2023-12-02 02:04:03,807 - WARNING - find author in list
-2023-12-02 02:04:03,807 - WARNING - add new author: <website.database.models.Author object at 0x000001AF77DDAD60>
-2023-12-02 02:04:03,822 - WARNING - topic: <website.database.models.Topic object at 0x000001AF77DC0BB0>
-2023-12-02 02:04:03,822 - WARNING - find topic in list
-2023-12-02 02:04:03,822 - WARNING - create row in quate: 'A person susceptible to wanderlust is not so much addicted to movement as committed to transformation.' 
-2023-12-02 02:04:03,822 - WARNING - qoute: Travel, 'We travel, some of us forever, to seek other states, other lives, other souls.' | Anais Nin
-2023-12-02 02:04:03,822 - WARNING - author: None
-2023-12-02 02:04:03,822 - WARNING - find author in list
-2023-12-02 02:04:03,822 - WARNING - add new author: <website.database.models.Author object at 0x000001AF77DDAD60>
-2023-12-02 02:04:03,842 - WARNING - topic: <website.database.models.Topic object at 0x000001AF77DC0BB0>
-2023-12-02 02:04:03,842 - WARNING - find topic in list
-2023-12-02 02:04:03,842 - WARNING - create row in quate: 'We travel, some of us forever, to seek other states, other lives, other souls.'
-2023-12-02 02:04:03,842 - WARNING - qoute: Travel, 'I travel not to go anywhere, but to go. I travel for travels sake. The great affair is to move.' | Robert Louis Stevenson
-2023-12-02 02:04:03,842 - WARNING - author: None
-2023-12-02 02:04:03,842 - WARNING - find author in list
-2023-12-02 02:04:03,842 - WARNING - add new author: <website.database.models.Author object at 0x000001AF77DDAD60>
-2023-12-02 02:04:03,854 - WARNING - topic: <website.database.models.Topic object at 0x000001AF77DC0BB0>
-2023-12-02 02:04:03,854 - WARNING - find topic in list
-2023-12-02 02:04:03,854 - WARNING - create row in quate: 'I travel not to go anywhere, but to go. I travel for travels sake. The great affair is to move.'
-2023-12-02 02:04:03,870 - WARNING - add bluepoint auth
-2023-12-02 02:04:04,231 - WARNING - create flask
-2023-12-02 02:04:04,466 - WARNING - create database NAME: sqlite:///dataBase.db
-2023-12-02 02:04:04,482 - WARNING - create engine
-2023-12-02 02:04:04,482 - WARNING - create session
-2023-12-02 02:04:04,482 - WARNING - Database does not exist.
-2023-12-02 02:04:04,497 - WARNING - clear database
-2023-12-02 02:04:04,529 - WARNING - create tables in database
-2023-12-02 02:04:04,545 - WARNING - fill database
-2023-12-02 02:04:04,545 - WARNING - qoute: Travel, 'I have not been everywhere, but it is on my list.' | Susan Sontag
-2023-12-02 02:04:04,545 - WARNING - author: None
-2023-12-02 02:04:04,545 - WARNING - find author in list
-2023-12-02 02:04:04,561 - WARNING - add new author: <website.database.models.Author object at 0x00000205D4B10850>
-2023-12-02 02:04:04,561 - WARNING - topic: None
-2023-12-02 02:04:04,561 - WARNING - find topic in list
-2023-12-02 02:04:04,561 - WARNING - add new topic: <website.database.models.Topic object at 0x00000205D4B1EAF0>
-2023-12-02 02:04:04,576 - WARNING - create row in quate: 'I have not been everywhere, but it is on my list.'
-2023-12-02 02:04:04,576 - WARNING - qoute: Travel, 'Work, Travel, Save, Repeat.' | Unknown
-2023-12-02 02:04:04,576 - WARNING - author: None
-2023-12-02 02:04:04,576 - WARNING - find author in list
-2023-12-02 02:04:04,576 - WARNING - add new author: <website.database.models.Author object at 0x00000205D4B10850>
-2023-12-02 02:04:04,576 - WARNING - topic: <website.database.models.Topic object at 0x00000205D4B1EAF0>
-2023-12-02 02:04:04,576 - WARNING - find topic in list
-2023-12-02 02:04:04,576 - WARNING - create row in quate: 'Work, Travel, Save, Repeat.'
-2023-12-02 02:04:04,576 - WARNING - qoute: Travel, 'When preparing to travel, lay out all your clothes and all your money. Then take half the clothes and twice the money.' | Susan Heller
-2023-12-02 02:04:04,576 - WARNING - author: None
-2023-12-02 02:04:04,576 - WARNING - find author in list
-2023-12-02 02:04:04,592 - WARNING - add new author: <website.database.models.Author object at 0x00000205D4B10850>
-2023-12-02 02:04:04,592 - WARNING - topic: <website.database.models.Topic object at 0x00000205D4B1EAF0>
-2023-12-02 02:04:04,592 - WARNING - find topic in list
-2023-12-02 02:04:04,592 - WARNING - create row in quate: 'When preparing to travel, lay out all your clothes and all your money. Then take half the clothes and twice the money.'
-2023-12-02 02:04:04,592 - WARNING - qoute: Travel, 'Can we just skip to the part of my life where I travel the world?' | Unknown
-2023-12-02 02:04:04,592 - WARNING - author: <website.database.models.Author object at 0x00000205D4B780A0>
-2023-12-02 02:04:04,592 - WARNING - find author in list
-2023-12-02 02:04:04,592 - WARNING - topic: <website.database.models.Topic object at 0x00000205D4B1EAF0>
-2023-12-02 02:04:04,592 - WARNING - find topic in list
-2023-12-02 02:04:04,592 - WARNING - create row in quate: 'Can we just skip to the part of my life where I travel the world?'
-2023-12-02 02:04:04,592 - WARNING - qoute: Travel, 'Vacation calories do not count. Right?' | Unknown
-2023-12-02 02:04:04,592 - WARNING - author: <website.database.models.Author object at 0x00000205D4B780A0>
-2023-12-02 02:04:04,592 - WARNING - find author in list
-2023-12-02 02:04:04,592 - WARNING - topic: <website.database.models.Topic object at 0x00000205D4B1EAF0>
-2023-12-02 02:04:04,592 - WARNING - find topic in list
-2023-12-02 02:04:04,592 - WARNING - create row in quate: 'Vacation calories do not count. Right?'
-2023-12-02 02:04:04,592 - WARNING - qoute: Travel, 'I want someone to look at me the way I look at a travel magazine.' | Unknown
-2023-12-02 02:04:04,592 - WARNING - author: <website.database.models.Author object at 0x00000205D4B780A0>
-2023-12-02 02:04:04,592 - WARNING - find author in list
-2023-12-02 02:04:04,592 - WARNING - topic: <website.database.models.Topic object at 0x00000205D4B1EAF0>
-2023-12-02 02:04:04,592 - WARNING - find topic in list
-2023-12-02 02:04:04,592 - WARNING - create row in quate: 'I want someone to look at me the way I look at a travel magazine.'
-2023-12-02 02:04:04,592 - WARNING - qoute: Travel, 'I need six months of vacation, twice a year.' | Unknown
-2023-12-02 02:04:04,608 - WARNING - author: <website.database.models.Author object at 0x00000205D4B780A0>
-2023-12-02 02:04:04,608 - WARNING - find author in list
-2023-12-02 02:04:04,608 - WARNING - topic: <website.database.models.Topic object at 0x00000205D4B1EAF0>
-2023-12-02 02:04:04,608 - WARNING - find topic in list
-2023-12-02 02:04:04,608 - WARNING - create row in quate: 'I need six months of vacation, twice a year.'
-2023-12-02 02:04:04,608 - WARNING - qoute: Travel, 'The worst thing about being a tourist is having other tourists recognize you as a tourist.' | Russell Baker
-2023-12-02 02:04:04,608 - WARNING - author: None
-2023-12-02 02:04:04,608 - WARNING - find author in list
-2023-12-02 02:04:04,608 - WARNING - add new author: <website.database.models.Author object at 0x00000205D4B10850>
-2023-12-02 02:04:04,608 - WARNING - topic: <website.database.models.Topic object at 0x00000205D4B1EAF0>
-2023-12-02 02:04:04,608 - WARNING - find topic in list
-2023-12-02 02:04:04,608 - WARNING - create row in quate: 'The worst thing about being a tourist is having other tourists recognize you as a tourist.'
-2023-12-02 02:04:04,608 - WARNING - qoute: Travel, 'I have been to almost as many places as my luggage.' | Bob Hope
-2023-12-02 02:04:04,608 - WARNING - author: None
-2023-12-02 02:04:04,608 - WARNING - find author in list
-2023-12-02 02:04:04,623 - WARNING - add new author: <website.database.models.Author object at 0x00000205D4B10850>
-2023-12-02 02:04:04,623 - WARNING - topic: <website.database.models.Topic object at 0x00000205D4B1EAF0>
-2023-12-02 02:04:04,623 - WARNING - find topic in list
-2023-12-02 02:04:04,623 - WARNING - create row in quate: 'I have been to almost as many places as my luggage.'
-2023-12-02 02:04:04,623 - WARNING - qoute: Travel, 'Travel becomes a strategy for accumulating photographs.' | Susan Sontag
-2023-12-02 02:04:04,623 - WARNING - author: <website.database.models.Author object at 0x00000205D4B83670>
-2023-12-02 02:04:04,623 - WARNING - find author in list
-2023-12-02 02:04:04,623 - WARNING - topic: <website.database.models.Topic object at 0x00000205D4B1EAF0>
-2023-12-02 02:04:04,623 - WARNING - find topic in list
-2023-12-02 02:04:04,623 - WARNING - create row in quate: 'Travel becomes a strategy for accumulating photographs.'
-2023-12-02 02:04:04,623 - WARNING - qoute: Travel, 'Man cannot discover new oceans unless he has the courage to lose sight of the shore.' | Andre Gide
-2023-12-02 02:04:04,623 - WARNING - author: None
-2023-12-02 02:04:04,623 - WARNING - find author in list
-2023-12-02 02:04:04,639 - WARNING - add new author: <website.database.models.Author object at 0x00000205D4B782B0>
-2023-12-02 02:04:04,643 - WARNING - topic: <website.database.models.Topic object at 0x00000205D4B1EAF0>
-2023-12-02 02:04:04,643 - WARNING - find topic in list
-2023-12-02 02:04:04,643 - WARNING - create row in quate: 'Man cannot discover new oceans unless he has the courage to lose sight of the shore.'
-2023-12-02 02:04:04,643 - WARNING - qoute: Travel, 'Remember that happiness is a way of travel, not a destination.' | Roy M. Goodman
-2023-12-02 02:04:04,643 - WARNING - author: None
-2023-12-02 02:04:04,643 - WARNING - find author in list
-2023-12-02 02:04:04,655 - WARNING - add new author: <website.database.models.Author object at 0x00000205D4B38490>
-2023-12-02 02:04:04,655 - WARNING - topic: <website.database.models.Topic object at 0x00000205D4B1EAF0>
-2023-12-02 02:04:04,655 - WARNING - find topic in list
-2023-12-02 02:04:04,655 - WARNING - create row in quate: 'Remember that happiness is a way of travel, not a destination.'
-2023-12-02 02:04:04,655 - WARNING - qoute: Travel, The most beautiful in the world is, of course, the world itself.' | Wallace Stevens
-2023-12-02 02:04:04,655 - WARNING - author: None
-2023-12-02 02:04:04,655 - WARNING - find author in list
-2023-12-02 02:04:04,671 - WARNING - add new author: <website.database.models.Author object at 0x00000205D4B3F670>
-2023-12-02 02:04:04,671 - WARNING - topic: <website.database.models.Topic object at 0x00000205D4B1EAF0>
-2023-12-02 02:04:04,671 - WARNING - find topic in list
-2023-12-02 02:04:04,671 - WARNING - create row in quate: The most beautiful in the world is, of course, the world itself.'
-2023-12-02 02:04:04,671 - WARNING - qoute: Travel, 'Traveling, it leaves you speechless, then turns you into a storyteller.' | Ibn Battuta
-2023-12-02 02:04:04,671 - WARNING - author: None
-2023-12-02 02:04:04,671 - WARNING - find author in list
-2023-12-02 02:04:04,686 - WARNING - add new author: <website.database.models.Author object at 0x00000205D4B3F670>
-2023-12-02 02:04:04,686 - WARNING - topic: <website.database.models.Topic object at 0x00000205D4B1EAF0>
-2023-12-02 02:04:04,686 - WARNING - find topic in list
-2023-12-02 02:04:04,686 - WARNING - create row in quate: 'Traveling, it leaves you speechless, then turns you into a storyteller.'
-2023-12-02 02:04:04,686 - WARNING - qoute: Travel, 'We live in a wonderful world that is full of beauty, charm and adventure. There is no end to the adventures we can have if only we seek them with our eyes open.' | Jawaharial Nehru
-2023-12-02 02:04:04,686 - WARNING - author: None
-2023-12-02 02:04:04,702 - WARNING - find author in list
-2023-12-02 02:04:04,702 - WARNING - add new author: <website.database.models.Author object at 0x00000205D4B3F670>
-2023-12-02 02:04:04,702 - WARNING - topic: <website.database.models.Topic object at 0x00000205D4B1EAF0>
-2023-12-02 02:04:04,702 - WARNING - find topic in list
-2023-12-02 02:04:04,702 - WARNING - create row in quate: 'We live in a wonderful world that is full of beauty, charm and adventure. There is no end to the adventures we can have if only we seek them with our eyes open.'
-2023-12-02 02:04:04,702 - WARNING - qoute: Travel, 'Perhaps travel cannot prevent bigotry, but by demonstrating that all peoples cry, laugh, eat, worry, and die, it can introduce the idea that if we try and understand each other, we may even become friends.' | Maya Angelou
-2023-12-02 02:04:04,718 - WARNING - author: None
-2023-12-02 02:04:04,718 - WARNING - find author in list
-2023-12-02 02:04:04,718 - WARNING - add new author: <website.database.models.Author object at 0x00000205D4B3F670>
-2023-12-02 02:04:04,718 - WARNING - topic: <website.database.models.Topic object at 0x00000205D4B1EAF0>
-2023-12-02 02:04:04,718 - WARNING - find topic in list
-2023-12-02 02:04:04,718 - WARNING - create row in quate: 'Perhaps travel cannot prevent bigotry, but by demonstrating that all peoples cry, laugh, eat, worry, and die, it can introduce the idea that if we try and understand each other, we may even become friends.'
-2023-12-02 02:04:04,718 - WARNING - qoute: Travel, 'A person susceptible to wanderlust is not so much addicted to movement as committed to transformation.'  | Pico Iyer
-2023-12-02 02:04:04,718 - WARNING - author: None
-2023-12-02 02:04:04,718 - WARNING - find author in list
-2023-12-02 02:04:04,733 - WARNING - add new author: <website.database.models.Author object at 0x00000205D4B3F670>
-2023-12-02 02:04:04,733 - WARNING - topic: <website.database.models.Topic object at 0x00000205D4B1EAF0>
-2023-12-02 02:04:04,733 - WARNING - find topic in list
-2023-12-02 02:04:04,733 - WARNING - create row in quate: 'A person susceptible to wanderlust is not so much addicted to movement as committed to transformation.' 
-2023-12-02 02:04:04,733 - WARNING - qoute: Travel, 'We travel, some of us forever, to seek other states, other lives, other souls.' | Anais Nin
-2023-12-02 02:04:04,743 - WARNING - author: None
-2023-12-02 02:04:04,743 - WARNING - find author in list
-2023-12-02 02:04:04,743 - WARNING - add new author: <website.database.models.Author object at 0x00000205D4B3F670>
-2023-12-02 02:04:04,749 - WARNING - topic: <website.database.models.Topic object at 0x00000205D4B1EAF0>
-2023-12-02 02:04:04,749 - WARNING - find topic in list
-2023-12-02 02:04:04,749 - WARNING - create row in quate: 'We travel, some of us forever, to seek other states, other lives, other souls.'
-2023-12-02 02:04:04,749 - WARNING - qoute: Travel, 'I travel not to go anywhere, but to go. I travel for travels sake. The great affair is to move.' | Robert Louis Stevenson
-2023-12-02 02:04:04,749 - WARNING - author: None
-2023-12-02 02:04:04,749 - WARNING - find author in list
-2023-12-02 02:04:04,749 - WARNING - add new author: <website.database.models.Author object at 0x00000205D4B3F670>
-2023-12-02 02:04:04,749 - WARNING - topic: <website.database.models.Topic object at 0x00000205D4B1EAF0>
-2023-12-02 02:04:04,749 - WARNING - find topic in list
-2023-12-02 02:04:04,749 - WARNING - create row in quate: 'I travel not to go anywhere, but to go. I travel for travels sake. The great affair is to move.'
-2023-12-02 02:04:04,765 - WARNING - add bluepoint auth
-2023-12-02 02:04:04,765 - WARNING -  * Debugger is active!
+2023-12-02 03:42:52,264 - WARNING - create flask
+2023-12-02 03:42:52,531 - WARNING - create database NAME: sqlite:///dataBase.db
+2023-12-02 03:42:52,547 - WARNING - create engine
+2023-12-02 03:42:52,547 - WARNING - create session
+2023-12-02 03:43:17,495 - WARNING - create flask
+2023-12-02 03:43:17,715 - WARNING - create database NAME: sqlite:///dataBase.db
+2023-12-02 03:43:17,741 - WARNING - create engine
+2023-12-02 03:43:17,741 - WARNING - create session
+2023-12-02 03:43:17,741 - WARNING - Database does not exist.
+2023-12-02 03:43:17,747 - WARNING - clear database
+2023-12-02 03:43:17,747 - WARNING - create tables in database
+2023-12-02 03:43:17,779 - WARNING - fill database
+2023-12-02 03:43:17,779 - WARNING - qoute: Travel, 'I have not been everywhere, but it is on my list.' | Susan Sontag
+2023-12-02 03:43:17,794 - WARNING - author: None
+2023-12-02 03:43:17,794 - WARNING - find author in list
+2023-12-02 03:43:17,810 - WARNING - add new author: <website.database.models.Author object at 0x0000023CB249B220>
+2023-12-02 03:43:17,810 - WARNING - topic: None
+2023-12-02 03:43:17,810 - WARNING - find topic in list
+2023-12-02 03:43:17,810 - WARNING - add new topic: <website.database.models.Topic object at 0x0000023CB25176A0>
+2023-12-02 03:43:17,810 - WARNING - create row in quate: 'I have not been everywhere, but it is on my list.'
+2023-12-02 03:43:17,825 - WARNING - add bluepoint auth
+2023-12-02 03:43:18,154 - WARNING - create flask
+2023-12-02 03:43:18,421 - WARNING - create database NAME: sqlite:///dataBase.db
+2023-12-02 03:43:18,421 - WARNING - create engine
+2023-12-02 03:43:18,421 - WARNING - create session
+2023-12-02 03:43:18,437 - WARNING - Database does not exist.
+2023-12-02 03:43:18,441 - WARNING - clear database
+2023-12-02 03:43:18,469 - WARNING - create tables in database
+2023-12-02 03:43:18,485 - WARNING - fill database
+2023-12-02 03:43:18,485 - WARNING - qoute: Travel, 'I have not been everywhere, but it is on my list.' | Susan Sontag
+2023-12-02 03:43:18,485 - WARNING - author: None
+2023-12-02 03:43:18,485 - WARNING - find author in list
+2023-12-02 03:43:18,501 - WARNING - add new author: <website.database.models.Author object at 0x000001F9B1EDAE80>
+2023-12-02 03:43:18,501 - WARNING - topic: None
+2023-12-02 03:43:18,501 - WARNING - find topic in list
+2023-12-02 03:43:18,516 - WARNING - add new topic: <website.database.models.Topic object at 0x000001F9B1F0CA60>
+2023-12-02 03:43:18,516 - WARNING - create row in quate: 'I have not been everywhere, but it is on my list.'
+2023-12-02 03:43:18,531 - WARNING - add bluepoint auth
+2023-12-02 03:43:18,542 - WARNING -  * Debugger is active!
+2023-12-02 03:45:58,184 - WARNING - create flask
+2023-12-02 03:45:58,467 - WARNING - create database NAME: sqlite:///dataBase.db
+2023-12-02 03:45:58,483 - WARNING - create engine
+2023-12-02 03:45:58,483 - WARNING - create session
+2023-12-02 03:45:58,483 - WARNING - Database exists.
+2023-12-02 03:45:58,483 - WARNING - add bluepoint auth
+2023-12-02 03:45:58,813 - WARNING - create flask
+2023-12-02 03:45:59,055 - WARNING - create database NAME: sqlite:///dataBase.db
+2023-12-02 03:45:59,065 - WARNING - create engine
+2023-12-02 03:45:59,065 - WARNING - create session
+2023-12-02 03:45:59,065 - WARNING - Database exists.
+2023-12-02 03:45:59,065 - WARNING - add bluepoint auth
+2023-12-02 03:45:59,080 - WARNING -  * Debugger is active!
+2023-12-02 03:49:47,964 - WARNING - create flask
+2023-12-02 03:49:48,183 - WARNING - create database NAME: sqlite:///dataBase.db
+2023-12-02 03:49:48,215 - WARNING - create engine
+2023-12-02 03:49:48,215 - WARNING - create session
+2023-12-02 03:49:48,215 - WARNING - Database exists.
+2023-12-02 03:49:48,215 - WARNING - add bluepoint auth
+2023-12-02 03:49:48,561 - WARNING - create flask
+2023-12-02 03:49:48,810 - WARNING - create database NAME: sqlite:///dataBase.db
+2023-12-02 03:49:48,813 - WARNING - create engine
+2023-12-02 03:49:48,813 - WARNING - create session
+2023-12-02 03:49:48,813 - WARNING - Database exists.
+2023-12-02 03:49:48,829 - WARNING - add bluepoint auth
+2023-12-02 03:49:48,829 - WARNING -  * Debugger is active!
+2023-12-02 03:50:34,441 - WARNING - create flask
+2023-12-02 03:50:34,708 - WARNING - create database NAME: sqlite:///dataBase.db
+2023-12-02 03:50:34,723 - WARNING - create engine
+2023-12-02 03:50:34,723 - WARNING - create session
+2023-12-02 03:50:34,723 - WARNING - Database exists.
+2023-12-02 03:50:34,723 - WARNING - add bluepoint auth
+2023-12-02 03:50:35,085 - WARNING - create flask
+2023-12-02 03:50:35,305 - WARNING - create database NAME: sqlite:///dataBase.db
+2023-12-02 03:50:35,320 - WARNING - create engine
+2023-12-02 03:50:35,320 - WARNING - create session
+2023-12-02 03:50:35,320 - WARNING - Database exists.
+2023-12-02 03:50:35,320 - WARNING - add bluepoint auth
+2023-12-02 03:50:35,336 - WARNING -  * Debugger is active!
+2023-12-02 03:51:11,929 - WARNING - create flask
+2023-12-02 03:51:12,180 - WARNING - create database NAME: sqlite:///dataBase.db
+2023-12-02 03:51:12,180 - WARNING - create engine
+2023-12-02 03:51:12,180 - WARNING - create session
+2023-12-02 03:51:12,180 - WARNING - Database exists.
+2023-12-02 03:51:12,196 - WARNING - add bluepoint auth
+2023-12-02 03:51:12,541 - WARNING - create flask
+2023-12-02 03:51:12,809 - WARNING - create database NAME: sqlite:///dataBase.db
+2023-12-02 03:51:12,809 - WARNING - create engine
+2023-12-02 03:51:12,825 - WARNING - create session
+2023-12-02 03:51:12,825 - WARNING - Database exists.
+2023-12-02 03:51:12,825 - WARNING - add bluepoint auth
+2023-12-02 03:51:12,840 - WARNING -  * Debugger is active!
+2023-12-02 03:51:22,935 - WARNING - create flask
+2023-12-02 03:51:23,187 - WARNING - create database NAME: sqlite:///dataBase.db
+2023-12-02 03:51:23,187 - WARNING - create engine
+2023-12-02 03:51:23,187 - WARNING - create session
+2023-12-02 03:51:23,203 - WARNING - Database does not exist.
+2023-12-02 03:51:23,203 - WARNING - clear database
+2023-12-02 03:51:23,219 - WARNING - create tables in database
+2023-12-02 03:51:23,234 - WARNING - fill database
+2023-12-02 03:51:23,234 - WARNING - qoute: Travel, 'I have not been everywhere, but it is on my list.' | Susan Sontag
+2023-12-02 03:51:23,234 - WARNING - author: None
+2023-12-02 03:51:23,234 - WARNING - find author in list
+2023-12-02 03:51:23,250 - WARNING - add new author: <website.database.models.Author object at 0x000001A10FDBF0A0>
+2023-12-02 03:51:23,250 - WARNING - topic: None
+2023-12-02 03:51:23,250 - WARNING - find topic in list
+2023-12-02 03:51:23,250 - WARNING - add new topic: <website.database.models.Topic object at 0x000001A10FDBFBB0>
+2023-12-02 03:51:23,265 - WARNING - create row in quate: 'I have not been everywhere, but it is on my list.'
+2023-12-02 03:51:23,265 - WARNING - qoute: Race, 'It is not our differences that divide us. It is our inability to recognize, accept, and celebrate those differences.' | Audre Lorde
+2023-12-02 03:51:23,270 - WARNING - author: None
+2023-12-02 03:51:23,270 - WARNING - find author in list
+2023-12-02 03:51:23,270 - WARNING - add new author: <website.database.models.Author object at 0x000001A10FDBF0A0>
+2023-12-02 03:51:23,281 - WARNING - topic: None
+2023-12-02 03:51:23,281 - WARNING - find topic in list
+2023-12-02 03:51:23,281 - WARNING - add new topic: <website.database.models.Topic object at 0x000001A10FDBFBB0>
+2023-12-02 03:51:23,281 - WARNING - create row in quate: 'It is not our differences that divide us. It is our inability to recognize, accept, and celebrate those differences.'
+2023-12-02 03:51:23,281 - WARNING - qoute: Life, 'Always go with your passions. Never ask yourself if it is realistic or not.' | Deepak Chopra
+2023-12-02 03:51:23,297 - WARNING - author: None
+2023-12-02 03:51:23,297 - WARNING - find author in list
+2023-12-02 03:51:23,297 - WARNING - add new author: <website.database.models.Author object at 0x000001A10FDD7850>
+2023-12-02 03:51:23,297 - WARNING - topic: None
+2023-12-02 03:51:23,297 - WARNING - find topic in list
+2023-12-02 03:51:23,297 - WARNING - add new topic: <website.database.models.Topic object at 0x000001A10FDBFBB0>
+2023-12-02 03:51:23,313 - WARNING - create row in quate: 'Always go with your passions. Never ask yourself if it is realistic or not.'
+2023-12-02 03:51:23,313 - WARNING - add bluepoint auth
+2023-12-02 03:51:23,328 - WARNING -  * Debugger is active!
+2023-12-02 03:52:25,419 - WARNING - create flask
+2023-12-02 03:52:25,701 - WARNING - create database NAME: sqlite:///dataBase.db
+2023-12-02 03:52:25,717 - WARNING - create engine
+2023-12-02 03:52:25,717 - WARNING - create session
+2023-12-02 03:52:25,717 - WARNING - Database does not exist.
+2023-12-02 03:52:25,717 - WARNING - clear database
+2023-12-02 03:52:25,748 - WARNING - create tables in database
+2023-12-02 03:52:25,764 - WARNING - fill database
+2023-12-02 03:52:25,764 - WARNING - qoute: Travel, 'I have not been everywhere, but it is on my list.' | Susan Sontag
+2023-12-02 03:52:25,780 - WARNING - author: None
+2023-12-02 03:52:25,780 - WARNING - find author in list
+2023-12-02 03:52:25,780 - WARNING - add new author: <website.database.models.Author object at 0x0000018A0ACB8910>
+2023-12-02 03:52:25,795 - WARNING - topic: None
+2023-12-02 03:52:25,795 - WARNING - find topic in list
+2023-12-02 03:52:25,795 - WARNING - add new topic: <website.database.models.Topic object at 0x0000018A0AD06370>
+2023-12-02 03:52:25,795 - WARNING - create row in quate: 'I have not been everywhere, but it is on my list.'
+2023-12-02 03:52:25,795 - WARNING - qoute: Race, 'It is not our differences that divide us. It is our inability to recognize, accept, and celebrate those differences.' | Audre Lorde
+2023-12-02 03:52:25,811 - WARNING - author: None
+2023-12-02 03:52:25,811 - WARNING - find author in list
+2023-12-02 03:52:25,811 - WARNING - add new author: <website.database.models.Author object at 0x0000018A0ACB8910>
+2023-12-02 03:52:25,811 - WARNING - topic: None
+2023-12-02 03:52:25,811 - WARNING - find topic in list
+2023-12-02 03:52:25,827 - WARNING - add new topic: <website.database.models.Topic object at 0x0000018A0AC305E0>
+2023-12-02 03:52:25,827 - WARNING - create row in quate: 'It is not our differences that divide us. It is our inability to recognize, accept, and celebrate those differences.'
+2023-12-02 03:52:25,827 - WARNING - qoute: Life, 'Always go with your passions. Never ask yourself if it is realistic or not.' | Deepak Chopra
+2023-12-02 03:52:25,827 - WARNING - author: None
+2023-12-02 03:52:25,827 - WARNING - find author in list
+2023-12-02 03:52:25,827 - WARNING - add new author: <website.database.models.Author object at 0x0000018A0ACB8910>
+2023-12-02 03:52:25,827 - WARNING - topic: None
+2023-12-02 03:52:25,827 - WARNING - find topic in list
+2023-12-02 03:52:25,842 - WARNING - add new topic: <website.database.models.Topic object at 0x0000018A0AD0D610>
+2023-12-02 03:52:25,842 - WARNING - create row in quate: 'Always go with your passions. Never ask yourself if it is realistic or not.'
+2023-12-02 03:52:25,842 - WARNING - add bluepoint auth
+2023-12-02 03:52:26,173 - WARNING - create flask
+2023-12-02 03:52:26,450 - WARNING - create database NAME: sqlite:///dataBase.db
+2023-12-02 03:52:26,479 - WARNING - create engine
+2023-12-02 03:52:26,479 - WARNING - create session
+2023-12-02 03:52:26,479 - WARNING - Database does not exist.
+2023-12-02 03:52:26,479 - WARNING - clear database
+2023-12-02 03:52:26,526 - WARNING - create tables in database
+2023-12-02 03:52:26,542 - WARNING - fill database
+2023-12-02 03:52:26,542 - WARNING - qoute: Travel, 'I have not been everywhere, but it is on my list.' | Susan Sontag
+2023-12-02 03:52:26,542 - WARNING - author: None
+2023-12-02 03:52:26,542 - WARNING - find author in list
+2023-12-02 03:52:26,557 - WARNING - add new author: <website.database.models.Author object at 0x000001D9F4429910>
+2023-12-02 03:52:26,557 - WARNING - topic: None
+2023-12-02 03:52:26,557 - WARNING - find topic in list
+2023-12-02 03:52:26,557 - WARNING - add new topic: <website.database.models.Topic object at 0x000001D9F4477F70>
+2023-12-02 03:52:26,571 - WARNING - create row in quate: 'I have not been everywhere, but it is on my list.'
+2023-12-02 03:52:26,571 - WARNING - qoute: Race, 'It is not our differences that divide us. It is our inability to recognize, accept, and celebrate those differences.' | Audre Lorde
+2023-12-02 03:52:26,573 - WARNING - author: None
+2023-12-02 03:52:26,573 - WARNING - find author in list
+2023-12-02 03:52:26,573 - WARNING - add new author: <website.database.models.Author object at 0x000001D9F4429910>
+2023-12-02 03:52:26,573 - WARNING - topic: None
+2023-12-02 03:52:26,573 - WARNING - find topic in list
+2023-12-02 03:52:26,573 - WARNING - add new topic: <website.database.models.Topic object at 0x000001D9F43A15E0>
+2023-12-02 03:52:26,589 - WARNING - create row in quate: 'It is not our differences that divide us. It is our inability to recognize, accept, and celebrate those differences.'
+2023-12-02 03:52:26,589 - WARNING - qoute: Life, 'Always go with your passions. Never ask yourself if it is realistic or not.' | Deepak Chopra
+2023-12-02 03:52:26,589 - WARNING - author: None
+2023-12-02 03:52:26,589 - WARNING - find author in list
+2023-12-02 03:52:26,589 - WARNING - add new author: <website.database.models.Author object at 0x000001D9F4429910>
+2023-12-02 03:52:26,589 - WARNING - topic: None
+2023-12-02 03:52:26,589 - WARNING - find topic in list
+2023-12-02 03:52:26,605 - WARNING - add new topic: <website.database.models.Topic object at 0x000001D9F447D610>
+2023-12-02 03:52:26,605 - WARNING - create row in quate: 'Always go with your passions. Never ask yourself if it is realistic or not.'
+2023-12-02 03:52:26,605 - WARNING - add bluepoint auth
+2023-12-02 03:52:26,620 - WARNING -  * Debugger is active!
+2023-12-02 03:53:07,641 - WARNING - create flask
+2023-12-02 03:53:07,908 - WARNING - create database NAME: sqlite:///dataBase.db
+2023-12-02 03:53:07,923 - WARNING - create engine
+2023-12-02 03:53:07,923 - WARNING - create session
+2023-12-02 03:53:07,923 - WARNING - Database exists.
+2023-12-02 03:53:07,934 - WARNING - add bluepoint auth
+2023-12-02 03:53:08,273 - WARNING - create flask
+2023-12-02 03:53:08,506 - WARNING - create database NAME: sqlite:///dataBase.db
+2023-12-02 03:53:08,521 - WARNING - create engine
+2023-12-02 03:53:08,521 - WARNING - create session
+2023-12-02 03:53:08,521 - WARNING - Database exists.
+2023-12-02 03:53:08,521 - WARNING - add bluepoint auth
+2023-12-02 03:53:08,537 - WARNING -  * Debugger is active!
+2023-12-02 03:54:10,651 - WARNING - create flask
+2023-12-02 03:54:10,918 - WARNING - create database NAME: sqlite:///dataBase.db
+2023-12-02 03:54:10,934 - WARNING - create engine
+2023-12-02 03:54:10,934 - WARNING - create session
+2023-12-02 03:54:10,934 - WARNING - Database exists.
+2023-12-02 03:54:10,934 - WARNING - add bluepoint auth
+2023-12-02 03:54:11,295 - WARNING - create flask
+2023-12-02 03:54:11,562 - WARNING - create database NAME: sqlite:///dataBase.db
+2023-12-02 03:54:11,578 - WARNING - create engine
+2023-12-02 03:54:11,578 - WARNING - create session
+2023-12-02 03:54:11,578 - WARNING - Database exists.
+2023-12-02 03:54:11,578 - WARNING - add bluepoint auth
+2023-12-02 03:54:11,594 - WARNING -  * Debugger is active!

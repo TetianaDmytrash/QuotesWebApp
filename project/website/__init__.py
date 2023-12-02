@@ -7,21 +7,24 @@ def create_app():
 	logger.warning(f"create flask")
 	app = Flask(__name__)
 
-	from .database.database import engine, DB_NAME
+	from .database.database import IS_CREATED, DB_NAME
 
-	if os.path.exists(DB_NAME):
+	if IS_CREATED and DB_NAME == "sqlite:///dataBase.db":
 		logger.warning("Database exists.")
 	else:
+		from .database.database import engine
+		engineCurrent = engine
+
 		logger.warning("Database does not exist.")
 
 		from .database.models import Base
 		logger.warning(f"clear database")
 		# Database Cleanup
-		Base.metadata.drop_all(engine)
+		Base.metadata.drop_all(engineCurrent)
 
 		logger.warning(f"create tables in database")
 		# Creating tables in the database
-		Base.metadata.create_all(engine)
+		Base.metadata.create_all(engineCurrent)
 
 		from .database.fillDatabase import fillDatabase
 		logger.warning(f"fill database")
