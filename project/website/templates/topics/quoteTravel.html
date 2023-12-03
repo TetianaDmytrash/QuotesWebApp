@@ -1,0 +1,27 @@
+{% extends "base.html" %} 
+
+{% block content%}
+<h1 class='text-center m-1'> Travel Quates </h1>
+<div class="card-header">
+  <p></p>
+</div>
+{% for quote in quoteTravel %}
+  <div class="card my-2">    
+    <div class="card-body">
+      <blockquote class="blockquote my-2">
+        <p>{{quote.text}}</p>
+        <footer class="blockquote-footer">
+          <cite title="Source Title">{{quote.author.name}}</cite>
+        </footer>
+        {% if user.is_authenticated %}
+          <button type="button" class="close text-dark" onClick="addQuote({{ quote.id }})">
+            <a class="btn btn-sm btn-light text-dark mt-3 ml-auto" style="background-color: #A4C3B2;" href="/addQuote" id="addQuote" >add to favorite</a>
+          </button>
+        {% endif %}
+      </blockquote>
+    </div>
+  </div>
+{% endfor %}
+  
+
+{% endblock %}

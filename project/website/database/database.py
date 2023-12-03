@@ -2,7 +2,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import Session
 from logger import logger
 
-IS_CREATED = True
+print(f"datavase aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
 
 DB_NAME = "sqlite:///dataBase.db"
 logger.warning(f"create database NAME: {DB_NAME}")
@@ -12,5 +12,3 @@ logger.warning("create engine")
 session = Session(engine)
 logger.warning("create session")
 
-def notCreated():
-	pass

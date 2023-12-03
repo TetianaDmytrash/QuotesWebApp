@@ -2,14 +2,16 @@ import os
 from logger import logger
 
 def create_app():
-
+	print(F"print create app aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
 	from flask import Flask
 	logger.warning(f"create flask")
 	app = Flask(__name__)
 
-	from .database.database import IS_CREATED, DB_NAME
+	app.secret_key = 'your_secret_key_here'
 
-	if IS_CREATED and DB_NAME == "sqlite:///dataBase.db":
+	from .database.isCreated import IS_CREATED
+
+	if IS_CREATED:
 		logger.warning("Database exists.")
 	else:
 		from .database.database import engine
@@ -35,8 +37,19 @@ def create_app():
 	logger.warning(f"add bluepoint auth")
 	app.register_blueprint(auth, url_prefix='/')
 
-	#from view import view
-	#logger.warning(f"add bluepoint view")
-	#app.register_blueprint(view, url_prefix='/')
+	from .view import view
+	logger.warning(f"add bluepoint view")
+	app.register_blueprint(view, url_prefix='/')
+
+	from flask_login import LoginManager
+	from .database.database import session
+	from .database.models import User
+	login_manager = LoginManager()
+	login_manager.login_view = 'auth.signIn'
+	login_manager.init_app(app)
+
+	@login_manager.user_loader
+	def loadUser(id):
+		return session.query(User).get(int(id))
 
 	return app
