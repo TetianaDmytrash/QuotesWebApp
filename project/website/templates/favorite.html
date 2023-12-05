@@ -2,12 +2,12 @@
 
 {% block content%}
 <h1 class='mt-2 text-center'> Favorite Quotes </h1>
-  {% if user.userQuotes %}
-    {% for quote in user.userQuotes %}
+  {% if user.user_quotes %}
+    {% for quote in user.user_quotes %}
       <div class="card my-2">
         <div class="card-header">
           <p>Quote: {{ quote.quote.topic.name }}
-          <button type="button" class="close" onClick="deleteQuote({{ quote.id }})">
+          <button type="button" class="close" onClick="delete_quote({{ quote.id }})">
             <span aria-hidden="true">&times;</span>
           </button>
           </p>

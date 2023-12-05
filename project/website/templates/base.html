@@ -40,10 +40,10 @@
         </div>
         <div class="navbar-nav ml-auto">
           {% if user.is_authenticated %}
-            <a class="nav-item nav-link text-dark" id="signOut" href="/signOut">Sign Out</a>
+            <a class="nav-item nav-link text-dark" id="sign_out" href="/sign-out">Sign Out</a>
           {% else %}
-            <a class="nav-item nav-link text-dark" id="signIn" href="/signIn">Sing In</a>
-            <a class="nav-item nav-link text-dark" id="signUp" href="/signUp">Sign Up</a>
+            <a class="nav-item nav-link text-dark" id="sign_in" href="/sign-in">Sing In</a>
+            <a class="nav-item nav-link text-dark" id="sign_up" href="/sign-up">Sign Up</a>
           {% endif %}
         </div>
       </div>
@@ -88,20 +88,20 @@
 
 {% block javascript %}
   <script type="text/javascript">
-    function deleteQuote(quoteId) {
-      fetch("/deleteQuote", {
+    function delete_quote(quote_id) {
+      fetch("/delete-quote", {
         method: "POST",
-        body: JSON.stringify({ quoteId: quoteId }),
+        body: JSON.stringify({ quote_id: quote_id }),
       }).then((_res) => {
         window.location.href = "/favorite";
       });
     }
   </script>
   <script type="text/javascript">
-    function addQuote(quoteId) {
-      fetch("/addQuote", {
+    function add_quote(quote_id) {
+      fetch("/add-quote", {
         method: "POST",
-        body: JSON.stringify({ quoteId: quoteId }),
+        body: JSON.stringify({ quote_id: quote_id }),
       }).then((_res) => {
         window.location.href = "/favorite";
       });

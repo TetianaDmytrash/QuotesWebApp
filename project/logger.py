@@ -1,13 +1,20 @@
 import logging
 
+
 class NoSQLFilter(logging.Filter):
     def filter(self, record):
         # Вернуть False для записей, которые вы хотите исключить из обработки
         return not record.getMessage().startswith("sqlalchemy.engine.Engine")
 
+
 # Настройка логгера
 logging.basicConfig(level=logging.DEBUG)
-logger = logging.getLogger()
+logger = logging.getLogger(__name__)
+
+
+# Пример записи лога с использованием корректного формата
+logger.info("This is an info message.")
+
 
 # Настройка обработчика для записи в файл
 file_handler = logging.FileHandler("logfile.log")
@@ -21,6 +28,6 @@ file_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
 
 # Примеры логирования
-#logger.warning("WARNING")
-#logger.error("ERROR")
-#logger.critical("CRITICAL")
+# logger.warning("WARNING")
+# logger.error("ERROR")
+# logger.critical("CRITICAL")

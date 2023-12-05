@@ -1,37 +1,37 @@
 from .database import session
 from .models import Author, Topic, Quote
-from logger import logger
+from project.logger import logger
 
-def fillDatabase():
-	# Список кортежей с данными
-	with open('C:\\proj_2023\\PeEx\\QuotesWebApp\\project\\website\\database\\quoteFile.txt') as ffile:
-	   contents = ffile.readlines()
-	   data = [tuple(quate.strip().split(' | ')) for quate in contents]
 
-	# Заполняем таблицы данными из списка
-	for topicName, quoteText, authorName in data:
-	    logger.warning(f"qoute: {topicName}, {quoteText} | {authorName}")
-	    author = session.query(Author).filter_by(name=authorName).first()
-	    logger.warning(f"author: {author}")
-	    logger.warning(f"find author in list")
-	    if not author:
-	        author = Author(name=authorName)
-	        session.add(author)
-	        session.commit()
-	        logger.warning(f"add new author: {author}")
-	    
-	    topic = session.query(Topic).filter_by(name=topicName).first()
-	    logger.warning(f"topic: {topic}")
-	    logger.warning(f"find topic in list")
-	    if not topic:
-	        topic = Topic(name=topicName)
-	        session.add(topic)
-	        session.commit()
-	        logger.warning(f"add new topic: {topic}")
+def fill_database():
+    # Список кортежей с данными
+    with open('C:\\proj_2023\\PeEx\\QuotesWebApp\\project\\website\\database\\quoteFile.txt') as ffile:
+        contents = ffile.readlines()
+        data = [tuple(quote.strip().split(' | ')) for quote in contents]
 
-	    quote = Quote(text=quoteText, authorId=author.id, topicId=topic.id)
-	    session.add(quote)
-	    logger.warning(f'create row in quate: {quote.text}')
-	    
+    # Заполняем таблицы данными из списка
+    for topic_name, quote_text, author_name in data:
+        logger.warning(f"quote: {topic_name}, {quote_text} | {author_name}")
+        author = session.query(Author).filter_by(name=author_name).first()
+        logger.warning(f"author: {author}")
+        logger.warning(f"find author in list")
+        if not author:
+            author = Author(name=author_name)
+            session.add(author)
+            session.commit()
+            logger.warning(f"add new author: {author}")
 
-	session.commit()
+        topic = session.query(Topic).filter_by(name=topic_name).first()
+        logger.warning(f"topic: {topic}")
+        logger.warning(f"find topic in list")
+        if not topic:
+            topic = Topic(name=topic_name)
+            session.add(topic)
+            session.commit()
+            logger.warning(f"add new topic: {topic}")
+
+        quote = Quote(text=quote_text, author_id=author.id, topic_id=topic.id)
+        session.add(quote)
+        logger.warning(f'create row in quote: {quote.text}')
+
+    session.commit()

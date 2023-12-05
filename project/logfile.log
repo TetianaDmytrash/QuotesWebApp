@@ -1673,3 +1673,50 @@
 2023-12-03 04:34:16,570 - WARNING - add bluepoint auth
 2023-12-03 04:34:16,585 - WARNING - add bluepoint view
 2023-12-03 04:34:16,585 - WARNING -  * Debugger is active!
+2023-12-03 10:55:07,849 - WARNING - create flask
+2023-12-03 10:55:07,849 - WARNING - Database exists.
+2023-12-03 10:55:08,134 - WARNING - create database NAME: sqlite:///dataBase.db
+2023-12-03 10:55:08,154 - WARNING - create engine
+2023-12-03 10:55:08,154 - WARNING - create session
+2023-12-03 10:55:08,164 - WARNING - add bluepoint auth
+2023-12-03 10:55:08,164 - WARNING - add bluepoint view
+2023-12-03 10:55:08,469 - WARNING - create flask
+2023-12-03 10:55:08,469 - WARNING - Database exists.
+2023-12-03 10:55:08,729 - WARNING - create database NAME: sqlite:///dataBase.db
+2023-12-03 10:55:08,733 - WARNING - create engine
+2023-12-03 10:55:08,733 - WARNING - create session
+2023-12-03 10:55:08,745 - WARNING - add bluepoint auth
+2023-12-03 10:55:08,754 - WARNING - add bluepoint view
+2023-12-03 10:55:08,764 - WARNING -  * Debugger is active!
+2023-12-06 01:42:23,780 - WARNING - create flask
+2023-12-06 01:42:23,794 - WARNING - Database exists.
+2023-12-06 01:42:24,036 - WARNING - connect database NAME: sqlite:///dataBase.db
+2023-12-06 01:42:24,050 - WARNING - create engine
+2023-12-06 01:42:24,050 - WARNING - create session
+2023-12-06 01:42:24,056 - WARNING - add bluepoint auth
+2023-12-06 01:42:24,059 - WARNING - add bluepoint view
+2023-12-06 01:42:24,060 - WARNING - application run
+2023-12-06 01:42:24,404 - WARNING - create flask
+2023-12-06 01:42:24,406 - WARNING - Database exists.
+2023-12-06 01:42:24,638 - WARNING - connect database NAME: sqlite:///dataBase.db
+2023-12-06 01:42:24,651 - WARNING - create engine
+2023-12-06 01:42:24,651 - WARNING - create session
+2023-12-06 01:42:24,659 - WARNING - add bluepoint auth
+2023-12-06 01:42:24,661 - WARNING - add bluepoint view
+2023-12-06 01:42:24,663 - WARNING - application run
+2023-12-06 01:51:38,795 - WARNING - connect database NAME: sqlite:///dataBase.db
+2023-12-06 01:51:38,811 - WARNING - create engine
+2023-12-06 01:51:38,811 - WARNING - create session
+2023-12-06 01:51:38,836 - WARNING - create flask
+2023-12-06 01:51:38,837 - WARNING - Database exists.
+2023-12-06 01:51:38,837 - WARNING - add bluepoint auth
+2023-12-06 01:51:38,839 - WARNING - add bluepoint view
+2023-12-06 01:51:38,840 - WARNING - application run
+2023-12-06 01:51:39,410 - WARNING - connect database NAME: sqlite:///dataBase.db
+2023-12-06 01:51:39,424 - WARNING - create engine
+2023-12-06 01:51:39,424 - WARNING - create session
+2023-12-06 01:51:39,446 - WARNING - create flask
+2023-12-06 01:51:39,447 - WARNING - Database exists.
+2023-12-06 01:51:39,447 - WARNING - add bluepoint auth
+2023-12-06 01:51:39,448 - WARNING - add bluepoint view
+2023-12-06 01:51:39,450 - WARNING - application run
