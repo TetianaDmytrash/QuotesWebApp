@@ -1,5 +1,0 @@
-General Information
-
-used python+flask
-
-The project was created for further processing of testing techniques.
