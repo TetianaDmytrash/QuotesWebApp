@@ -3,3 +3,40 @@
 
 # ignore ALL files in ANY directory named temp
 tmp/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+
+# IDE files
+.idea/
+
+# Environment configuration
+.env
+
+# Compiled Python files
+*.pyc
+
+# Compiled C extensions
+*.so
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# Temporary files
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
