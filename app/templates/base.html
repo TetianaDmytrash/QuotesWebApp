@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body style="background-color: #CCE3DE;">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #84B29E;">
+      <button 
+        class="navbar-toggler" 
+        type="button" 
+        data-toggle="collapse" 
+        data-target="#navbarTogglerDemo01" 
+        aria-controls="navbarTogglerDemo01" 
+        aria-expanded="false" 
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <div class="navbar-nav mr-auto">
+          <a class="nav-item nav-link text-dark" id="quotes" href="/quotes"><p>Quotes</p></a>
+          {% if user.is_authenticated %}
+            <a class="nav-item nav-link text-dark" id="favorite" href="/favorite">Favorite</a>
+            <a class="nav-item nav-link text-dark" id="profile" href="/profile">Profile</a>
+          {% else %}
+            <a class="nav-item nav-link text-dark" id="home" href="/">Home</a>
+          {% endif %}
+        </div>
+        <div class="navbar-nav ml-auto">
+          {% if user.is_authenticated %}
+            <a class="nav-item nav-link text-dark" id="sign_out" href="/sign-out">Sign Out</a>
+          {% else %}
+            <a class="nav-item nav-link text-dark" id="sign_in" href="/sign-in">Sing In</a>
+            <a class="nav-item nav-link text-dark" id="sign_up" href="/sign-up">Sign Up</a>
+          {% endif %}
+        </div>
+      </div>
+    </nav>
+
+    {% with messages = get_flashed_messages(with_categories=true) %} 
+    {% if messages %} 
+    {% for category, message in messages %} 
+      {% if category =='error' %}
+        <div class="alert alert-danger alter-dismissable fade show" role="alert">
+          {{ message }}
+          <button type="button" class="close" data-dismiss="alert">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+      {% else %}
+        <div class="alert alert-success alter-dismissable fade show" role="alert">
+          {{ message }}
+          <button type="button" class="close" data-dismiss="alert">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+      {% endif %} 
+    {% endfor %} {% endif %} {% endwith %}
+
+    <div class="container">{% block content %}  {% endblock %}</div>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+{% block javascript %}
+  <script type="text/javascript">
+    function delete_quote(quote_id) {
+      fetch("/delete-quote", {
+        method: "POST",
+        body: JSON.stringify({ quote_id: quote_id }),
+      }).then((_res) => {
+        window.location.href = "/favorite";
+      });
+    }
+  </script>
+  <script type="text/javascript">
+    function add_quote(quote_id) {
+      fetch("/add-quote", {
+        method: "POST",
+        body: JSON.stringify({ quote_id: quote_id }),
+      }).then((_res) => {
+        window.location.href = "/favorite";
+      });
+    }
+  </script>
+{% endblock %}
+  <nav class="navbar navbar-light"  style="background-color: #84B29E;">
+    <footer class="blockquote-footer">
+      <div class="container text-center">
+        <p class="text-dark">&copy; Your Website 2023</p>
+      </div>
+    </footer>
+  </nav>
+
+  </body>
+</html>
