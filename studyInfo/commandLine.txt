@@ -1,0 +1,14 @@
+git init
+git add .
+git commit -m "general information about project"
+git config --global user.name "Your Name"
+git config --global user.email you@example.com
+git branch -M master
+git remote add origin https://github.com/TetianaDmytrash/QuatesWebApp.git
+git push -u origin master
+git checkout -b develop
+git push -u origin develop
+
+cd C:\proj_2023\PeEx\QuatesWebApp
+virtualenv --python C:\Users\tdmytras\AppData\Local\Programs\Python\Python39\python.exe venvQuates
+venvQuates\Scripts\activate
