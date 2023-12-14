@@ -1,10 +1,10 @@
 """
 file with main GET, POST methods
 """
+import json
 from flask import Blueprint, redirect, url_for, flash, render_template, request, jsonify
 from flask_login import login_user, login_required, logout_user, current_user
 from passlib.hash import sha256_crypt
-import json
 
 from app.database.database import session
 from app.database.models import Author, Topic, Quote, User, UserQuote
@@ -112,16 +112,17 @@ def add_quote():
     can do it only if he/she registered in system
     :return:
     """
-    quote = json.loads(request.data)  # this function expects a JSON from the INDEX.js file
-    quote_id = quote['quote_id']
-    quote = session.query(Quote).get(quote_id)
-    new_quote_user = UserQuote(quote_id=quote.id, user_id=current_user.id)
-    session.add(new_quote_user)  # adding the quote to the database
-    session.commit()
-    flash('quote added to favorite!', category='success')
-
-    # redirect(url_for('auth.favorite'))
-    return jsonify({})
+    if request.method == "POST":
+    	quote = json.loads(request.data)  # this function expects a JSON from the INDEX.js file
+    	quote_id = quote['quote_id']
+    	quote = session.query(Quote).get(quote_id)
+    	new_quote_user = UserQuote(quote_id=quote.id, user_id=current_user.id)
+    	session.add(new_quote_user)  # adding the quote to the database
+    	session.commit()
+    	flash('quote added to favorite!', category='success')
+    	return jsonify({})
+    return redirect(url_for('auth.favorite'))
+    
 
 
 @auth.route('/delete-quote', methods=['POST'])
@@ -136,7 +137,7 @@ def delete_quote():
     quote_id = quote['quote_id']
     quote = session.query(UserQuote).get(quote_id)
     if quote:
-        if quote.userId == current_user.id:
+        if quote.user_id == current_user.id:
             session.delete(quote)
             session.commit()
             flash('quote deleted!', category='success')

@@ -90,6 +90,8 @@
     function delete_quote(quote_id) {
       fetch("/delete-quote", {
         method: "POST",
+        mode: "no-cors",
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ quote_id: quote_id }),
       }).then((_res) => {
         window.location.href = "/favorite";
@@ -100,6 +102,8 @@
     function add_quote(quote_id) {
       fetch("/add-quote", {
         method: "POST",
+        mode: "no-cors",
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ quote_id: quote_id }),
       }).then((_res) => {
         window.location.href = "/favorite";
