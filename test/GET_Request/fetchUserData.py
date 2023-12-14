@@ -35,6 +35,7 @@ print(response.cookies)
 print(response.encoding)
 
 print(response.elapsed)
+print(response.status_code)
 
 # parse response to json format
 json_response = json.loads(response.text)
