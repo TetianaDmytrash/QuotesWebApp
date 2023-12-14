@@ -5,10 +5,10 @@ from logs.logger import logger
 from flask import Flask
 from flask_login import LoginManager
 
-from app.database.isCreated import IS_CREATED
+from app.database.is_created import IS_CREATED
 from app.database.database import engine, session
 from app.database.models import Base, User
-from app.database.fillDatabase import fill_database
+from app.database.fill_database import fill_database
 
 from app.auth import auth
 from app.view import view

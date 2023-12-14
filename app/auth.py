@@ -9,7 +9,7 @@ from passlib.hash import sha256_crypt
 from app.database.database import session
 from app.database.models import Author, Topic, Quote, User, UserQuote
 from logs.logger import logger
-from .validationUser import Validation
+from .validation_user import Validation
 
 auth = Blueprint('auth', __name__)  # coincidence with the file name is not necessary
 
@@ -59,7 +59,7 @@ def sign_up():
             flash('Account created!', category='success')
             return redirect(url_for('view.profile'))
 
-    return render_template("signUp.html", user=current_user)
+    return render_template("sign_up.html", user=current_user)
 
 
 # auth.route() - The decorator creates a link between the URL given as an argument and the function below.
@@ -71,7 +71,7 @@ def sign_in():
     """
     # request for data submitted in the form
     # data = request.form
-    # render_template("signIn.html", text="Testing", user="Tania") -
+    # render_template("sign_in.html", text="Testing", user="Tania") -
     # You can simply pass a variable separated by commas
     if request.method == 'POST':
         email = request.form.get('email')
@@ -90,7 +90,7 @@ def sign_in():
         else:
             flash('Email does not exist.', category='error')
 
-    return render_template("signIn.html", user=current_user)
+    return render_template("sign_in.html", user=current_user)
 
 
 @auth.route('/sign-out')
@@ -113,16 +113,15 @@ def add_quote():
     :return:
     """
     if request.method == "POST":
-    	quote = json.loads(request.data)  # this function expects a JSON from the INDEX.js file
-    	quote_id = quote['quote_id']
-    	quote = session.query(Quote).get(quote_id)
-    	new_quote_user = UserQuote(quote_id=quote.id, user_id=current_user.id)
-    	session.add(new_quote_user)  # adding the quote to the database
-    	session.commit()
-    	flash('quote added to favorite!', category='success')
-    	return jsonify({})
+        quote = json.loads(request.data)  # this function expects a JSON from the INDEX.js file
+        quote_id = quote['quote_id']
+        quote = session.query(Quote).get(quote_id)
+        new_quote_user = UserQuote(quote_id=quote.id, user_id=current_user.id)
+        session.add(new_quote_user)  # adding the quote to the database
+        session.commit()
+        flash('quote added to favorite!', category='success')
+        return jsonify({})
     return redirect(url_for('auth.favorite'))
-    
 
 
 @auth.route('/delete-quote', methods=['POST'])

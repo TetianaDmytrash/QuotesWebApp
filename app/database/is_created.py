@@ -5,5 +5,5 @@ is set to false if you want to delete the existing database and create a new one
 """
 import os
 
-DATABASE_FILE_PATH = "sqlite:///app/database/dataBase.db"
-IS_CREATED = os.path.exists(os.getcwd() + "/app/database/dataBase.db")
+DATABASE_FILE_PATH = "sqlite:///app/database/data_base.db"
+IS_CREATED = os.path.exists(os.getcwd() + "/app/database/data_base.db")

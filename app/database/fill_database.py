@@ -13,8 +13,8 @@ def fill_database():
     main function for fill data
     """
     # List of tuples with data
-    current_folder_path = os.getcwd() + "/app/database/quoteFile.txt"
-    # open('/home/flask/Documents/QuotesWebApp/app/database/quoteFile.txt')
+    current_folder_path = os.getcwd() + "/app/database/quote_file.txt"
+    # open('/home/flask/Documents/QuotesWebApp/app/database/quote_file.txt')
     with open(current_folder_path) as ffile:
         contents = ffile.readlines()
         data = [tuple(quote.strip().split(' | ')) for quote in contents]

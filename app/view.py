@@ -36,7 +36,7 @@ def quotes():
     :return:
     """
     quotes_topic = session.query(Quote).all()
-    return render_template('quoteTopic.html',
+    return render_template('quote_topic.html',
                            quotes=quotes_topic,
                            user=current_user)
 
@@ -54,7 +54,7 @@ def quote_travel():
         quotes_for_topic = topic.quotes
     else:
         print("no quotes this theme")
-    return render_template("topics/quoteTravel.html",
+    return render_template("topics/quote_travel.html",
                            quote_travel=quotes_for_topic,
                            user=current_user)
 
@@ -72,7 +72,7 @@ def quote_life():
         quotes_for_topic = topic.quotes
     else:
         print("no quotes this theme")
-    return render_template("topics/quoteLife.html",
+    return render_template("topics/quote_life.html",
                            quote_life=quotes_for_topic,
                            user=current_user)
 
@@ -90,7 +90,7 @@ def quote_race():
         quotes_for_topic = topic.quotes
     else:
         print("no quotes this theme")
-    return render_template("topics/quoteRace.html",
+    return render_template("topics/quote_race.html",
                            quote_race=quotes_for_topic,
                            user=current_user)
 
