@@ -5,13 +5,17 @@ from .database import session
 from .models import Author, Topic, Quote
 from logs.logger import logger
 
+import os
+
 
 def fill_database():
     """
     main function for fill data
     """
     # List of tuples with data
-    with open('C:\\proj_2023\\PeEx\\QuotesWebApp\\app\\database\\quoteFile.txt') as ffile:
+    current_folder_path = os.getcwd() + "/app/database/quoteFile.txt"
+    # open('/home/flask/Documents/QuotesWebApp/app/database/quoteFile.txt')
+    with open(current_folder_path) as ffile:
         contents = ffile.readlines()
         data = [tuple(quote.strip().split(' | ')) for quote in contents]
 
