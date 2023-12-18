@@ -43,7 +43,7 @@ class Validation:
         """
         if user:
             logger.warning("User: {} is already exists".format(user))
-            flask.flash('Email already exists. Choice another email. ', category='error')
+            flask.flash('This email already exists. Choice another email. ', category='error')
             return True
         return False
 
@@ -61,7 +61,7 @@ class Validation:
         elif '@hotmail.com' not in email and \
                 '@gmail.com' not in email:
             logger.warning("Email: {} must have normal domain".format(email))
-            flask.flash("Email must have normal domain.", category='error')
+            flask.flash("Email must have standard domain.", category='error')
             return False
         return True
 
@@ -74,7 +74,7 @@ class Validation:
         """
         if len(login) < LEN_NAME:
             logger.warning("login: {} is so short".format(login))
-            flask.flash("login is so short", category='error')
+            flask.flash("Login is so short", category='error')
             return False
         else:
             return True
@@ -87,8 +87,8 @@ class Validation:
         :return:
         """
         if len(first_name) < LEN_NAME:
-            logger.warning("first Name: {} is so short".format(first_name))
-            flask.flash("first Name is so short", category='error')
+            logger.warning("First Name: {} is so short".format(first_name))
+            flask.flash("First Name is so short", category='error')
             return False
         else:
             return True
@@ -101,8 +101,8 @@ class Validation:
         :return:
         """
         if len(last_name) < LEN_NAME:
-            logger.warning("last Name: {} is so short".format(last_name))
-            flask.flash("last Name is so short", category='error')
+            logger.warning("Last Name: {} is so short".format(last_name))
+            flask.flash("Last Name is so short", category='error')
             return False
         else:
             return True

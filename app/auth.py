@@ -2,7 +2,7 @@
 file with main GET, POST methods
 """
 import json
-from flask import Blueprint, redirect, url_for, flash, render_template, request, jsonify
+from flask import Blueprint, redirect, url_for, flash, render_template, request, jsonify, make_response
 from flask_login import login_user, login_required, logout_user, current_user
 from passlib.hash import sha256_crypt
 
@@ -58,6 +58,8 @@ def sign_up():
             logger.warning('login user')
             flash('Account created!', category='success')
             return redirect(url_for('view.profile'))
+        else:
+            return make_response(render_template('sign_up.html', user=current_user), 403)
 
     return render_template("sign_up.html", user=current_user)
 
@@ -86,11 +88,13 @@ def sign_in():
                 login_user(user, remember=True)  # remembers that he came in
                 return redirect(url_for('view.profile'))
             else:
-                flash('Incorrect password, try again.', category='error')
+                flash('Incorrect email or password, try again.', category='error')
+                return make_response(render_template('sign_in.html', user=current_user), 403)
         else:
-            flash('Email does not exist.', category='error')
-
-    return render_template("sign_in.html", user=current_user)
+            flash('Incorrect email or password, try again.', category='error')
+            return make_response(render_template('sign_in.html', user=current_user), 403)
+    else:
+        return render_template("sign_in.html", user=current_user)
 
 
 @auth.route('/sign-out')
@@ -121,7 +125,8 @@ def add_quote():
         session.commit()
         flash('quote added to favorite!', category='success')
         return jsonify({})
-    return redirect(url_for('auth.favorite'))
+    else:
+        return redirect(url_for('auth.favorite'))
 
 
 @auth.route('/delete-quote', methods=['POST'])
@@ -157,9 +162,10 @@ def favorite():
         author_form = request.form.get('author')
         topic_form = request.form.get('topic')
 
-        print(quote)
-        if len(quote) < 1:
-            flash('quote is too short!', category='error')
+        # print(quote)
+        if len(quote) < 1 or len(author_form) < 1 or len(topic_form) < 1:
+            flash('something went wrong.', category='error')
+            return make_response(render_template('favorite.html', user=current_user), 403)
         else:
             topic = session.query(Topic).filter_by(name=topic_form).first()
             if not topic:
