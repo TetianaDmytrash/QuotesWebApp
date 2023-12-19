@@ -5,6 +5,8 @@ import requests
 import json
 import jsonpath
 
+import flask
+
 #  API URL
 url = "http://localhost:80"
 
@@ -37,10 +39,19 @@ print(response.encoding)
 print(response.elapsed)
 print(response.status_code)
 
-# parse response to json format
-json_response = json.loads(response.text)
-print(json_response)
+url = "http://localhost:80/sign-in"  # Замените на фактический URL вашего API
 
-# fetch value using json path
-pages = jsonpath.jsonpath(json_response, 'total pages')
-print(pages[0])
+# Попытка входа с неверными учетными данными
+payload = {'email': 'invalid_username', 'password': 'invalid_password'}
+response = requests.post(url, data=payload)
+
+# Проверка, что возвращается код ошибки 403 Forbidden
+print("status code: {}".format(response.status_code))
+assert response.status_code == 403
+
+print(response.headers)
+
+# Проверка, что в теле ответа содержится ожидаемый текст (опционально)
+expected_error_message = "Invalid credentials"
+print("!!!!!!!!!!!!!!!!!, {}".format(response.get_flashed_messages()))
+assert expected_error_message in get_flash_message()
