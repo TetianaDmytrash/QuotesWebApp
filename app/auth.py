@@ -59,7 +59,7 @@ def sign_up():
             flash('Account created!', category='success')
             return redirect(url_for('view.profile'))
         else:
-            return make_response(render_template('sign_up.html', user=current_user), 403)
+            return make_response(render_template('sign_up.html', user=current_user), 400)
 
     return render_template("sign_up.html", user=current_user)
 
@@ -98,98 +98,112 @@ def sign_in():
 
 
 @auth.route('/sign-out')
-@login_required
+# @login_required
 def sign_out():
     """
     sing out user from system
     :return:
     """
-    logout_user()
+    if current_user.is_authenticated:
+        logout_user()
+    else:
+        return make_response(render_template('sign_in.html', user=current_user), 403)
     return redirect(url_for('view.start_page'))
 
 
 @auth.route('/add-quote', methods=['GET', 'POST'])
-@login_required
+# @login_required
 def add_quote():
     """
     add quote in profile user
     can do it only if he/she registered in system
     :return:
     """
-    if request.method == "POST":
-        quote = json.loads(request.data)  # this function expects a JSON from the INDEX.js file
-        quote_id = quote['quote_id']
-        quote = session.query(Quote).get(quote_id)
-        new_quote_user = UserQuote(quote_id=quote.id, user_id=current_user.id)
-        session.add(new_quote_user)  # adding the quote to the database
-        session.commit()
-        flash('quote added to favorite!', category='success')
-        return jsonify({})
+    if current_user.is_authenticated:
+        if request.method == "POST":
+            quote = json.loads(request.data)  # this function expects a JSON from the INDEX.js file
+            quote_id = quote['quote_id']
+            quote = session.query(Quote).get(quote_id)
+            new_quote_user = UserQuote(quote_id=quote.id, user_id=current_user.id)
+            session.add(new_quote_user)  # adding the quote to the database
+            session.commit()
+            flash('quote added to favorite!', category='success')
+            return jsonify({})
+        else:
+            return redirect(url_for('auth.favorite'))
     else:
-        return redirect(url_for('auth.favorite'))
+        return make_response(render_template('sign_in.html', user=current_user), 403)
 
 
-@auth.route('/delete-quote', methods=['POST'])
-@login_required
+@auth.route('/delete-quote', methods=['GET', 'POST'])
+# @login_required
 def delete_quote():
     """
     delete quote in profile user
     can do it only if he/she registered in system
     :return:
     """
-    quote = json.loads(request.data)  # this function expects a JSON from the INDEX.js file
-    quote_id = quote['quote_id']
-    quote = session.query(UserQuote).get(quote_id)
-    if quote:
-        if quote.user_id == current_user.id:
-            session.delete(quote)
-            session.commit()
-            flash('quote deleted!', category='success')
+    if current_user.is_authenticated:
+        if request.method == "POST":
+            quote = json.loads(request.data)  # this function expects a JSON from the INDEX.js file
+            quote_id = quote['quote_id']
+            quote = session.query(UserQuote).get(quote_id)
+            if quote:
+                if quote.user_id == current_user.id:
+                    session.delete(quote)
+                    session.commit()
+                    flash('quote deleted!', category='success')
 
-    return jsonify({})
+        return jsonify({})
+    else:
+        return make_response(render_template('sign_in.html', user=current_user), 403)
 
 
 @auth.route('/favorite', methods=['GET', 'POST'])
-@login_required
+# @login_required
 def favorite():
     """
     add quote in favorite in profile user
     can do it only if he/she registered in system
     :return:
     """
-    if request.method == 'POST':
-        quote = request.form.get('quote')  # Gets the quote from the HTML
-        author_form = request.form.get('author')
-        topic_form = request.form.get('topic')
+    if current_user.is_authenticated:
+        if request.method == 'POST':
+            quote = request.form.get('quote')  # Gets the quote from the HTML
+            author_form = request.form.get('author')
+            topic_form = request.form.get('topic')
 
-        # print(quote)
-        if len(quote) < 1 or len(author_form) < 1 or len(topic_form) < 1:
-            flash('something went wrong.', category='error')
-            return make_response(render_template('favorite.html', user=current_user), 403)
-        else:
-            topic = session.query(Topic).filter_by(name=topic_form).first()
-            if not topic:
-                new_topic = Topic(name=topic_form)
-                session.add(new_topic)  # adding the quote to the database
-                session.commit()
+            # print(quote)
+            if len(quote) < 1 or len(author_form) < 1 or len(topic_form) < 1:
+                flash('something went wrong.', category='error')
+                return make_response(render_template('favorite.html', user=current_user), 403)
+            else:
                 topic = session.query(Topic).filter_by(name=topic_form).first()
+                if not topic:
+                    new_topic = Topic(name=topic_form)
+                    session.add(new_topic)  # adding the quote to the database
+                    session.commit()
+                    topic = session.query(Topic).filter_by(name=topic_form).first()
 
-            author = session.query(Author).filter_by(name=author_form).first()
-            if not author:
-                new_author = Author(name=author_form)
-                session.add(new_author)  # adding the quote to the database
-                session.commit()
                 author = session.query(Author).filter_by(name=author_form).first()
+                if not author:
+                    new_author = Author(name=author_form)
+                    session.add(new_author)  # adding the quote to the database
+                    session.commit()
+                    author = session.query(Author).filter_by(name=author_form).first()
 
-            new_quote = Quote(text=quote, author_id=author.id, topic_id=topic.id)  # providing the schema for the quote
-            session.add(new_quote)  # adding the quote to the database
-            session.commit()
-            new_quote = session.query(Quote).filter_by(text=quote).first()
+                # providing the schema for the quote
+                new_quote = Quote(text=quote, author_id=author.id, topic_id=topic.id)
+                session.add(new_quote)  # adding the quote to the database
+                session.commit()
+                new_quote = session.query(Quote).filter_by(text=quote).first()
 
-            new_quote_user = UserQuote(quote_id=new_quote.id, user_id=current_user.id)
-            session.add(new_quote_user)  # adding the quote to the database
-            session.commit()
+                new_quote_user = UserQuote(quote_id=new_quote.id, user_id=current_user.id)
+                session.add(new_quote_user)  # adding the quote to the database
+                session.commit()
 
-            flash('quote added!', category='success')
+                flash('quote added!', category='success')
 
-    return render_template("favorite.html", user=current_user)
+        return render_template("favorite.html", user=current_user)
+    else:
+        return make_response(render_template('sign_in.html', user=current_user), 403)
