@@ -1,4 +1,23 @@
 """
+test access to main google page
+"""
+import requests
+
+url = "https://www.google.com/"
+
+payload = ""
+headers = {
+  'Cookie': 'AEC=Ackid1T7JIUwOKazixi0SEAUX05P0vKt00TPKn5tCQ6plBLPVCwedaYGVfM; CONSENT=PENDING+959; SOCS=CAAaBgiA3YisBg; __Secure-ENID=16.SE=rClkpM-ejRTgMXFpHbdadHHWOVFjMQ9RnTOO56NgTjpxWGoVn5Cpr-bpRddYswMSzsIjy80RZQuwOvREi8AFLo0anI09_mYHGuhYwX3aYVDl-csMZPQwkvTkDgSiZXrebzEb_YfpBDgg8F97D9RzSDOmdKXi9xshTPB6yQJB_Ho'
+}
+
+response = requests.request("GET", url, headers=headers, data=payload)
+
+print(response.text)
+print(response.status_code)
+
+
+
+"""
 first GET test
 """
 import requests
