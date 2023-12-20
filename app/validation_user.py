@@ -43,7 +43,7 @@ class Validation:
         """
         if user:
             logger.warning("User: {} is already exists".format(user))
-            flask.flash('This email already exists. Choice another email. ', category='error')
+            flask.flash('This email already exists. Choice another email.', category='error')
             return True
         return False
 
@@ -74,7 +74,7 @@ class Validation:
         """
         if len(login) < LEN_NAME:
             logger.warning("login: {} is so short".format(login))
-            flask.flash("Login is so short", category='error')
+            flask.flash("Incorrect login.", category='error')
             return False
         else:
             return True
@@ -88,7 +88,7 @@ class Validation:
         """
         if len(first_name) < LEN_NAME:
             logger.warning("First Name: {} is so short".format(first_name))
-            flask.flash("First Name is so short", category='error')
+            flask.flash("Incorrect first name.", category='error')
             return False
         else:
             return True
@@ -102,7 +102,7 @@ class Validation:
         """
         if len(last_name) < LEN_NAME:
             logger.warning("Last Name: {} is so short".format(last_name))
-            flask.flash("Last Name is so short", category='error')
+            flask.flash("Incorrect last name.", category='error')
             return False
         else:
             return True
