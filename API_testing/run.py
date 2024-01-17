@@ -5,6 +5,8 @@ import unittest
 
 import sign_in.GET_request as GET_sign_in
 import sign_in.POST_request as POST_sign_in
+import sign_up.GET_request as GET_sign_up
+import sign_up.POST_request as POST_sign_up
 
 
 class TestRequests(unittest.TestCase):
