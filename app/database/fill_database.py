@@ -11,7 +11,11 @@ import os
 def fill_database():
     """
     main function for fill data
+<<<<<<< HEAD
+    add some comments for feature_branch_test
+=======
     add comment in develop branch
+>>>>>>> develop
     """
     # List of tuples with data
     current_folder_path = os.getcwd() + "/app/database/quote_file.txt"
